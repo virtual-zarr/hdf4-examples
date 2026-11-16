@@ -62,7 +62,7 @@ jobs:
         if: inputs.upload
         uses: aws-actions/configure-aws-credentials@v6
         with:
-          role-to-assume: ${{ vars.SOURCE_COOP_ROLE }}
+          role-to-assume: ${{ vars.SOURCE_COOP_ROLE || secrets.SOURCE_COOP_ROLE }}
           audience: https://data.source.coop
           sts-endpoint: https://data.source.coop/.sts
           aws-region: us-west-2
