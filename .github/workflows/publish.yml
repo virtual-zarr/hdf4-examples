@@ -1,0 +1,72 @@
+name: publish
+
+# Builds the whole product from this repository and uploads it to Source Cooperative.
+#
+# Run it by hand from the Actions tab. With "upload" unticked it stops after a dry run
+# that reports what would change.
+#
+# One-time setup (see README, "Publishing from GitHub Actions"):
+#   - the product pangeo/example-hdf4 exists on Source Cooperative;
+#   - a Source Cooperative service account with read and write access to that product
+#     trusts this repository's "source-coop" environment;
+#   - repository variable SOURCE_COOP_ROLE holds that account's role, in the form
+#     arn:aws:iam::<service-account-id>:role/FullAccess;
+#   - repository secret EARTHDATA_TOKEN holds an Earthdata Login token.
+
+on:
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: Upload to Source Cooperative (leave unticked for a dry run)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: source-coop
+    permissions:
+      id-token: write # lets the job ask GitHub for the token Source Cooperative trusts
+      contents: read
+    env:
+      AWS_ENDPOINT_URL_S3: https://data.source.coop
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Write the synthetic files
+        run: uv run tools/gen_synthetic.py
+
+      - name: Fetch the GDAL and OPeNDAP files
+        run: uv run tools/fetch.py gdal opendap
+
+      - name: Fetch the NASA granules
+        env:
+          EARTHDATA_TOKEN: ${{ secrets.EARTHDATA_TOKEN }}
+        run: uv run tools/fetch.py nasa-lpcloud nasa-larc nasa-nsidc nasa-ghrc
+
+      - name: Check every file against the catalogue
+        run: uv run pytest -q
+
+      - name: Dry run
+        run: uv run --group publish tools/publish.py
+
+      - name: Sign in to Source Cooperative
+        if: inputs.upload
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ vars.SOURCE_COOP_ROLE }}
+          audience: https://data.source.coop
+          sts-endpoint: https://data.source.coop/.sts
+          aws-region: us-west-2
+
+      - name: Upload
+        if: inputs.upload
+        run: uv run --group publish tools/publish.py --confirm

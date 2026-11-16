@@ -1,0 +1,127 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mod28c2-061",
+ "collection": "nasa-lpcloud",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -180.0,
+     -90.0
+    ],
+    [
+     180.0,
+     -90.0
+    ],
+    [
+     180.0,
+     90.0
+    ],
+    [
+     -180.0,
+     90.0
+    ],
+    [
+     -180.0,
+     -90.0
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MOD28C2 v061",
+  "description": "MODIS/Terra Water Reservoir 8-Day L3 Global V061. Granule MOD28C2.A2000057.061.2023167141051.",
+  "datetime": "2000-02-26T00:00:00.000Z",
+  "hdf4:library_version": "4.2.13",
+  "hdf4:data_models": [
+   "vdata"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 0,
+  "sci:doi": "10.5067/MODIS/MOD28C2.061",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": null,
+   "use_description": null,
+   "access_description": null
+  },
+  "cmr:collection_concept_id": "C2565791054-LPCLOUD",
+  "cmr:granule_concept_id": "G2712929597-LPCLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2712929597-LPCLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565791054-LPCLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/MODIS/MOD28C2.061",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MOD28C2.A2000057.061.2023167141051.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 25487,
+   "file:checksum": "1220de3723f560b7b248291812425934c048b8060c7ccc0de58d0cdb6011152a351b"
+  },
+  "expected": {
+   "href": "./MOD28C2.A2000057.061.2023167141051.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 19353,
+   "file:checksum": "1220fbe927b2a0c7c5a596b146148d07342cf2a07c29bc6c19243ad4adc14270b98f"
+  }
+ },
+ "bbox": [
+  -180.0,
+  -90.0,
+  180.0,
+  90.0
+ ]
+}

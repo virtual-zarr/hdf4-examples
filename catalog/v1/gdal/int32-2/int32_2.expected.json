@@ -1,0 +1,98 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "int32_2.hdf",
+  "size": 5294,
+  "sha256": "4489df495ee20b97e2b0b6490579b79b6034826edea17336a8b19507f32615d4",
+  "written_by": {
+   "version": "4.1.4",
+   "text": "NCSA HDF Version 4.1 Release 4, December 2000"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "Signature": {
+   "type": "char8",
+   "length": 55,
+   "value": "Created with GDAL (http://www.remotesensing.org/gdal/)\u0000"
+  },
+  "TransformationMatrix": {
+   "type": "char8",
+   "length": 73,
+   "value": "440720.000000, 60.000000, 0.000000, 3751320.000000, 0.000000, -60.000000\u0000"
+  },
+  "Projection": {
+   "type": "char8",
+   "length": 532,
+   "value": "PROJCS[\"NAD27 / UTM zone 11N\",GEOGCS[\"NAD27\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.9786982139006,AUTHORITY[\"EPSG\",\"7008\"]],AUTHORITY[\"EPSG\",\"6267\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433],AUTHORITY[\"EPSG\",\"4267\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-117],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AUTHORITY[\"EPSG\",\"26711\"]]\u0000"
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "Band0",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    20,
+    20
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "c854128ceed3ae92941d70fd578a1b0f6cdaa751c0c07b6bda1f94b742c91e6c",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2502,
+      "length": 1600
+     }
+    ],
+    "stored_bytes": 1600,
+    "decoded_bytes": 1600
+   }
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "Attr0.0": 3
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 5,
+   "VS": 5
+  },
+  "special_elements": {}
+ }
+}

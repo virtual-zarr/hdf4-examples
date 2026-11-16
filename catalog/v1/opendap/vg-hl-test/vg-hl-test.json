@@ -1,0 +1,87 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "vg-hl-test",
+ "collection": "opendap",
+ "geometry": null,
+ "properties": {
+  "title": "vg-hl-test",
+  "description": "OPeNDAP BES DMR++ test file vg_hl_test.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/vg_hl_test.hdf",
+   "title": "File in the OPeNDAP BES repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./vg_hl_test.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 1323,
+   "file:checksum": "1220cf536121814f033764ac1afe0e4e9f9e0bf237ed71f24ad352819f173918b64c"
+  },
+  "expected": {
+   "href": "./vg_hl_test.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2729,
+   "file:checksum": "12206602cab52b109258428fa9a00cae17cbd9fe31465e47374953ccfca779c360cc"
+  },
+  "dmrpp": {
+   "href": "./vg_hl_test.hdf.dmrpp",
+   "type": "application/xml",
+   "title": "DMR++ description from OPeNDAP",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 919,
+   "file:checksum": "12204edc8fc2e62b6a274844bfa3f7ff160ee463e9ca107031570d40fbcb9a02cf32"
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "chunked-deflate-edge",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "chunked-deflate-edge",
+  "description": "Chunked deflate where the shape is not a multiple of the chunk",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 9
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'chunked-deflate-edge'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./chunked-deflate-edge.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 7557,
+   "file:checksum": "12209d0c3c29695a46a24a0a463674b7440ef6998604bf0854b5f540f40978d63e55"
+  },
+  "expected": {
+   "href": "./chunked-deflate-edge.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2917,
+   "file:checksum": "12209e5d3f590eecfaaae9331328c08f55c298d94eb69912801f9d582c68209958a0"
+  }
+ }
+}

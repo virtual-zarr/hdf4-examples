@@ -1,0 +1,193 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "SDS.hdf",
+  "size": 4613,
+  "sha256": "b2079e20b509eec8e46e8edc278d02abfc7bf44c3685946f5a022c7c21b1c79d",
+  "written_by": {
+   "version": "4.2.10",
+   "text": "HDF Version 4.2 Release 10, February 7, 2014"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "File_contents": {
+   "type": "char8",
+   "length": 16,
+   "value": "Storm_track_data"
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "SDStemplate",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    16,
+    5
+   ],
+   "dimensions": [
+    {
+     "name": "Y_Axis",
+     "unlimited": false
+    },
+    {
+     "name": "X_Axis",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "Valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      2.0,
+      10.0
+     ]
+    }
+   },
+   "values_sha256": "b97a936029a126fe0bafb5975c5cb980fc6097f6cffbb4adf51fc7e949a7f852",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 320
+   }
+  },
+  {
+   "index": 1,
+   "ref": 11,
+   "name": "Y_Axis",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    16
+   ],
+   "dimensions": [
+    {
+     "name": "Y_Axis",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": true,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "09b76e6285353603ccbf477c375ee8535a9837aa521db541891ef5cb17497a8f",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 2885,
+      "length": 128
+     }
+    ],
+    "stored_bytes": 128,
+    "decoded_bytes": 128
+   },
+   "values": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2000000000000002,
+    1.3,
+    1.4000000000000001,
+    1.5
+   ]
+  },
+  {
+   "index": 2,
+   "ref": 13,
+   "name": "X_Axis",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5
+   ],
+   "dimensions": [
+    {
+     "name": "X_Axis",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": true,
+   "fill_value_attribute": null,
+   "attributes": {
+    "Dim_metric": {
+     "type": "char8",
+     "length": 7,
+     "value": "Seconds"
+    }
+   },
+   "values_sha256": "092977d86764722166958b9307b445c3054aab39bd8f9dddc80363777cecc197",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3013,
+      "length": 10
+     }
+    ],
+    "stored_bytes": 10,
+    "decoded_bytes": 10
+   },
+   "values": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "Attr0.0": 3,
+  "SDSVar": 1,
+  "CoordVar": 2
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 3,
+   "NT": 3,
+   "SD": 2,
+   "SDD": 3,
+   "VERSION": 1,
+   "VG": 6,
+   "VH": 8,
+   "VS": 8
+  },
+  "special_elements": {}
+ }
+}

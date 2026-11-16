@@ -1,0 +1,84 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "mod09a1-a2010041-h06v03-005-2010051001103",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "mod09a1-a2010041-h06v03-005-2010051001103",
+  "description": "MODIS Terra 8-day surface reflectance tile h06v03 (HDF-EOS2 grid), collection 5. From GDAL's sample-data server.",
+  "datetime": "2010-02-10T00:00:00Z",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "uint16",
+   "uint32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 13,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 975
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://download.osgeo.org/gdal/data/hdf4/MOD09A1.A2010041.h06v03.005.2010051001103.hdf",
+   "title": "GDAL sample data"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MOD09A1.A2010041.h06v03.005.2010051001103.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 4703875,
+   "file:checksum": "12204449882122621c2d9f8551683e04bf9bfd2fd9c6be2e88b4ad3e6135764e5f52"
+  },
+  "expected": {
+   "href": "./MOD09A1.A2010041.h06v03.005.2010051001103.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 361285,
+   "file:checksum": "1220add4142cafd7002b458f4ab9317e6360f6710591a306194a09f0c4314120e4a5"
+  }
+ }
+}

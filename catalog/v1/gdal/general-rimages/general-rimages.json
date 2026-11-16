@@ -1,0 +1,71 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "general-rimages",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "general-rimages",
+  "description": "GDAL autotest file autotest/gcore/data/General_RImages.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "raster_image"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 0
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/General_RImages.hdf",
+   "title": "File in the GDAL repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./General_RImages.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 1210,
+   "file:checksum": "1220e6e59701346bb5e40dc423aacb931f9bf86578fa8f671ca6042247db809529aa"
+  },
+  "expected": {
+   "href": "./General_RImages.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 698,
+   "file:checksum": "1220d18b3bb902dbaf7ccd5ef901d9abf47ea54a33eb961b964d5353e19cfd2b4ebd"
+  }
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mod11c1-061",
+ "collection": "nasa-lpcloud",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -180.0,
+     -90.0
+    ],
+    [
+     180.0,
+     -90.0
+    ],
+    [
+     180.0,
+     90.0
+    ],
+    [
+     -180.0,
+     90.0
+    ],
+    [
+     -180.0,
+     -90.0
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MOD11C1 v061",
+  "description": "MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 0.05Deg CMG V061. Granule MOD11C1.A2000231.061.2020059094504.",
+  "datetime": "2000-08-18T00:00:00.000Z",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunk_multi_range",
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 21,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1100,
+  "sci:doi": "10.5067/MODIS/MOD11C1.061",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+   "license_name": "Data Use Policy",
+   "license_text": null,
+   "use_description": "License URL for data use policy",
+   "access_description": null
+  },
+  "cmr:collection_concept_id": "C2565788888-LPCLOUD",
+  "cmr:granule_concept_id": "G2595692851-LPCLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2595692851-LPCLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565788888-LPCLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "license",
+   "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+   "title": "Data Use Policy"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/MODIS/MOD11C1.061",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MOD11C1.A2000231.061.2020059094504.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 5083021,
+   "file:checksum": "12209fde9d130d323900ef188abce0e4b06c596e186ff0b4284ce8692afbf51ff4a0"
+  },
+  "expected": {
+   "href": "./MOD11C1.A2000231.061.2020059094504.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 355526,
+   "file:checksum": "1220ba20de5e31b88c423a1d2de63457e274306f7651779704f96ba864d34f21860b"
+  }
+ },
+ "bbox": [
+  -180.0,
+  -90.0,
+  180.0,
+  90.0
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "byte_2.hdf",
+  "size": 3970,
+  "sha256": "f9c94fcd59bb9e4fe089bacb6ada064b39f929f693cf46bcdb66711dfe129f0f",
+  "written_by": {
+   "version": "4.1.4",
+   "text": "NCSA HDF Version 4.1 Release 4, December 2000"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "Signature": {
+   "type": "char8",
+   "length": 55,
+   "value": "Created with GDAL (http://www.remotesensing.org/gdal/)\u0000"
+  },
+  "TransformationMatrix": {
+   "type": "char8",
+   "length": 73,
+   "value": "440720.000000, 60.000000, 0.000000, 3751320.000000, 0.000000, -60.000000\u0000"
+  },
+  "Projection": {
+   "type": "char8",
+   "length": 409,
+   "value": "PROJCS[\"UTM\",GEOGCS[\"North_American_Datum_1927\",DATUM[\"North_American_Datum_1927\",SPHEROID[\"Clarke 1866\",6378206.4,294.9786982139006]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-117],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"Meter\",1]]\u0000"
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "Band0",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    20,
+    20
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "b55a841b7b95be907f6bb0d358b8d10c9dce6e485381eb9accb71e653597d9a1",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2502,
+      "length": 400
+     }
+    ],
+    "stored_bytes": 400,
+    "decoded_bytes": 400
+   }
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "Attr0.0": 3
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 5,
+   "VS": 5
+  },
+  "special_elements": {}
+ }
+}

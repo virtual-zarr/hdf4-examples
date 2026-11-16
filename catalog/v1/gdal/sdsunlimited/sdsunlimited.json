@@ -1,0 +1,80 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "sdsunlimited",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "sdsunlimited",
+  "description": "GDAL autotest file autotest/gcore/data/SDSUNLIMITED.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous",
+   "linked_single"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/SDSUNLIMITED.hdf",
+   "title": "File in the GDAL repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./SDSUNLIMITED.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 5741,
+   "file:checksum": "1220f47be5c7b50d9e18fab3e7d32d7a4876580ea9d18ae87586fb1c45a1c44391b0"
+  },
+  "expected": {
+   "href": "./SDSUNLIMITED.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 1517,
+   "file:checksum": "1220babb27cfccd75070169f81944585114760e550268e3dbec30f41daae58d9da6d"
+  }
+ }
+}

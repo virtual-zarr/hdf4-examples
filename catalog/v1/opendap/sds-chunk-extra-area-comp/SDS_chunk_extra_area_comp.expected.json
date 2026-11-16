@@ -1,0 +1,128 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "SDS_chunk_extra_area_comp.hdf",
+  "size": 7346,
+  "sha256": "7c62bc886290fe9c0ba61296a8a9543e44255fa75be615b0f27c034f862cd709",
+  "written_by": {
+   "version": "4.2.15",
+   "text": "HDF Version 4.2 Release 15, November 28, 2019"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "SDS",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    2,
+    5
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "272bc3456b7ce85de2ce18d1964316879e840a1201a4664e967ef42ba3f76b96",
+   "storage": {
+    "coder": "deflate",
+    "layout": "chunked",
+    "chunk_shape": [
+     2,
+     3
+    ],
+    "chunk_grid": [
+     1,
+     2
+    ],
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2609,
+      "length": 26
+     },
+     {
+      "chunk": [
+       0,
+       1
+      ],
+      "offset": 6797,
+      "length": 27
+     }
+    ],
+    "stored_bytes": 53,
+    "decoded_bytes": 40
+   },
+   "values": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "_HDF_CHK_TBL_0": 1,
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "CHUNK": 2,
+   "COMPRESSED": 2,
+   "LINKED": 3,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 4,
+   "VS": 4
+  },
+  "special_elements": {
+   "CHUNK": {
+    "compressed": 2
+   },
+   "SD": {
+    "chunked": 1
+   },
+   "VS": {
+    "linked": 1
+   }
+  }
+ }
+}

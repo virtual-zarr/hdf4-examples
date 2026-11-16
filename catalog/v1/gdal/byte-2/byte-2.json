@@ -1,0 +1,77 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "byte-2",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "byte-2",
+  "description": "GDAL autotest file autotest/gcore/data/byte_2.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/byte_2.hdf",
+   "title": "File in the GDAL repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./byte_2.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 3970,
+   "file:checksum": "1220f9c94fcd59bb9e4fe089bacb6ada064b39f929f693cf46bcdb66711dfe129f0f"
+  },
+  "expected": {
+   "href": "./byte_2.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2268,
+   "file:checksum": "1220cfa36d5fa12514a66b8363a4094db9f4dd9381a70775f6ce92c99e705129bfbf"
+  }
+ }
+}

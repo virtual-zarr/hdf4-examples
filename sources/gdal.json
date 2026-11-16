@@ -1,0 +1,398 @@
+{
+ "id": "gdal",
+ "title": "HDF4 files from GDAL's test suite and sample-data server",
+ "description": "Small files written by GDAL and the HDF tools for GDAL's HDF4 driver tests, pinned to one GDAL commit, plus six real NASA granules from download.osgeo.org/gdal/data/hdf4/ that GDAL's tests download at run time. GDAL's statement on this data, in autotest/README.md and in the COPYING file on its download server: \"The GDAL Team makes every effort to assure that all sample data files available from GDAL download server and test data files used in GDAL Autotest package are available as public and freely redistributable geodata.\" The GDAL source tree itself is under an MIT-style licence. The six real granules are NASA products; GDAL records an origin for two of them (PROVENANCE.TXT).",
+ "license": "other",
+ "datetime": "2026-11-16T00:00:00Z",
+ "providers": [
+  {
+   "name": "GDAL",
+   "roles": [
+    "host"
+   ],
+   "url": "https://gdal.org"
+  }
+ ],
+ "links": [
+  {
+   "rel": "license",
+   "href": "https://download.osgeo.org/gdal/data/COPYING",
+   "title": "GDAL: notes about availability of sample and test data"
+  },
+  {
+   "rel": "license",
+   "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/README.md#notes-about-availability-of-gdal-sample-and-test-data",
+   "title": "The same statement in GDAL's autotest README"
+  },
+  {
+   "rel": "license",
+   "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/LICENSE.TXT",
+   "title": "GDAL licence (MIT style), covering the source tree"
+  },
+  {
+   "rel": "about",
+   "href": "https://download.osgeo.org/gdal/data/hdf4/PROVENANCE.TXT",
+   "title": "Origin of two of the real granules"
+  }
+ ],
+ "items": [
+  {
+   "id": "general-rimages",
+   "filename": "General_RImages.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/General_RImages.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/General_RImages.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/General_RImages.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "e6e59701346bb5e40dc423aacb931f9bf86578fa8f671ca6042247db809529aa"
+  },
+  {
+   "id": "image-with-palette",
+   "filename": "Image_with_Palette.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/Image_with_Palette.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/Image_with_Palette.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/Image_with_Palette.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "bae824b40cd0a1634829e603ed3d53bb8a52925c5032590fb76c8eb15f1cb275"
+  },
+  {
+   "id": "sds",
+   "filename": "SDS.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/SDS.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/SDS.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/SDS.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "b2079e20b509eec8e46e8edc278d02abfc7bf44c3685946f5a022c7c21b1c79d"
+  },
+  {
+   "id": "sdsunlimited",
+   "filename": "SDSUNLIMITED.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/SDSUNLIMITED.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/SDSUNLIMITED.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/SDSUNLIMITED.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "f47be5c7b50d9e18fab3e7d32d7a4876580ea9d18ae87586fb1c45a1c44391b0"
+  },
+  {
+   "id": "byte-2",
+   "filename": "byte_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/byte_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/byte_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/byte_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "f9c94fcd59bb9e4fe089bacb6ada064b39f929f693cf46bcdb66711dfe129f0f"
+  },
+  {
+   "id": "byte-3",
+   "filename": "byte_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/byte_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/byte_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/byte_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "cfb9879dd2107596dcd4e7f157488b076c1822e58ce59e1277322ad7c12ba051"
+  },
+  {
+   "id": "float32-2",
+   "filename": "float32_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/float32_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float32_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float32_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "7ac7a4ae83300428b5208f64917c0c4e8cf37dd07ea6d8b6d561542e97bc9bdb"
+  },
+  {
+   "id": "float32-3",
+   "filename": "float32_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/float32_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float32_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float32_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "d0f1f91b6df38350b41ad8b2771a45e2a3452c96d1225dc7a78dfe9fd80188a7"
+  },
+  {
+   "id": "float64-2",
+   "filename": "float64_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/float64_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float64_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float64_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "48b92ce0c48d330aa8460fb9395457d9207995ca7bc287605516d78e906fa61b"
+  },
+  {
+   "id": "float64-3",
+   "filename": "float64_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/float64_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float64_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/float64_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "84ebe67bc9fdfc2153f1b21ff97f2a91259154ebb61d092b9354ee9e95538a6b"
+  },
+  {
+   "id": "int16-2",
+   "filename": "int16_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/int16_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int16_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int16_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "6dfa2f4cf9b33dad01abccf3278754aa99bc2b5f1ebee714028c10c963a637c1"
+  },
+  {
+   "id": "int16-3",
+   "filename": "int16_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/int16_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int16_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int16_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "18cc163d5c41ec615317d70a3f47cd6eddb7167bf56f0cef3ce0989027f3cf0e"
+  },
+  {
+   "id": "int32-2",
+   "filename": "int32_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/int32_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int32_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int32_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "4489df495ee20b97e2b0b6490579b79b6034826edea17336a8b19507f32615d4"
+  },
+  {
+   "id": "int32-3",
+   "filename": "int32_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/int32_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int32_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int32_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "934e78d76f432047cc4003fb4fdf3ecf1043de07d199b55a2381d5d1ce3065ef"
+  },
+  {
+   "id": "uint16-2",
+   "filename": "uint16_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/uint16_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint16_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint16_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "c9a092fc1b1b4da4b278b0fafc0608d97dbaf77ed5c9ed665257ccd0aa3659a4"
+  },
+  {
+   "id": "uint16-3",
+   "filename": "uint16_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/uint16_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint16_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint16_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "0b52b68c6699283fd22e369101f3a500bdc8c57f096a3ebc9a3a0c753faa5c6e"
+  },
+  {
+   "id": "uint32-2",
+   "filename": "uint32_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/uint32_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint32_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint32_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "a1aee04b3bc599c8a9674bd86bfb7c7085b5fe208483d3a50ab12acfd11f7238"
+  },
+  {
+   "id": "uint32-3",
+   "filename": "uint32_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/uint32_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint32_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/uint32_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "96a8dcfcef9dd8a09506908c4d6160fa15bc40355b12533c96625714af6d1141"
+  },
+  {
+   "id": "utmsmall-2",
+   "filename": "utmsmall_2.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/utmsmall_2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/utmsmall_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/utmsmall_2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "4374b9b34cb8f0416e38e6da36dce6032342baa20bafc798f3a8562644c255fe"
+  },
+  {
+   "id": "utmsmall-3",
+   "filename": "utmsmall_3.hdf",
+   "description": "GDAL autotest file autotest/gcore/data/utmsmall_3.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/utmsmall_3.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/utmsmall_3.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "776340eb4485b778c30a9e77694df6037286a75a9c07c428a7d303d91354770d"
+  },
+  {
+   "id": "hdifftst2",
+   "filename": "hdifftst2.hdf",
+   "description": "GDAL autotest file autotest/gdrivers/data/hdf4/hdifftst2.hdf",
+   "url": "https://raw.githubusercontent.com/OSGeo/gdal/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gdrivers/data/hdf4/hdifftst2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gdrivers/data/hdf4/hdifftst2.hdf",
+     "title": "File in the GDAL repository"
+    }
+   ],
+   "sha256": "4b67d62e18cc51bf3d7ee0d442d2c6a1b1fd7a2ce2636a99e49080843f0a88db"
+  },
+  {
+   "id": "a2004259075000-l2-lac-sst",
+   "filename": "A2004259075000.L2_LAC_SST.hdf",
+   "description": "MODIS Aqua Level 2 sea surface temperature swath, 2004 day 259. From GDAL's sample-data server.",
+   "datetime": "2004-09-15T07:50:00Z",
+   "url": "https://download.osgeo.org/gdal/data/hdf4/A2004259075000.L2_LAC_SST.hdf",
+   "via": [
+    {
+     "href": "https://download.osgeo.org/gdal/data/hdf4/A2004259075000.L2_LAC_SST.hdf",
+     "title": "GDAL sample data"
+    }
+   ],
+   "sha256": "419b6a27a106ac82e073f32aa4a326d34c1ea3191af83344f78bc359f5d081fc"
+  },
+  {
+   "id": "a2006005182000-l2-lac-sst-x",
+   "filename": "A2006005182000.L2_LAC_SST.x.hdf",
+   "description": "MODIS Aqua Level 2 sea surface temperature swath extract, 2006 day 005. From GDAL's sample-data server.",
+   "datetime": "2006-01-05T18:20:00Z",
+   "url": "https://download.osgeo.org/gdal/data/hdf4/A2006005182000.L2_LAC_SST.x.hdf",
+   "via": [
+    {
+     "href": "https://download.osgeo.org/gdal/data/hdf4/A2006005182000.L2_LAC_SST.x.hdf",
+     "title": "GDAL sample data"
+    }
+   ],
+   "sha256": "a4ac6d11a35fa591d7efc17d4a1ca66131874ba1a784d26c8f5f6966b5e9473d"
+  },
+  {
+   "id": "mod09a1-a2010041-h06v03-005-2010051001103",
+   "filename": "MOD09A1.A2010041.h06v03.005.2010051001103.hdf",
+   "description": "MODIS Terra 8-day surface reflectance tile h06v03 (HDF-EOS2 grid), collection 5. From GDAL's sample-data server.",
+   "datetime": "2010-02-10T00:00:00Z",
+   "url": "https://download.osgeo.org/gdal/data/hdf4/MOD09A1.A2010041.h06v03.005.2010051001103.hdf",
+   "via": [
+    {
+     "href": "https://download.osgeo.org/gdal/data/hdf4/MOD09A1.A2010041.h06v03.005.2010051001103.hdf",
+     "title": "GDAL sample data"
+    }
+   ],
+   "sha256": "4449882122621c2d9f8551683e04bf9bfd2fd9c6be2e88b4ad3e6135764e5f52"
+  },
+  {
+   "id": "mod09q1g-evi-a2006233-h07v03-005-2008338190308",
+   "filename": "MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.hdf",
+   "description": "MODIS Terra EVI tile h07v03 (HDF-EOS2 grid), collection 5. From GDAL's sample-data server.",
+   "datetime": "2006-08-21T00:00:00Z",
+   "url": "https://download.osgeo.org/gdal/data/hdf4/MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.hdf",
+   "via": [
+    {
+     "href": "https://download.osgeo.org/gdal/data/hdf4/MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.hdf",
+     "title": "GDAL sample data"
+    }
+   ],
+   "sha256": "8133d202220ee637623268187a93d2e1cc2c2e2dd3844c7c9fa49c053ea2f90d"
+  },
+  {
+   "id": "reanalysis-1999217",
+   "filename": "REANALYSIS_1999217.hdf",
+   "description": "Reanalysis file for 1999 day 217; origin not recorded by GDAL. From GDAL's sample-data server.",
+   "datetime": "1999-08-05T00:00:00Z",
+   "url": "https://download.osgeo.org/gdal/data/hdf4/REANALYSIS_1999217.hdf",
+   "via": [
+    {
+     "href": "https://download.osgeo.org/gdal/data/hdf4/REANALYSIS_1999217.hdf",
+     "title": "GDAL sample data"
+    }
+   ],
+   "sha256": "b1176f964b96ee51e08502ab33ae8e565958251543288618c3673987abe51adb"
+  },
+  {
+   "id": "s2002196124536-l1a-hdun-bartonbendish-extract",
+   "filename": "S2002196124536.L1A_HDUN.BartonBendish.extract.hdf",
+   "description": "SeaWiFS Level 1A extract, 2002 day 196. From GDAL's sample-data server.",
+   "datetime": "2002-07-15T12:45:36Z",
+   "url": "https://download.osgeo.org/gdal/data/hdf4/S2002196124536.L1A_HDUN.BartonBendish.extract.hdf",
+   "via": [
+    {
+     "href": "https://download.osgeo.org/gdal/data/hdf4/S2002196124536.L1A_HDUN.BartonBendish.extract.hdf",
+     "title": "GDAL sample data"
+    }
+   ],
+   "sha256": "bba02fc4b24897c9cc397b7c37a97789c53068c6d5819ff692b48eca791251b5"
+  }
+ ],
+ "license_note": "GDAL states its sample and test data are public and freely redistributable"
+}

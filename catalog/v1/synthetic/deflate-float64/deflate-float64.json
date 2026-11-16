@@ -1,0 +1,77 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "deflate-float64",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "deflate-float64",
+  "description": "Contiguous deflate-compressed float64",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float64"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'deflate-float64'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./deflate-float64.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 2969,
+   "file:checksum": "12205897ff7591917e196eb95ecb27cbb82ee97b7ddce3f6490a766cecaecdf0e9ce"
+  },
+  "expected": {
+   "href": "./deflate-float64.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 1841,
+   "file:checksum": "12205a5371d01dc69bd1f8c09a5f08ffd03de08f51b5b2d01503705f9540d8ff0105"
+  }
+ }
+}

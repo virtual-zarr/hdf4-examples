@@ -1,0 +1,87 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "sds-simple-chunk-comp",
+ "collection": "opendap",
+ "geometry": null,
+ "properties": {
+  "title": "sds-simple-chunk-comp",
+  "description": "OPeNDAP BES DMR++ test file SDS_simple_chunk_comp.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.15",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_chunk_comp.hdf",
+   "title": "File in the OPeNDAP BES repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./SDS_simple_chunk_comp.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 7349,
+   "file:checksum": "1220f97b1e1238c4430a119cf3acbeee0f062aba99ea32fcb5341b814d1187ceafed"
+  },
+  "expected": {
+   "href": "./SDS_simple_chunk_comp.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 1957,
+   "file:checksum": "12202c8ce5d3a8b30f61d764c9f8924c7e50439f49f0d67a69c5ee5ae728d880f10a"
+  },
+  "dmrpp": {
+   "href": "./SDS_simple_chunk_comp.hdf.dmrpp",
+   "type": "application/xml",
+   "title": "DMR++ description from OPeNDAP",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 926,
+   "file:checksum": "1220a911b3b386e99a99414baa6d24cbed422f01bd8cb64188472295c3671ae32d76"
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "little-endian-types",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "little-endian-types",
+  "description": "Datasets stored little-endian (DFNT_LITEND)",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32-le",
+   "float64-le",
+   "int16-le",
+   "int32-le"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 4,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 4
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'little-endian-types'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./little-endian-types.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 4087,
+   "file:checksum": "1220e18969d5a7eea26fdd6bf11cd94c03392f74226ac198fd3b2ca0b32bf3fd9511"
+  },
+  "expected": {
+   "href": "./little-endian-types.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 4059,
+   "file:checksum": "12209fcdfdc195516d1c376f71a4984910d7f609e963dd2f627350fa4d8d781b5b15"
+  }
+ }
+}

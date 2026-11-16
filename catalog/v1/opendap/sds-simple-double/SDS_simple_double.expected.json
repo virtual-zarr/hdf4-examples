@@ -1,0 +1,96 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "SDS_simple_double.hdf",
+  "size": 2978,
+  "sha256": "5f1db6fb7e48e4fa246c0f209f3d1a0656cab10a5558ea87cb64a7ec1d49df79",
+  "written_by": {
+   "version": "4.2.16",
+   "text": "HDF Version 4.2 Release 16, March 3, 2023"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "SDS_simple_double",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    2,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "56f0532ccbd56018047b83a8e41e3706e8ef218526b1a4e253d9f489c4eaee3a",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2502,
+      "length": 64
+     }
+    ],
+    "stored_bytes": 64,
+    "decoded_bytes": 64
+   },
+   "values": [
+    [
+     0.5,
+     1.5,
+     2.5,
+     3.5
+    ],
+    [
+     4.5,
+     5.5,
+     6.5,
+     7.5
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 3,
+   "VS": 3
+  },
+  "special_elements": {}
+ }
+}

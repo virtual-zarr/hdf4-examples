@@ -1,0 +1,77 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "int16-3",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "int16-3",
+  "description": "GDAL autotest file autotest/gcore/data/int16_3.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/int16_3.hdf",
+   "title": "File in the GDAL repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./int16_3.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 4634,
+   "file:checksum": "122018cc163d5c41ec615317d70a3f47cd6eddb7167bf56f0cef3ce0989027f3cf0e"
+  },
+  "expected": {
+   "href": "./int16_3.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2517,
+   "file:checksum": "1220e9e8d82eddbf01acd12aa34abdc631bf17bec1f3309c09bb811d815188aa8eb6"
+  }
+ }
+}

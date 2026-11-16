@@ -1,0 +1,80 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "sinusoid",
+ "collection": "opendap",
+ "geometry": null,
+ "properties": {
+  "title": "sinusoid",
+  "description": "OPeNDAP BES DMR++ test file sinusoid.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/sinusoid.hdf",
+   "title": "File in the OPeNDAP BES repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./sinusoid.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 35234,
+   "file:checksum": "12203fc03745f79d2e9b0187cb9464225085fa11986d8e875fe6a16875b670f12e80"
+  },
+  "expected": {
+   "href": "./sinusoid.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 191969,
+   "file:checksum": "1220209daf0ed37ae69d0cda9c96ce11afe88b478cea9873c126940cd836b5a02488"
+  }
+ }
+}

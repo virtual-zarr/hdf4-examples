@@ -1,0 +1,83 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "mod09q1g-evi-a2006233-h07v03-005-2008338190308",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "mod09q1g-evi-a2006233-h07v03-005-2008338190308",
+  "description": "MODIS Terra EVI tile h07v03 (HDF-EOS2 grid), collection 5. From GDAL's sample-data server.",
+  "datetime": "2006-08-21T00:00:00Z",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 6,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 6
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://download.osgeo.org/gdal/data/hdf4/MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.hdf",
+   "title": "GDAL sample data"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 1318886,
+   "file:checksum": "12208133d202220ee637623268187a93d2e1cc2c2e2dd3844c7c9fa49c053ea2f90d"
+  },
+  "expected": {
+   "href": "./MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 208580,
+   "file:checksum": "122006efec0fb5b2ae0fcc1aa38744e1e7d023d97e4e6769f94dc37897e48968075f"
+  }
+ }
+}

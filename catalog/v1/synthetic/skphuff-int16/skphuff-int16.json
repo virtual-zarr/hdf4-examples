@@ -1,0 +1,78 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "skphuff-int16",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "skphuff-int16",
+  "description": "Contiguous Skipping-Huffman-compressed int16",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "skphuff"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1,
+  "hdf4:reproducible": false
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'skphuff-int16'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./skphuff-int16.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 2941,
+   "file:checksum": "1220e3fb13a1f0247086cbc67e11d11d5ba45828c78d43a0d3c17190f7635e7c65c6"
+  },
+  "expected": {
+   "href": "./skphuff-int16.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2138,
+   "file:checksum": "1220665dead56427297f0fb5ea6a31be94a74042c0b21f49f33634a044363bb37d1c"
+  }
+ }
+}

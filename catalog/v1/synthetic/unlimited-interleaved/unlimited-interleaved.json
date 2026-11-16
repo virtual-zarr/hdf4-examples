@@ -1,0 +1,79 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "unlimited-interleaved",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "unlimited-interleaved",
+  "description": "Two unlimited datasets appended alternately, so each spans scattered linked blocks",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 40
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'unlimited-interleaved'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./unlimited-interleaved.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 24285,
+   "file:checksum": "1220a4d7526e359527004b0cee7e2b7b6f19450f631d4a9f7c000845d80299309d4b"
+  },
+  "expected": {
+   "href": "./unlimited-interleaved.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 6151,
+   "file:checksum": "1220b846ea1f590bd156f436281d2390ca65d5fa53999bb1fcb295a28a9bae57a232"
+  }
+ }
+}

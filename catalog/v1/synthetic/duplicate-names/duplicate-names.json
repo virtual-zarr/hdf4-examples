@@ -1,0 +1,79 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "duplicate-names",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "duplicate-names",
+  "description": "Two datasets with the same name, which HDF4 allows",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "duplicate_names"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'duplicate-names'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./duplicate-names.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 3265,
+   "file:checksum": "1220bc7e51b2a7542f4a74076f95703eca45d191873ff982909d70532d5c3746d693"
+  },
+  "expected": {
+   "href": "./duplicate-names.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2328,
+   "file:checksum": "12207ff3b9db936504a5e78b48b77bf95d01a965d33cbcf366974cc697d8d8289cd3"
+  }
+ }
+}

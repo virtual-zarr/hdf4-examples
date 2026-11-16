@@ -1,0 +1,114 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mb2lme-002",
+ "collection": "nasa-larc",
+ "geometry": null,
+ "properties": {
+  "title": "MB2LME v002",
+  "description": "MISR Level 1B2 Local Mode Ellipsoid Radiance Data V002. Granule MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.hdf.",
+  "datetime": "2000-03-01T16:13:17.604000+00:00",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "annotation",
+   "eos_grid",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "uint16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata",
+   "partial_chunks"
+  ],
+  "hdf4:sds_count": 10,
+  "hdf4:vdata_count": 3,
+  "hdf4:range_count": 30,
+  "sci:doi": "10.5067/Terra/MISR/MB2LME_L1.002",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "license_name": "Data Use Guidance",
+   "license_text": null,
+   "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "access_description": "WORLD"
+  },
+  "cmr:collection_concept_id": "C2854334785-LARC_CLOUD",
+  "cmr:granule_concept_id": "G4130681791-LARC_CLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G4130681791-LARC_CLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2854334785-LARC_CLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "Data Use Guidance"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/Terra/MISR/MB2LME_L1.002",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 5574833,
+   "file:checksum": "12204aedeee9314c21f2eb3d54974e8ea04b2bf4c11f5e18976ec711d07988ecfecd"
+  },
+  "expected": {
+   "href": "./MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 214080,
+   "file:checksum": "12200147fe220e9347079fdc549090a1597408ba884066c05dd041642a4c6052707e"
+  }
+ }
+}

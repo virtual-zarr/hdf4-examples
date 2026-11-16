@@ -1,0 +1,144 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mi3daer-002",
+ "collection": "nasa-larc",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -100.0,
+     24.0
+    ],
+    [
+     -84.0,
+     24.0
+    ],
+    [
+     -84.0,
+     32.0
+    ],
+    [
+     -100.0,
+     32.0
+    ],
+    [
+     -100.0,
+     24.0
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MI3DAER v002",
+  "description": "MISR Level 3 Component Global Aerosol Regional public Product covering a day V002. Granule MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.hdf.",
+  "datetime": "2006-09-01T00:00:00.000Z",
+  "hdf4:library_version": "4.2.0",
+  "hdf4:data_models": [
+   "annotation",
+   "eos_grid",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int32",
+   "int8"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 4,
+  "hdf4:vdata_count": 7,
+  "hdf4:range_count": 4,
+  "sci:doi": "10.5067/Terra/MISR/MI3DAER_L3.002",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "license_name": "Data Use Guidance",
+   "license_text": null,
+   "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "access_description": "WORLD"
+  },
+  "cmr:collection_concept_id": "C3422083888-LARC_CLOUD",
+  "cmr:granule_concept_id": "G3565550062-LARC_CLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3565550062-LARC_CLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3422083888-LARC_CLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "Data Use Guidance"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/Terra/MISR/MI3DAER_L3.002",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 49261,
+   "file:checksum": "12204a3e53e8a81699e29fc912cd9224e576c6584e02b85891cde88a9acd42305e24"
+  },
+  "expected": {
+   "href": "./MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 207351,
+   "file:checksum": "122005c25cf490de3504071fe5d0f54fea9b15334f97a2e0abe44f60dba80a044409"
+  }
+ },
+ "bbox": [
+  -100.0,
+  24.0,
+  -84.0,
+  32.0
+ ]
+}

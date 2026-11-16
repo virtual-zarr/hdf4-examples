@@ -1,0 +1,119 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "unlimited-one-block.hdf",
+  "size": 3687,
+  "sha256": "090a03aee3a9f85ea186ff17491e32af114df326d5c6e12399f8e15236abc4d8",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "v",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": true
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "7daba3b35c56596f4b0ad375ab2c8c9c8fbb32c8a25f7f4733d4096fe112fe6e",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2776,
+      "length": 40
+     }
+    ],
+    "stored_bytes": 40,
+    "decoded_bytes": 40
+   },
+   "values": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     10,
+     11,
+     12,
+     13
+    ],
+    [
+     20,
+     21,
+     22,
+     23
+    ],
+    [
+     30,
+     31,
+     32,
+     33
+    ],
+    [
+     40,
+     41,
+     42,
+     43
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "LINKED": 2,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 3,
+   "VS": 3
+  },
+  "special_elements": {
+   "SD": {
+    "linked": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,1075 @@
+{
+ "id": "nasa-lpcloud",
+ "title": "NASA HDF4 granules from LP DAAC",
+ "description": "One small granule per selected collection from NASA's LP DAAC cloud archive (LPCLOUD in CMR), chosen to cover distinct products. Each item links to its CMR granule and collection records.",
+ "license": "other",
+ "license_note": "Each granule carries its collection's terms as recorded in NASA CMR; see the item's cmr:terms",
+ "datetime": "2026-11-16T00:00:00Z",
+ "providers": [
+  {
+   "name": "LP DAAC",
+   "roles": [
+    "producer",
+    "licensor"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "NASA Earth science data use guidance (general policy; item terms take precedence)"
+  }
+ ],
+ "items": [
+  {
+   "id": "mod14-061",
+   "filename": "MOD14.A2000055.1025.061.2020037091616.hdf",
+   "title": "MOD14 v061",
+   "description": "MODIS/Terra Thermal Anomalies/Fire 5-Min L2 Swath 1km V061. Granule MOD14.A2000055.1025.061.2020037091616.",
+   "datetime": "2000-02-24T10:25:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD14.061/MOD14.A2000055.1025.061.2020037091616/MOD14.A2000055.1025.061.2020037091616.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2271994946-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2271754179-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD14.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2271754179-LPCLOUD",
+    "granule_concept_id": "G2271994946-LPCLOUD",
+    "short_name": "MOD14",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD14.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    -10.3024923862091,
+    -21.4211158837425,
+    12.8417581251185,
+    -11.2990397261526
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -10.3024923862091,
+       -21.4211158837425
+      ],
+      [
+       12.8417581251185,
+       -21.4211158837425
+      ],
+      [
+       12.8417581251185,
+       -11.2990397261526
+      ],
+      [
+       -10.3024923862091,
+       -11.2990397261526
+      ],
+      [
+       -10.3024923862091,
+       -21.4211158837425
+      ]
+     ]
+    ]
+   },
+   "sha256": "e27e919921b6b57e2fc1c3271652c8742d579c5e2e541678dfb7678d23532bf5"
+  },
+  {
+   "id": "mod09a1-061",
+   "filename": "MOD09A1.A2000049.h23v10.061.2020041203606.hdf",
+   "title": "MOD09A1 v061",
+   "description": "MODIS/Terra Surface Reflectance 8-Day L3 Global 500m SIN Grid V061. Granule MOD09A1.A2000049.h23v10.061.2020041203606.",
+   "datetime": "2000-02-18T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09A1.061/MOD09A1.A2000049.h23v10.061.2020041203606/MOD09A1.A2000049.h23v10.061.2020041203606.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2391966215-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2343111356-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD09A1.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2343111356-LPCLOUD",
+    "granule_concept_id": "G2391966215-LPCLOUD",
+    "short_name": "MOD09A1",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD09A1.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    50.5814335096737,
+    -20.0154196332647,
+    63.8552845312345,
+    -9.95160476345783
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       50.5814335096737,
+       -20.0154196332647
+      ],
+      [
+       63.8552845312345,
+       -20.0154196332647
+      ],
+      [
+       63.8552845312345,
+       -9.95160476345783
+      ],
+      [
+       50.5814335096737,
+       -9.95160476345783
+      ],
+      [
+       50.5814335096737,
+       -20.0154196332647
+      ]
+     ]
+    ]
+   },
+   "sha256": "adb9f17ceaffab0d973a768072ad3e4729ace1d474dfdb37f36ec5e3da26baf6"
+  },
+  {
+   "id": "mod09ga-061",
+   "filename": "MOD09GA.A2000055.h23v10.061.2020037171107.hdf",
+   "title": "MOD09GA v061",
+   "description": "MODIS/Terra Surface Reflectance Daily L2G Global 1km and 500m SIN Grid V061. Granule MOD09GA.A2000055.h23v10.061.2020037171107.",
+   "datetime": "2000-02-24T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD09GA.061/MOD09GA.A2000055.h23v10.061.2020037171107/MOD09GA.A2000055.h23v10.061.2020037171107.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2247189317-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2202497474-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD09GA.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2202497474-LPCLOUD",
+    "granule_concept_id": "G2247189317-LPCLOUD",
+    "short_name": "MOD09GA",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD09GA.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    50.5814335096737,
+    -20.0154196332647,
+    63.8552845312345,
+    -9.95160476345783
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       50.5814335096737,
+       -20.0154196332647
+      ],
+      [
+       63.8552845312345,
+       -20.0154196332647
+      ],
+      [
+       63.8552845312345,
+       -9.95160476345783
+      ],
+      [
+       50.5814335096737,
+       -9.95160476345783
+      ],
+      [
+       50.5814335096737,
+       -20.0154196332647
+      ]
+     ]
+    ]
+   },
+   "sha256": "80a41070db8d0d07a14a34bf3e24c32e3e890d83971adff4cf3fac59c1142b0e"
+  },
+  {
+   "id": "mod11-l2-061",
+   "filename": "MOD11_L2.A2000056.0510.061.2020042180153.hdf",
+   "title": "MOD11_L2 v061",
+   "description": "MODIS/Terra Land Surface Temperature/Emissivity 5-Min L2 Swath 1km V061. Granule MOD11_L2.A2000056.0510.061.2020042180153.",
+   "datetime": "2000-02-25T05:10:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11_L2.061/MOD11_L2.A2000056.0510.061.2020042180153/MOD11_L2.A2000056.0510.061.2020042180153.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2429818944-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2343115255-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD11_L2.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2343115255-LPCLOUD",
+    "granule_concept_id": "G2429818944-LPCLOUD",
+    "short_name": "MOD11_L2",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD11_L2.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    -104.25407796975,
+    -43.4600897637114,
+    -75.1921886078464,
+    -31.8480041062038
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -104.25407796975,
+       -43.4600897637114
+      ],
+      [
+       -75.1921886078464,
+       -43.4600897637114
+      ],
+      [
+       -75.1921886078464,
+       -31.8480041062038
+      ],
+      [
+       -104.25407796975,
+       -31.8480041062038
+      ],
+      [
+       -104.25407796975,
+       -43.4600897637114
+      ]
+     ]
+    ]
+   },
+   "sha256": "3bd0991575379b266d5db52792a0f99a1bcce16d1b5f9d1cdc27ecc1dc57bee1"
+  },
+  {
+   "id": "mod11b1-061",
+   "filename": "MOD11B1.A2000055.h17v15.061.2020043121050.hdf",
+   "title": "MOD11B1 v061",
+   "description": "MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 6km SIN Grid V061. Granule MOD11B1.A2000055.h17v15.061.2020043121050.",
+   "datetime": "2000-02-24T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11B1.061/MOD11B1.A2000055.h17v15.061.2020043121050/MOD11B1.A2000055.h17v15.061.2020043121050.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2524318706-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2524245159-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD11B1.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2524245159-LPCLOUD",
+    "granule_concept_id": "G2524318706-LPCLOUD",
+    "short_name": "MOD11B1",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD11B1.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    -29.2501999319875,
+    -69.9958333333333,
+    -0.00835952577517814,
+    -60.0041666666667
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -29.2501999319875,
+       -69.9958333333333
+      ],
+      [
+       -0.00835952577517814,
+       -69.9958333333333
+      ],
+      [
+       -0.00835952577517814,
+       -60.0041666666667
+      ],
+      [
+       -29.2501999319875,
+       -60.0041666666667
+      ],
+      [
+       -29.2501999319875,
+       -69.9958333333333
+      ]
+     ]
+    ]
+   },
+   "sha256": "43c04cbff0d89d392598f078025756b4ebe84f35235c310b46ba3812f5b7277c"
+  },
+  {
+   "id": "mod11c1-061",
+   "filename": "MOD11C1.A2000231.061.2020059094504.hdf",
+   "title": "MOD11C1 v061",
+   "description": "MODIS/Terra Land Surface Temperature/Emissivity Daily L3 Global 0.05Deg CMG V061. Granule MOD11C1.A2000231.061.2020059094504.",
+   "datetime": "2000-08-18T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD11C1.061/MOD11C1.A2000231.061.2020059094504/MOD11C1.A2000231.061.2020059094504.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2595692851-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565788888-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD11C1.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2565788888-LPCLOUD",
+    "granule_concept_id": "G2595692851-LPCLOUD",
+    "short_name": "MOD11C1",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD11C1.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180.0,
+       -90.0
+      ],
+      [
+       180.0,
+       -90.0
+      ],
+      [
+       180.0,
+       90.0
+      ],
+      [
+       -180.0,
+       90.0
+      ],
+      [
+       -180.0,
+       -90.0
+      ]
+     ]
+    ]
+   },
+   "sha256": "9fde9d130d323900ef188abce0e4b06c596e186ff0b4284ce8692afbf51ff4a0"
+  },
+  {
+   "id": "mcd12q1-061",
+   "filename": "MCD12Q1.A2001001.h30v05.061.2022146161624.hdf",
+   "title": "MCD12Q1 v061",
+   "description": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061. Granule MCD12Q1.A2001001.h30v05.061.2022146161624.",
+   "datetime": "2001-01-01T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD12Q1.061/MCD12Q1.A2001001.h30v05.061.2022146161624/MCD12Q1.A2001001.h30v05.061.2022146161624.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2484181273-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2484079608-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MCD12Q1.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2484079608-LPCLOUD",
+    "granule_concept_id": "G2484181273-LPCLOUD",
+    "short_name": "MCD12Q1",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MCD12Q1.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": null,
+    "use_description": null,
+    "access_description": null
+   },
+   "bbox": [
+    138.446219,
+    29.806108,
+    169.891608,
+    40.118694
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       138.446219,
+       29.806108
+      ],
+      [
+       169.891608,
+       29.806108
+      ],
+      [
+       169.891608,
+       40.118694
+      ],
+      [
+       138.446219,
+       40.118694
+      ],
+      [
+       138.446219,
+       29.806108
+      ]
+     ]
+    ]
+   },
+   "sha256": "ad892f49580ff8beb5264fe42e44fba8bdf36bc659e5f9856e05a11b1d1b0976"
+  },
+  {
+   "id": "mod13a2-061",
+   "filename": "MOD13A2.A2000049.h20v00.061.2020041154035.hdf",
+   "title": "MOD13A2 v061",
+   "description": "MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V061. Granule MOD13A2.A2000049.h20v00.061.2020041154035.",
+   "datetime": "2000-02-18T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD13A2.061/MOD13A2.A2000049.h20v00.061.2020041154035/MOD13A2.A2000049.h20v00.061.2020041154035.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2597121413-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565788905-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD13A2.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2565788905-LPCLOUD",
+    "granule_concept_id": "G2597121413-LPCLOUD",
+    "short_name": "MOD13A2",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD13A2.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    -168.462494888187,
+    78.5370164031265,
+    173.540602149353,
+    82.956394883388
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -168.462494888187,
+       78.5370164031265
+      ],
+      [
+       173.540602149353,
+       78.5370164031265
+      ],
+      [
+       173.540602149353,
+       82.956394883388
+      ],
+      [
+       -168.462494888187,
+       82.956394883388
+      ],
+      [
+       -168.462494888187,
+       78.5370164031265
+      ]
+     ]
+    ]
+   },
+   "sha256": "3279bd63703e5f22f55131ddfe1453d5d4db0f1676b7869b3bec846db105ce00"
+  },
+  {
+   "id": "mcd19a2-061",
+   "filename": "MCD19A2.A2000055.h19v06.061.2022153215147.hdf",
+   "title": "MCD19A2 v061",
+   "description": "MODIS/Terra+Aqua Land Aerosol Optical Depth Daily L2G Global 1km SIN Grid V061. Granule MCD19A2.A2000055.h19v06.061.2022153215147.",
+   "datetime": "2000-02-24T10:15:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD19A2.061/MCD19A2.A2000055.h19v06.061.2022153215147/MCD19A2.A2000055.h19v06.061.2022153215147.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2331736454-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2324689816-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MCD19A2.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2324689816-LPCLOUD",
+    "granule_concept_id": "G2331736454-LPCLOUD",
+    "short_name": "MCD19A2",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MCD19A2.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": null,
+    "use_description": null,
+    "access_description": null
+   },
+   "bbox": [
+    10.5996129612972,
+    19.9159339927733,
+    23.1051739635034,
+    30.0080231274941
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.5996129612972,
+       19.9159339927733
+      ],
+      [
+       23.1051739635034,
+       19.9159339927733
+      ],
+      [
+       23.1051739635034,
+       30.0080231274941
+      ],
+      [
+       10.5996129612972,
+       30.0080231274941
+      ],
+      [
+       10.5996129612972,
+       19.9159339927733
+      ]
+     ]
+    ]
+   },
+   "sha256": "83294e09010935e81b207cc73b145fd17678ce526ed8953fd62e0dc1c42239fa"
+  },
+  {
+   "id": "mod21-061",
+   "filename": "MOD21.A2000056.0405.061.2020037140051.hdf",
+   "title": "MOD21 v061",
+   "description": "MODIS/Terra Land Surface Temperature/3-Band Emissivity 5-Min L2 1km V061. Granule MOD21.A2000056.0405.061.2020037140051.",
+   "datetime": "2000-02-25T04:05:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD21.061/MOD21.A2000056.0405.061.2020037140051/MOD21.A2000056.0405.061.2020037140051.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2601173064-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565791036-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD21.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2565791036-LPCLOUD",
+    "granule_concept_id": "G2601173064-LPCLOUD",
+    "short_name": "MOD21",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD21.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    -144.194427261075,
+    68.8543430043245,
+    163.086432267665,
+    80.607234341841
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -144.194427261075,
+       68.8543430043245
+      ],
+      [
+       163.086432267665,
+       68.8543430043245
+      ],
+      [
+       163.086432267665,
+       80.607234341841
+      ],
+      [
+       -144.194427261075,
+       80.607234341841
+      ],
+      [
+       -144.194427261075,
+       68.8543430043245
+      ]
+     ]
+    ]
+   },
+   "sha256": "a31e4b6b1bdcbb5bbbedcbd1f36d66b46f641d7bec04f086abb3bfeaad13879d"
+  },
+  {
+   "id": "mcd43a4-061",
+   "filename": "MCD43A4.A2000055.h18v14.061.2020038135131.hdf",
+   "title": "MCD43A4 v061",
+   "description": "MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Ref Daily L3 Global - 500m V061. Granule MCD43A4.A2000055.h18v14.061.2020038135131.",
+   "datetime": "2000-02-16T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MCD43A4.061/MCD43A4.A2000055.h18v14.061.2020038135131/MCD43A4.A2000055.h18v14.061.2020038135131.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2257507971-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2218719731-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MCD43A4.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2218719731-LPCLOUD",
+    "granule_concept_id": "G2257507971-LPCLOUD",
+    "short_name": "MCD43A4",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MCD43A4.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    -0.0159019707138163,
+    -60.01014730684,
+    20.0109091741036,
+    -49.738733755177
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -0.0159019707138163,
+       -60.01014730684
+      ],
+      [
+       20.0109091741036,
+       -60.01014730684
+      ],
+      [
+       20.0109091741036,
+       -49.738733755177
+      ],
+      [
+       -0.0159019707138163,
+       -49.738733755177
+      ],
+      [
+       -0.0159019707138163,
+       -60.01014730684
+      ]
+     ]
+    ]
+   },
+   "sha256": "88576f68aa6162abb732fe725d008c9ffd0f1843e2ed290963afabb5627b69dc"
+  },
+  {
+   "id": "mod28c2-061",
+   "filename": "MOD28C2.A2000057.061.2023167141051.hdf",
+   "title": "MOD28C2 v061",
+   "description": "MODIS/Terra Water Reservoir 8-Day L3 Global V061. Granule MOD28C2.A2000057.061.2023167141051.",
+   "datetime": "2000-02-26T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MOD28C2.061/MOD28C2.A2000057.061.2023167141051/MOD28C2.A2000057.061.2023167141051.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2712929597-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565791054-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD28C2.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2565791054-LPCLOUD",
+    "granule_concept_id": "G2712929597-LPCLOUD",
+    "short_name": "MOD28C2",
+    "version": "061"
+   },
+   "doi": "10.5067/MODIS/MOD28C2.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": null,
+    "use_description": null,
+    "access_description": null
+   },
+   "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180.0,
+       -90.0
+      ],
+      [
+       180.0,
+       -90.0
+      ],
+      [
+       180.0,
+       90.0
+      ],
+      [
+       -180.0,
+       90.0
+      ],
+      [
+       -180.0,
+       -90.0
+      ]
+     ]
+    ]
+   },
+   "sha256": "de3723f560b7b248291812425934c048b8060c7ccc0de58d0cdb6011152a351b"
+  },
+  {
+   "id": "ast-l1a-004",
+   "filename": "AST_L1A_00403042000203404_20250124090801.hdf",
+   "title": "AST_L1A v004",
+   "description": "ASTER L1A Reconstructed Unprocessed Instrument Data V004. Granule AST_L1A_00403042000203404_20250124090801.",
+   "datetime": "2000-03-04T20:34:04.227000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/AST_L1A.004/AST_L1A_00403042000203404_20250124090801/AST_L1A_00403042000203404_20250124090801.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3380445400-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3306888985-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/ASTER/AST_L1A.004",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C3306888985-LPCLOUD",
+    "granule_concept_id": "G3380445400-LPCLOUD",
+    "short_name": "AST_L1A",
+    "version": "004"
+   },
+   "doi": "10.5067/ASTER/AST_L1A.004",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": null
+   },
+   "bbox": [
+    169.898516,
+    -78.014626,
+    173.686663,
+    -77.212439
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       169.898516,
+       -78.014626
+      ],
+      [
+       173.686663,
+       -78.014626
+      ],
+      [
+       173.686663,
+       -77.212439
+      ],
+      [
+       169.898516,
+       -77.212439
+      ],
+      [
+       169.898516,
+       -78.014626
+      ]
+     ]
+    ]
+   },
+   "sha256": "429dff1d5716b39746b67794a276e8079e9ef39fd90813eb8570df0307bd7923"
+  },
+  {
+   "id": "gweldmo-003",
+   "filename": "L05.Globe.month12.2008.hh31vv09.h5v5.doy342to358.NBAR.v3.0.hdf",
+   "title": "GWELDMO v003",
+   "description": "NASA Global Web-Enabled Landsat Data Monthly Global 30 m V003. Granule L05.Globe.month12.2008.hh31vv09.h5v5.doy342to358.NBAR.v3.0.",
+   "datetime": "2008-12-01T00:00:00.000Z",
+   "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/GWELDMO.003/L05.Globe.month12.2008.hh31vv09.h5v5.doy342to358.NBAR.v3.0/L05.Globe.month12.2008.hh31vv09.h5v5.doy342to358.NBAR.v3.0.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2818756671-LPCLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266354-LPCLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+     "title": "Data Use Policy"
+    },
+    {
+     "href": "https://doi.org/10.5067/MEaSUREs/GWELD/GWELDMO.003",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2763266354-LPCLOUD",
+    "granule_concept_id": "G2818756671-LPCLOUD",
+    "short_name": "GWELDMO",
+    "version": "003"
+   },
+   "doi": "10.5067/MEaSUREs/GWELD/GWELDMO.003",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+    "license_name": "Data Use Policy",
+    "license_text": null,
+    "use_description": "License URL for data use policy",
+    "access_description": "The WELD products are freely available for educational, research, or commercial applications. If you use the WELD products please cite them following the WELD Citation guidelines."
+   },
+   "bbox": [
+    138.065814702561,
+    -8.61889554574343,
+    139.986987924289,
+    -7.18257791523465
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       138.065814702561,
+       -8.61889554574343
+      ],
+      [
+       139.986987924289,
+       -8.61889554574343
+      ],
+      [
+       139.986987924289,
+       -7.18257791523465
+      ],
+      [
+       138.065814702561,
+       -7.18257791523465
+      ],
+      [
+       138.065814702561,
+       -8.61889554574343
+      ]
+     ]
+    ]
+   },
+   "sha256": "4d3810bb8d35e762de49132ecf0391d9cd5dd630c6469f9b57249028c3e8a78f"
+  }
+ ]
+}

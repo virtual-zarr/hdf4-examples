@@ -1,0 +1,2186 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "L05.Globe.month12.2008.hh31vv09.h5v5.doy342to358.NBAR.v3.0.hdf",
+  "size": 5408040,
+  "sha256": "4d3810bb8d35e762de49132ecf0391d9cd5dd630c6469f9b57249028c3e8a78f",
+  "written_by": {
+   "version": "4.2.8",
+   "text": "HDF Version 4.2 Release 8, August 3, 2012"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "Pixel Size": {
+   "type": "float32",
+   "length": 1,
+   "value": 30.0
+  },
+  "sinus_UL_X": {
+   "type": "float64",
+   "length": 1,
+   "value": 15249606.756964803
+  },
+  "sinus_UL_Y": {
+   "type": "float64",
+   "length": 1,
+   "value": -794250.0
+  },
+  "sinus_UR_X": {
+   "type": "float64",
+   "length": 1,
+   "value": 15408456.756964803
+  },
+  "sinus_UR_Y": {
+   "type": "float64",
+   "length": 1,
+   "value": -794250.0
+  },
+  "sinus_LL_X": {
+   "type": "float64",
+   "length": 1,
+   "value": 15249606.756964803
+  },
+  "sinus_LL_Y": {
+   "type": "float64",
+   "length": 1,
+   "value": -953100.0
+  },
+  "sinus_LR_X": {
+   "type": "float64",
+   "length": 1,
+   "value": 15408456.756964803
+  },
+  "sinus_LR_Y": {
+   "type": "float64",
+   "length": 1,
+   "value": -953100.0
+  },
+  "TileID": {
+   "type": "char8",
+   "length": 13,
+   "value": "hh31vv09.h5v5"
+  },
+  "L1T_Index_Metadata": {
+   "type": "char8",
+   "length": 245,
+   "value": "BEGIN_L1T_INFO\nTotally 2 acquisitions with the following L1T names and scene center solar geometry:\n0 LT51000652008342ASA00 center_sz=32.540813 center_sa=121.453896 \n1 LT51000652008358ASA00 center_sz=34.373802 center_sa=121.627396 \nEND_L1T_INFO\n"
+  },
+  "INPUT_POINTER": {
+   "type": "char8",
+   "length": 286,
+   "value": "BEGIN_INPUT_POINTER\nTotally 2 acquisitions with the following TOA file names and scene center solar geometry:\n0 LT51000652008342ASA00_TOA.v3.0.hdf center_sz=32.540813 center_sa=121.453896 \n1 LT51000652008358ASA00_TOA.v3.0.hdf center_sz=34.373802 center_sa=121.627396 \nEND_INPUT_POINTER\n"
+  },
+  "ArchiveMetadata.0": {
+   "type": "char8",
+   "length": 3304,
+   "value": "\n GROUP                  = ARCHIVEDMETADATA\n  GROUPTYPE            = MASTERGROUP\n      OBJECT                = Mean_B1\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_B1\n      OBJECT                = Mean_B2\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_B2\n      OBJECT                = Mean_B3\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_B3\n      OBJECT                = Mean_B4\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_B4\n      OBJECT                = Mean_B5\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_B5\n      OBJECT                = Mean_B6\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_B6\n      OBJECT                = Mean_B7\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_B7\n      OBJECT                = Mean_NDVI\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_NDVI\n      OBJECT                = Mean_Solar_Zenith\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_Solar_Zenith\n      OBJECT                = Mean_NBAR_Solar_Zenith\n      NUM_VAL              = 1\n      VALUE                = -nan\n    END_OBJECT             = Mean_NBAR_Solar_Zenith\n      OBJECT                = Percent_Saturated\n      NUM_VAL              = 1\n      VALUE                = 42.073659\n    END_OBJECT             = Percent_Saturated\n      OBJECT                = Percent_DT_Cloudy\n      NUM_VAL              = 1\n      VALUE                = 100.000000\n    END_OBJECT             = Percent_DT_Cloudy\n      OBJECT                = Percent_ACCA_Cloudy\n      NUM_VAL              = 1\n      VALUE                = 100.000000\n    END_OBJECT             = Percent_ACCA_Cloudy\n      OBJECT                = Mean_JDOY\n      NUM_VAL              = 1\n      VALUE                = 345\n    END_OBJECT             = Mean_JDOY\n      OBJECT                = Min_JDOY\n      NUM_VAL              = 1\n      VALUE                = 342\n    END_OBJECT             = Min_JDOY\n      OBJECT                = Max_JDOY\n      NUM_VAL              = 1\n      VALUE                = 358\n    END_OBJECT             = Max_JDOY\n      OBJECT                = Number_Valid_Obs\n      NUM_VAL              = 1\n      VALUE                = 2498\n    END_OBJECT             = Number_Valid_Obs\n      OBJECT                = Number_Valid_Noncloudy_Obs\n      NUM_VAL              = 1\n      VALUE                = 0\n    END_OBJECT             = Number_Valid_Noncloudy_Obs\n      OBJECT                = Count_L1T\n      NUM_VAL              = 1\n      VALUE                = 2\n    END_OBJECT             = Count_L1T\n      OBJECT                = Sensor_List\n      NUM_VAL              = 1\n      VALUE                = \"5\"\n    END_OBJECT             = Sensor_List\n      OBJECT                = Number_Valid_Sensor_Obs\n      NUM_VAL              = 1\n      VALUE                = \"2498\"\n    END_OBJECT             = Number_Valid_Sensor_Obs\n\nEND_GROUP              = ARCHIVEDMETADATA\n\nEND\n"
+  },
+  "StructMetadata.0": {
+   "type": "char8",
+   "length": 3797,
+   "value": "GROUP=SwathStructure\nEND_GROUP=SwathStructure\nGROUP=GridStructure\n\tGROUP=GRID_1\n\t\tGridName=\"WELD_GLOBE_GRID\"\n\t\tXDim=5295\n\t\tYDim=5295\n\t\tUpperLeftPointMtrs=(15249606.756965,-794250.000000)\n\t\tLowerRightMtrs=(15408456.756965,-953100.000000)\n\t\tProjection=GCTP_SNSOID\n\t\tProjParams=(6371007.181000,0,0,0,0,0,0,0,0,0,0,0,0)\n\t\tSphereCode=12\n\t\tGridOrigin=HDFE_GD_UL\n\t\tGROUP=Dimension\n\t\tEND_GROUP=Dimension\n\t\tGROUP=DataField\n\t\t\tOBJECT=DataField_0\n\t\t\t\tDataFieldName=\"Band1_SRF_REF\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_0\n\t\t\tOBJECT=DataField_1\n\t\t\t\tDataFieldName=\"Band2_SRF_REF\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_1\n\t\t\tOBJECT=DataField_2\n\t\t\t\tDataFieldName=\"Band3_SRF_REF\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_2\n\t\t\tOBJECT=DataField_3\n\t\t\t\tDataFieldName=\"Band4_SRF_REF\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_3\n\t\t\tOBJECT=DataField_4\n\t\t\t\tDataFieldName=\"Band5_SRF_REF\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_4\n\t\t\tOBJECT=DataField_5\n\t\t\t\tDataFieldName=\"Band61_TOA_BT\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_5\n\t\t\tOBJECT=DataField_6\n\t\t\t\tDataFieldName=\"Band62_TOA_BT\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_6\n\t\t\tOBJECT=DataField_7\n\t\t\t\tDataFieldName=\"Band7_SRF_REF\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_7\n\t\t\tOBJECT=DataField_8\n\t\t\t\tDataFieldName=\"NDVI_SRF\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_8\n\t\t\tOBJECT=DataField_9\n\t\t\t\tDataFieldName=\"Day_Of_Year\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_9\n\t\t\tOBJECT=DataField_10\n\t\t\t\tDataFieldName=\"Saturation_Flag\"\n\t\t\t\tDataType=DFNT_UINT8\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_10\n\t\t\tOBJECT=DataField_11\n\t\t\t\tDataFieldName=\"DT_Cloud_State\"\n\t\t\t\tDataType=DFNT_UINT8\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_11\n\t\t\tOBJECT=DataField_12\n\t\t\t\tDataFieldName=\"ACCA_State\"\n\t\t\t\tDataType=DFNT_UINT8\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_12\n\t\t\tOBJECT=DataField_13\n\t\t\t\tDataFieldName=\"Num_Of_Obs\"\n\t\t\t\tDataType=DFNT_UINT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_13\n\t\t\tOBJECT=DataField_14\n\t\t\t\tDataFieldName=\"Composite_Path\"\n\t\t\t\tDataType=DFNT_UINT8\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_14\n\t\t\tOBJECT=DataField_15\n\t\t\t\tDataFieldName=\"Sensor\"\n\t\t\t\tDataType=DFNT_UINT8\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_15\n\t\t\tOBJECT=DataField_16\n\t\t\t\tDataFieldName=\"Sensor_Zenith\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_16\n\t\t\tOBJECT=DataField_17\n\t\t\t\tDataFieldName=\"Sensor_Azimuth\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_17\n\t\t\tOBJECT=DataField_18\n\t\t\t\tDataFieldName=\"Solar_Zenith\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_18\n\t\t\tOBJECT=DataField_19\n\t\t\t\tDataFieldName=\"Solar_Azimuth\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_19\n\t\t\tOBJECT=DataField_20\n\t\t\t\tDataFieldName=\"NBAR_Solar_Zenith\"\n\t\t\t\tDataType=DFNT_INT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_20\n\t\t\tOBJECT=DataField_21\n\t\t\t\tDataFieldName=\"L1T_Index\"\n\t\t\t\tDataType=DFNT_UINT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_21\n\t\t\tOBJECT=DataField_22\n\t\t\t\tDataFieldName=\"L1T_Column\"\n\t\t\t\tDataType=DFNT_UINT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_22\n\t\t\tOBJECT=DataField_23\n\t\t\t\tDataFieldName=\"L1T_Row\"\n\t\t\t\tDataType=DFNT_UINT16\n\t\t\t\tDimList=(\"YDim\",\"XDim\")\n\t\t\tEND_OBJECT=DataField_23\n\t\tEND_GROUP=DataField\n\t\tGROUP=MergedFields\n\t\tEND_GROUP=MergedFields\n\tEND_GROUP=GRID_1\nEND_GROUP=GridStructure\nGROUP=PointStructure\nEND_GROUP=PointStructure\nEND\n"
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "Band1_SRF_REF",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "reflectance, unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.0001
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -2000,
+      16000
+     ]
+    }
+   },
+   "values_sha256": "a0ad5bacf543fe224a9a1c681ba58bb91c897e0fa0075249f3d4131aa0d71480",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2886,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5069688,
+      "length": 11304
+     }
+    ],
+    "stored_bytes": 248872,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 1,
+   "ref": 3,
+   "name": "Band2_SRF_REF",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "reflectance, unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.0001
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -2000,
+      16000
+     ]
+    }
+   },
+   "values_sha256": "08f9943040f9798f8111f5e1d2344141e2de7e9677caf56809e85ed2c748d6da",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 240454,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5082026,
+      "length": 12120
+     }
+    ],
+    "stored_bytes": 249688,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 2,
+   "ref": 4,
+   "name": "Band3_SRF_REF",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "reflectance, unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.0001
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -2000,
+      16000
+     ]
+    }
+   },
+   "values_sha256": "9c01917ea37362ae5f8c216d8b34db05d2423b2c429d4d881d9c01ba1ead0a0c",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 478022,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5094364,
+      "length": 12047
+     }
+    ],
+    "stored_bytes": 249615,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 3,
+   "ref": 5,
+   "name": "Band4_SRF_REF",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "reflectance, unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.0001
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -2000,
+      16000
+     ]
+    }
+   },
+   "values_sha256": "e8144917c0aaaab815ec55fdc6cc0ebaad20044a2ecb1ab85831ddc55e511044",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 715590,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5106702,
+      "length": 12122
+     }
+    ],
+    "stored_bytes": 249690,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 4,
+   "ref": 6,
+   "name": "Band5_SRF_REF",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "reflectance, unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.0001
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -2000,
+      16000
+     ]
+    }
+   },
+   "values_sha256": "06f1292d7290e28ceb581e553ae681733b5bd3114f3a3f10c4221444e7eeb605",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 953158,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5119040,
+      "length": 12152
+     }
+    ],
+    "stored_bytes": 249720,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 5,
+   "ref": 7,
+   "name": "Band61_TOA_BT",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 15,
+     "value": "Degrees Celsius"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -32767,
+      32767
+     ]
+    }
+   },
+   "values_sha256": "15f2bbe9737008e94eb93757988cef9662b04b05fed0a9c6938d27175dfcbe37",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 1190726,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5131378,
+      "length": 10345
+     }
+    ],
+    "stored_bytes": 247913,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 6,
+   "ref": 8,
+   "name": "Band62_TOA_BT",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 15,
+     "value": "Degrees Celsius"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -32767,
+      32767
+     ]
+    }
+   },
+   "values_sha256": "ac6ae5ed8a8b0528fda65336b4f89923d4a0eab12f7cc0145e9655780e49bf9d",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 1428294,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5143716,
+      "length": 7142
+     }
+    ],
+    "stored_bytes": 244710,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 7,
+   "ref": 9,
+   "name": "Band7_SRF_REF",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "reflectance, unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.0001
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -2000,
+      16000
+     ]
+    }
+   },
+   "values_sha256": "8b567bf5f87be10591fe0e7c31fdbd80afd6bfcb3c2e4a09ad01fd698587f8ba",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 1665862,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5151958,
+      "length": 11899
+     }
+    ],
+    "stored_bytes": 249467,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 8,
+   "ref": 10,
+   "name": "NDVI_SRF",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.0001
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -10000,
+      10000
+     ]
+    }
+   },
+   "values_sha256": "3c9e2c8f84153a07b659da4efba22dfa45bfbb2a58a0a85761e756050ffc8089",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 1903430,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5164296,
+      "length": 12331
+     }
+    ],
+    "stored_bytes": 249899,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 9,
+   "ref": 11,
+   "name": "Day_Of_Year",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 0,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": 0
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      1,
+      366
+     ]
+    }
+   },
+   "values_sha256": "650633776bdd53c130f2ff14e321fc1eec13ded112d9157f406d5d4fb974af2e",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2140998,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5180730,
+      "length": 8154
+     }
+    ],
+    "stored_bytes": 245722,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 10,
+   "ref": 12,
+   "name": "Saturation_Flag",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 0,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 0
+    },
+    "units": {
+     "type": "char8",
+     "length": 9,
+     "value": "bit field"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "band saturation mask": {
+     "type": "char8",
+     "length": 513,
+     "value": "\n\tBits are numbered from right to left (bit 0 = LSB, bit 7 = MSB):\n\tBit      Description\n\t0        band 1  (1 = saturated, 0 = not saturated)\n\t1        band 2  (1 = saturated, 0 = not saturated)\n\t2        band 3  (1 = saturated, 0 = not saturated)\n\t3        band 4  (1 = saturated, 0 = not saturated)\n\t4        band 5  (1 = saturated, 0 = not saturated)\n\t5        band 61 (1 = saturated, 0 = not saturated)\n\t6        band 62 (1 = saturated, 0 = not saturated)\n\t7        band 7  (1 = saturated, 0 = not saturated)\n"
+    },
+    "valid_range": {
+     "type": "uint8",
+     "length": 2,
+     "value": [
+      0,
+      255
+     ]
+    }
+   },
+   "values_sha256": "8280425c51b99f6daa06a44e4ff860597beb191b072b8ed90785387ce5729104",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2378566,
+      "length": 110592
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5188972,
+      "length": 12514
+     }
+    ],
+    "stored_bytes": 123106,
+    "decoded_bytes": 28037025
+   }
+  },
+  {
+   "index": 11,
+   "ref": 13,
+   "name": "DT_Cloud_State",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 255,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint8",
+     "length": 1,
+     "value": 255
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "Classification tree cloud mask": {
+     "type": "char8",
+     "length": 172,
+     "value": "\n\tValue        Description\n\t0           not cloudy\n\t1           cloudy\n\t2           not cloudy but adjacent to a cloudy pixel\n\t200         could not be classified reliably\n"
+    },
+    "valid_range": {
+     "type": "uint8",
+     "length": 2,
+     "value": [
+      0,
+      200
+     ]
+    }
+   },
+   "values_sha256": "8d109dfcd4d1d5149e92b7e582a867201a3caed11e6691c17d624db340c7ab2c",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2489158,
+      "length": 110592
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5205406,
+      "length": 12447
+     }
+    ],
+    "stored_bytes": 123039,
+    "decoded_bytes": 28037025
+   }
+  },
+  {
+   "index": 12,
+   "ref": 14,
+   "name": "ACCA_State",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 255,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint8",
+     "length": 1,
+     "value": 255
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "ACCA cloud mask": {
+     "type": "char8",
+     "length": 71,
+     "value": "\n\tValue        Description\n\t0           not cloudy\n\t1           cloudy\n"
+    },
+    "valid_range": {
+     "type": "uint8",
+     "length": 2,
+     "value": [
+      0,
+      1
+     ]
+    }
+   },
+   "values_sha256": "8d109dfcd4d1d5149e92b7e582a867201a3caed11e6691c17d624db340c7ab2c",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2599750,
+      "length": 110592
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5221840,
+      "length": 12447
+     }
+    ],
+    "stored_bytes": 123039,
+    "decoded_bytes": 28037025
+   }
+  },
+  {
+   "index": 13,
+   "ref": 15,
+   "name": "Num_Of_Obs",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 0,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 0
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "valid_range": {
+     "type": "uint16",
+     "length": 2,
+     "value": [
+      0,
+      65534
+     ]
+    }
+   },
+   "values_sha256": "2673023db7b2bf95ffedd66ae14dcd9253143e61c5c91fa94e7da7c815182c48",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2710342,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5238274,
+      "length": 8067
+     }
+    ],
+    "stored_bytes": 245635,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 14,
+   "ref": 16,
+   "name": "Composite_Path",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 0,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 0
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "valid_range": {
+     "type": "uint16",
+     "length": 2,
+     "value": [
+      0,
+      15
+     ]
+    }
+   },
+   "values_sha256": "cb823fa332c485ecc8f693e76b947bfacc33833746f3e8d1f2077af82aae8971",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2947910,
+      "length": 110592
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5246516,
+      "length": 12447
+     }
+    ],
+    "stored_bytes": 123039,
+    "decoded_bytes": 28037025
+   }
+  },
+  {
+   "index": 15,
+   "ref": 17,
+   "name": "Sensor",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 255,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 255
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "valid_range": {
+     "type": "uint16",
+     "length": 2,
+     "value": [
+      0,
+      254
+     ]
+    }
+   },
+   "values_sha256": "5664bc554e8938131ce7600c4718796b9b863278b3bb34967ffa0f9d47fcffdd",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3058502,
+      "length": 110592
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5262950,
+      "length": 12448
+     }
+    ],
+    "stored_bytes": 123040,
+    "decoded_bytes": 28037025
+   }
+  },
+  {
+   "index": 16,
+   "ref": 18,
+   "name": "Sensor_Zenith",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "degrees"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      9000
+     ]
+    }
+   },
+   "values_sha256": "1c28b02aa6bacecb566cdc51a7a4ea74e072eb1f8aebf620a79a6bbab027a44d",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3169094,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5279384,
+      "length": 8890
+     }
+    ],
+    "stored_bytes": 246458,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 17,
+   "ref": 19,
+   "name": "Sensor_Azimuth",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "degrees"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -18000,
+      18000
+     ]
+    }
+   },
+   "values_sha256": "29ba0597f56715baa4d04321fe403b7f9dc7abf1f85c215e8f79aa0a980c73cc",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3406662,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5291722,
+      "length": 9057
+     }
+    ],
+    "stored_bytes": 246625,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 18,
+   "ref": 20,
+   "name": "Solar_Zenith",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "degrees"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      9000
+     ]
+    }
+   },
+   "values_sha256": "5dd5444491ce86095265db4d695a88cdb5294e22246e85115bb0b3da68470d18",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3644230,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5304060,
+      "length": 8292
+     }
+    ],
+    "stored_bytes": 245860,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 19,
+   "ref": 21,
+   "name": "Solar_Azimuth",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "degrees"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -18000,
+      18000
+     ]
+    }
+   },
+   "values_sha256": "241a079f7fa361c7bf60d50289afbc377be97992e84c057cc7193f1602417712",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3881798,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5316398,
+      "length": 8199
+     }
+    ],
+    "stored_bytes": 245767,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 20,
+   "ref": 22,
+   "name": "NBAR_Solar_Zenith",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -32768,
+   "attributes": {
+    "_FillValue": {
+     "type": "int16",
+     "length": 1,
+     "value": -32768
+    },
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "degrees"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      9000
+     ]
+    }
+   },
+   "values_sha256": "ba55c3815e323b6bb3dbb943ca6146ac0c02031760202a977ab9ce6de1097635",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 4119366,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5328736,
+      "length": 7917
+     }
+    ],
+    "stored_bytes": 245485,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 21,
+   "ref": 23,
+   "name": "L1T_Index",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 65535,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 65535
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "valid_range": {
+     "type": "uint16",
+     "length": 2,
+     "value": [
+      0,
+      65534
+     ]
+    }
+   },
+   "values_sha256": "3a5f686ab0860a0fe9334a7b86bd7f94fc9d9456e7c682c5037f56788d17968b",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 4356934,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5336978,
+      "length": 8103
+     }
+    ],
+    "stored_bytes": 245671,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 22,
+   "ref": 24,
+   "name": "L1T_Column",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 65535,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 65535
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "valid_range": {
+     "type": "uint16",
+     "length": 2,
+     "value": [
+      0,
+      10000
+     ]
+    }
+   },
+   "values_sha256": "72f81cb4df35f1c58224798e538cb27f4ac113c48827ec87fc1e9deaaa7fe2bc",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 4594502,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5345220,
+      "length": 8503
+     }
+    ],
+    "stored_bytes": 246071,
+    "decoded_bytes": 56074050
+   }
+  },
+  {
+   "index": 23,
+   "ref": 25,
+   "name": "L1T_Row",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    5295,
+    5295
+   ],
+   "dimensions": [
+    {
+     "name": "YDim_Grid",
+     "unlimited": false
+    },
+    {
+     "name": "XDim_Grid",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 65535,
+   "attributes": {
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 65535
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "unitless"
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 1.0
+    },
+    "valid_range": {
+     "type": "uint16",
+     "length": 2,
+     "value": [
+      0,
+      10000
+     ]
+    }
+   },
+   "values_sha256": "42df4b2d11cbeac45dcc574c81399f7e8f1729eb2cccb1aa448b04e43edef66f",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 4832070,
+      "length": 237568
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5357558,
+      "length": 8161
+     }
+    ],
+    "stored_bytes": 245729,
+    "decoded_bytes": 56074050
+   }
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "Attr0.0": 113,
+  "SDSVar": 24
+ },
+ "vgroups": [
+  {
+   "ref": 500,
+   "name": "WELD_GLOBE_GRID",
+   "class": "GRID",
+   "members": [
+    {
+     "kind": "vgroup",
+     "ref": 501
+    },
+    {
+     "kind": "vgroup",
+     "ref": 502
+    }
+   ]
+  },
+  {
+   "ref": 501,
+   "name": "Data Fields",
+   "class": "GRID Vgroup",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 0
+    },
+    {
+     "kind": "sds",
+     "index": 1
+    },
+    {
+     "kind": "sds",
+     "index": 2
+    },
+    {
+     "kind": "sds",
+     "index": 3
+    },
+    {
+     "kind": "sds",
+     "index": 4
+    },
+    {
+     "kind": "sds",
+     "index": 5
+    },
+    {
+     "kind": "sds",
+     "index": 6
+    },
+    {
+     "kind": "sds",
+     "index": 7
+    },
+    {
+     "kind": "sds",
+     "index": 8
+    },
+    {
+     "kind": "sds",
+     "index": 9
+    },
+    {
+     "kind": "sds",
+     "index": 10
+    },
+    {
+     "kind": "sds",
+     "index": 11
+    },
+    {
+     "kind": "sds",
+     "index": 12
+    },
+    {
+     "kind": "sds",
+     "index": 13
+    },
+    {
+     "kind": "sds",
+     "index": 14
+    },
+    {
+     "kind": "sds",
+     "index": 15
+    },
+    {
+     "kind": "sds",
+     "index": 16
+    },
+    {
+     "kind": "sds",
+     "index": 17
+    },
+    {
+     "kind": "sds",
+     "index": 18
+    },
+    {
+     "kind": "sds",
+     "index": 19
+    },
+    {
+     "kind": "sds",
+     "index": 20
+    },
+    {
+     "kind": "sds",
+     "index": 21
+    },
+    {
+     "kind": "sds",
+     "index": 22
+    },
+    {
+     "kind": "sds",
+     "index": 23
+    }
+   ]
+  },
+  {
+   "ref": 502,
+   "name": "Grid Attributes",
+   "class": "GRID Vgroup",
+   "members": []
+  }
+ ],
+ "eos": {
+  "derived_by": "tools/describe.py from the StructMetadata attribute text",
+  "struct_metadata_sha256": "db184f25f4bb7ef380f624450c10fd35772379d3c5e2bc7ca45a3ecf957885fe",
+  "grids": [
+   "WELD_GLOBE_GRID"
+  ],
+  "swaths": [],
+  "points": [],
+  "struct_metadata": {
+   "SwathStructure": {},
+   "GridStructure": {
+    "GRID_1": {
+     "GridName": "\"WELD_GLOBE_GRID\"",
+     "XDim": "5295",
+     "YDim": "5295",
+     "UpperLeftPointMtrs": "(15249606.756965,-794250.000000)",
+     "LowerRightMtrs": "(15408456.756965,-953100.000000)",
+     "Projection": "GCTP_SNSOID",
+     "ProjParams": "(6371007.181000,0,0,0,0,0,0,0,0,0,0,0,0)",
+     "SphereCode": "12",
+     "GridOrigin": "HDFE_GD_UL",
+     "Dimension": {},
+     "DataField": {
+      "DataField_0": {
+       "DataFieldName": "\"Band1_SRF_REF\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_1": {
+       "DataFieldName": "\"Band2_SRF_REF\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_2": {
+       "DataFieldName": "\"Band3_SRF_REF\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_3": {
+       "DataFieldName": "\"Band4_SRF_REF\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_4": {
+       "DataFieldName": "\"Band5_SRF_REF\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_5": {
+       "DataFieldName": "\"Band61_TOA_BT\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_6": {
+       "DataFieldName": "\"Band62_TOA_BT\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_7": {
+       "DataFieldName": "\"Band7_SRF_REF\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_8": {
+       "DataFieldName": "\"NDVI_SRF\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_9": {
+       "DataFieldName": "\"Day_Of_Year\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_10": {
+       "DataFieldName": "\"Saturation_Flag\"",
+       "DataType": "DFNT_UINT8",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_11": {
+       "DataFieldName": "\"DT_Cloud_State\"",
+       "DataType": "DFNT_UINT8",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_12": {
+       "DataFieldName": "\"ACCA_State\"",
+       "DataType": "DFNT_UINT8",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_13": {
+       "DataFieldName": "\"Num_Of_Obs\"",
+       "DataType": "DFNT_UINT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_14": {
+       "DataFieldName": "\"Composite_Path\"",
+       "DataType": "DFNT_UINT8",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_15": {
+       "DataFieldName": "\"Sensor\"",
+       "DataType": "DFNT_UINT8",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_16": {
+       "DataFieldName": "\"Sensor_Zenith\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_17": {
+       "DataFieldName": "\"Sensor_Azimuth\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_18": {
+       "DataFieldName": "\"Solar_Zenith\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_19": {
+       "DataFieldName": "\"Solar_Azimuth\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_20": {
+       "DataFieldName": "\"NBAR_Solar_Zenith\"",
+       "DataType": "DFNT_INT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_21": {
+       "DataFieldName": "\"L1T_Index\"",
+       "DataType": "DFNT_UINT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_22": {
+       "DataFieldName": "\"L1T_Column\"",
+       "DataType": "DFNT_UINT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      },
+      "DataField_23": {
+       "DataFieldName": "\"L1T_Row\"",
+       "DataType": "DFNT_UINT16",
+       "DimList": "(\"YDim\",\"XDim\")"
+      }
+     },
+     "MergedFields": {}
+    }
+   },
+   "PointStructure": {}
+  }
+ },
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "COMPRESSED": 24,
+   "LINKED": 120,
+   "NDG": 24,
+   "NT": 24,
+   "SD": 24,
+   "SDD": 24,
+   "VERSION": 1,
+   "VG": 30,
+   "VH": 139,
+   "VS": 139
+  },
+  "special_elements": {
+   "COMPRESSED": {
+    "linked": 24
+   },
+   "SD": {
+    "compressed": 24
+   }
+  }
+ }
+}

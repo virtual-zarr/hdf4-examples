@@ -1,0 +1,154 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "vdata-and-vgroup.hdf",
+  "size": 3052,
+  "sha256": "ff5e513004ddf578898135f5b800c2f460b488478e494b2548cee27361b50725",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "v",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    2,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "245bbd9d484dcf27c714e2690cd6544973de5d54aa9cd82eab23d6046a65faa8",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2518,
+      "length": 16
+     }
+    ],
+    "stored_bytes": 16,
+    "decoded_bytes": 8
+   },
+   "values": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ ],
+ "vdata": [
+  {
+   "ref": 12,
+   "name": "table",
+   "class": "",
+   "records": 3,
+   "record_bytes": 10,
+   "interlace": "full",
+   "fields": [
+    {
+     "name": "x",
+     "type": "int16",
+     "order": 1
+    },
+    {
+     "name": "y",
+     "type": "float32",
+     "order": 1
+    },
+    {
+     "name": "tag",
+     "type": "char8",
+     "order": 4
+    }
+   ],
+   "records_json_sha256": "6326767e9105dea16f8c44e2bd4f78cbbf934bfebb196ca8a6919cc3b41bcbd7",
+   "ranges": [
+    {
+     "offset": 2928,
+     "length": 30
+    }
+   ],
+   "rows": [
+    [
+     1,
+     1.5,
+     "abcd"
+    ],
+    [
+     2,
+     2.5,
+     "efgh"
+    ],
+    [
+     3,
+     3.5,
+     "ijkl"
+    ]
+   ]
+  }
+ ],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [
+  {
+   "ref": 13,
+   "name": "extra_group",
+   "class": "",
+   "members": []
+  }
+ ],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "COMPRESSED": 1,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 5,
+   "VH": 4,
+   "VS": 4
+  },
+  "special_elements": {
+   "SD": {
+    "compressed": 1
+   }
+  }
+ }
+}

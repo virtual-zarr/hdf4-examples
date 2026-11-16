@@ -1,0 +1,77 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "char-dataset",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "char-dataset",
+  "description": "A char8 dataset and a uchar8 attribute",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "char8"
+  ],
+  "hdf4:max_rank": 1,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'char-dataset'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./char-dataset.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 2872,
+   "file:checksum": "12206ce44d120fef591932e5d0c4ac4d0f8d3f838854ac1d47417c4bc584a8063007"
+  },
+  "expected": {
+   "href": "./char-dataset.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 1588,
+   "file:checksum": "122027d11ea1c31115867fc4fb98fde9cdfeeb1e77cd669a64a2263351ef24bf75a5"
+  }
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "id": "nasa-nsidc",
+ "title": "NASA HDF4 granules from NSIDC DAAC",
+ "description": "One small granule per selected collection from NASA's NSIDC DAAC cloud archive (NSIDC_CPRD in CMR), chosen to cover distinct products. Each item links to its CMR granule and collection records.",
+ "license": "other",
+ "license_note": "Each granule carries its collection's terms as recorded in NASA CMR; see the item's cmr:terms",
+ "datetime": "2026-11-16T00:00:00Z",
+ "providers": [
+  {
+   "name": "NSIDC DAAC",
+   "roles": [
+    "producer",
+    "licensor"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "NASA Earth science data use guidance (general policy; item terms take precedence)"
+  }
+ ],
+ "items": [
+  {
+   "id": "ae-rngd-2",
+   "filename": "AMSR_E_L3_RainGrid_V06_200907.hdf",
+   "title": "AE_RnGd v2",
+   "description": "AMSR-E/Aqua Monthly L3 5x5 deg Rainfall Accumulations V002. Granule AMSR_E_L3_RainGrid_V06_200907.hdf.",
+   "datetime": "2009-07-02T00:21:40.910Z",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/AMSA/AE_RnGd/2/2009/07/02/AMSR_E_L3_RainGrid_V06_200907.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3228771754-NSIDC_CPRD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3228763816-NSIDC_CPRD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/AMSR-E/AE_RNGD.002",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C3228763816-NSIDC_CPRD",
+    "granule_concept_id": "G3228771754-NSIDC_CPRD",
+    "short_name": "AE_RnGd",
+    "version": "2"
+   },
+   "doi": "10.5067/AMSR-E/AE_RNGD.002",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/use_copyright.html. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+    "use_description": null,
+    "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+   },
+   "bbox": [
+    -180.0,
+    -90.0,
+    180.0,
+    90.0
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180.0,
+       -90.0
+      ],
+      [
+       180.0,
+       -90.0
+      ],
+      [
+       180.0,
+       90.0
+      ],
+      [
+       -180.0,
+       90.0
+      ],
+      [
+       -180.0,
+       -90.0
+      ]
+     ]
+    ]
+   },
+   "sha256": "5d0e713c913879797d48770de220c51bfdf88cb3f800e4a5bd5533b333118f15"
+  },
+  {
+   "id": "mod10a1-61",
+   "filename": "MOD10A1.A2000055.h30v10.061.2020037172755.hdf",
+   "title": "MOD10A1 v61",
+   "description": "MODIS/Terra Snow Cover Daily L3 Global 500m SIN Grid V061. Granule MOD10A1.A2000055.h30v10.061.2020037172755.hdf.",
+   "datetime": "2000-02-24T00:00:00.000Z",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MODIS/MOD10A1/61/2000/02/24/MOD10A1.A2000055.h30v10.061.2020037172755.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3026922754-NSIDC_CPRD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565093311-NSIDC_CPRD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD10A1.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2565093311-NSIDC_CPRD",
+    "granule_concept_id": "G3026922754-NSIDC_CPRD",
+    "short_name": "MOD10A1",
+    "version": "61"
+   },
+   "doi": "10.5067/MODIS/MOD10A1.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/data-use-and-copyright. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+    "use_description": null,
+    "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+   },
+   "bbox": [
+    121.409671246333,
+    -20.0355981480789,
+    138.343110407867,
+    -9.93746671411948
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       121.409671246333,
+       -20.0355981480789
+      ],
+      [
+       138.343110407867,
+       -20.0355981480789
+      ],
+      [
+       138.343110407867,
+       -9.93746671411948
+      ],
+      [
+       121.409671246333,
+       -9.93746671411948
+      ],
+      [
+       121.409671246333,
+       -20.0355981480789
+      ]
+     ]
+    ]
+   },
+   "sha256": "6fd8b748781fb4a572af734b7ee2f8c0ad1ad2ef65fb9daf31e72bb435f2102f"
+  },
+  {
+   "id": "mod29-61",
+   "filename": "MOD29.A2000055.1120.061.2020037135737.hdf",
+   "title": "MOD29 v61",
+   "description": "MODIS/Terra Sea Ice Extent 5-Min L2 Swath 1km V061. Granule MOD29.A2000055.1120.061.2020037135737.hdf.",
+   "datetime": "2000-02-24T11:20:00.000Z",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/MODIS/MOD29/61/2000/02/24/MOD29.A2000055.1120.061.2020037135737.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3051312975-NSIDC_CPRD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3050355038-NSIDC_CPRD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/MODIS/MOD29.061",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C3050355038-NSIDC_CPRD",
+    "granule_concept_id": "G3051312975-NSIDC_CPRD",
+    "short_name": "MOD29",
+    "version": "61"
+   },
+   "doi": "10.5067/MODIS/MOD29.061",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/data-use-and-copyright. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+    "use_description": null,
+    "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+   },
+   "bbox": [
+    149.95414084646,
+    20.0995923744351,
+    179.326695486898,
+    41.5120538203405
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       149.95414084646,
+       20.0995923744351
+      ],
+      [
+       179.326695486898,
+       20.0995923744351
+      ],
+      [
+       179.326695486898,
+       41.5120538203405
+      ],
+      [
+       149.95414084646,
+       41.5120538203405
+      ],
+      [
+       149.95414084646,
+       20.0995923744351
+      ]
+     ]
+    ]
+   },
+   "sha256": "599633d5f8d3036fec627d7e84ee2a651b9f4ba89c7b62349cee9de04e11cd8b"
+  },
+  {
+   "id": "aa-l2a-1",
+   "filename": "AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.hdf",
+   "title": "AA_L2A v1",
+   "description": "AMSR/ADEOS-II L2A Global Swath Spatially-Resampled Brightness Temperatures V001. Granule AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.hdf.",
+   "datetime": "2003-01-18T15:04:44.860Z",
+   "url": "https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/AMSA/AA_L2A/1/2003/01/18/AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3213464954-NSIDC_CPRD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3213433803-NSIDC_CPRD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/ADEOS-II/AMSR/AA_L2A.001",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C3213433803-NSIDC_CPRD",
+    "granule_concept_id": "G3213464954-NSIDC_CPRD",
+    "short_name": "AA_L2A",
+    "version": "1"
+   },
+   "doi": "10.5067/ADEOS-II/AMSR/AA_L2A.001",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/use_copyright.html. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+    "use_description": null,
+    "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+   },
+   "sha256": "31aa3329db586ae0f361137ef28c7cd95bdff5223b3d6e4533b2d32d8720953b"
+  }
+ ]
+}

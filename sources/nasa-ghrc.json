@@ -1,0 +1,97 @@
+{
+ "id": "nasa-ghrc",
+ "title": "NASA HDF4 granules from GHRC DAAC",
+ "description": "One small granule per selected collection from NASA's GHRC DAAC cloud archive (GHRC_DAAC in CMR), chosen to cover distinct products. Each item links to its CMR granule and collection records.",
+ "license": "other",
+ "license_note": "Each granule carries its collection's terms as recorded in NASA CMR; see the item's cmr:terms",
+ "datetime": "2026-11-16T00:00:00Z",
+ "providers": [
+  {
+   "name": "GHRC DAAC",
+   "roles": [
+    "producer",
+    "licensor"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "NASA Earth science data use guidance (general policy; item terms take precedence)"
+  }
+ ],
+ "items": [
+  {
+   "id": "olsana-1",
+   "filename": "olslit78.aug_analog.hdf",
+   "title": "olsana v1",
+   "description": "OLS ANALOG DERIVED LIGHTNING V1. Granule olslit78.aug_analog.hdf.",
+   "datetime": "1978-08-01T00:00:00Z",
+   "url": "https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/olsana__1/olslit78.aug_analog.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G1976716750-GHRC_DAAC",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1976712047-GHRC_DAAC",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "href": "https://doi.org/10.5067/LIS/OLS/DATA301",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C1976712047-GHRC_DAAC",
+    "granule_concept_id": "G1976716750-GHRC_DAAC",
+    "short_name": "olsana",
+    "version": "1"
+   },
+   "doi": "10.5067/LIS/OLS/DATA301",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": null,
+    "license_name": null,
+    "license_text": null,
+    "use_description": null,
+    "access_description": "This product has full public access."
+   },
+   "bbox": [
+    -180,
+    -90,
+    180,
+    90
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       -90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       -180,
+       90
+      ],
+      [
+       -180,
+       -90
+      ]
+     ]
+    ]
+   },
+   "sha256": "0d19498dd4791f4ab9290056f5f40243332d31554348cfd7590ab782cca67359"
+  }
+ ]
+}

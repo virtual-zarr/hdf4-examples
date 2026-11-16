@@ -1,0 +1,94 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "sds-fillchunk-alltypes",
+ "collection": "opendap",
+ "geometry": null,
+ "properties": {
+  "title": "sds-fillchunk-alltypes",
+  "description": "OPeNDAP BES DMR++ test file SDS_fillchunk_alltypes.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "int32",
+   "int8",
+   "uint16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "fill_value",
+   "partial_chunks"
+  ],
+  "hdf4:sds_count": 5,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 10
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_fillchunk_alltypes.hdf",
+   "title": "File in the OPeNDAP BES repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./SDS_fillchunk_alltypes.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 26574,
+   "file:checksum": "12209f9a30090813907a09b7aec53654316deedc8b4ad163f3792b0545cccb345adb"
+  },
+  "expected": {
+   "href": "./SDS_fillchunk_alltypes.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 6773,
+   "file:checksum": "12205fbabad84690e8863a98407e2b5dfae4764f4be403390e312214a49b48140705"
+  },
+  "dmrpp": {
+   "href": "./SDS_fillchunk_alltypes.hdf.dmrpp",
+   "type": "application/xml",
+   "title": "DMR++ description from OPeNDAP",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 3910,
+   "file:checksum": "1220edb056146e64e311dd9945402c2373864062e970ef29c2ac454545e3b5448b09"
+  }
+ }
+}

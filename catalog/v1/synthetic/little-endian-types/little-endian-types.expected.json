@@ -1,0 +1,256 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "little-endian-types.hdf",
+  "size": 4087,
+  "sha256": "e18969d5a7eea26fdd6bf11cd94c03392f74226ac198fd3b2ca0b32bf3fd9511",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "int16",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "little",
+   "shape": [
+    2,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "b1cd5bf03b9488553472b7264c8d53326d8d6b2aa42ab53e2d0f27387db492d5",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2502,
+      "length": 12
+     }
+    ],
+    "stored_bytes": 12,
+    "decoded_bytes": 12
+   },
+   "values": [
+    [
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "index": 1,
+   "ref": 4,
+   "name": "int32",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "little",
+   "shape": [
+    2,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim2",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "90d856b7ecac90c26898af8a46404297aa0ef65768f62fdf8c3f08294bcbee49",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2514,
+      "length": 24
+     }
+    ],
+    "stored_bytes": 24,
+    "decoded_bytes": 24
+   },
+   "values": [
+    [
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "index": 2,
+   "ref": 6,
+   "name": "float32",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "little",
+   "shape": [
+    2,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim4",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim5",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "24ae2dfe8df57c1b80e54cef3d90ac3b417fd98973345a5f616bbc9a75dcc202",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2538,
+      "length": 24
+     }
+    ],
+    "stored_bytes": 24,
+    "decoded_bytes": 24
+   },
+   "values": [
+    [
+     1.0,
+     2.0,
+     3.0
+    ],
+    [
+     4.0,
+     5.0,
+     6.0
+    ]
+   ]
+  },
+  {
+   "index": 3,
+   "ref": 8,
+   "name": "float64",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "little",
+   "shape": [
+    2,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim6",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim7",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "d73f023a3f852bf2e5c6d836cd36cd930d0091dcba7f778161c707e1c58222b0",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2562,
+      "length": 48
+     }
+    ],
+    "stored_bytes": 48,
+    "decoded_bytes": 48
+   },
+   "values": [
+    [
+     1.0,
+     2.0,
+     3.0
+    ],
+    [
+     4.0,
+     5.0,
+     6.0
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 8,
+  "SDSVar": 4
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 4,
+   "NT": 4,
+   "SD": 4,
+   "SDD": 4,
+   "VERSION": 1,
+   "VG": 13,
+   "VH": 12,
+   "VS": 12
+  },
+  "special_elements": {}
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "all-number-types",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "all-number-types",
+  "description": "One contiguous dataset per big-endian number type",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "int16",
+   "int32",
+   "int8",
+   "uint16",
+   "uint32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 8,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 8
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'all-number-types'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./all-number-types.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 5573,
+   "file:checksum": "12204a5d23a32e7417aa97bd7ccc62f20a6024d06e610ee5d544d5e0879d4c13edaa"
+  },
+  "expected": {
+   "href": "./all-number-types.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 7466,
+   "file:checksum": "1220e57341a2d3d8df3ef9d9d2204662c1dde38dec66c90fb524171c369d21b674f3"
+  }
+ }
+}

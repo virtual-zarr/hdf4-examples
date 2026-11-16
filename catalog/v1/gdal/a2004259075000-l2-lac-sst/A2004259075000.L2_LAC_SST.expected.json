@@ -1,0 +1,422 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "A2004259075000.L2_LAC_SST.hdf",
+  "size": 2524436,
+  "sha256": "419b6a27a106ac82e073f32aa4a326d34c1ea3191af83344f78bc359f5d081fc",
+  "written_by": {
+   "version": "4.1.5",
+   "text": "NCSA HDF Version 4.1 Release 5, November 5, 2001"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "Title": {
+   "type": "char8",
+   "length": 20,
+   "value": "MODISA Level-2 Data\u0000"
+  },
+  "Sensor Name": {
+   "type": "char8",
+   "length": 7,
+   "value": "MODISA\u0000"
+  },
+  "Product Name": {
+   "type": "char8",
+   "length": 26,
+   "value": "A2004259075000.L2_LAC_SST\u0000"
+  },
+  "Software Name": {
+   "type": "char8",
+   "length": 6,
+   "value": "MSl12\u0000"
+  },
+  "Software Version": {
+   "type": "char8",
+   "length": 6,
+   "value": "5.3.4\u0000"
+  },
+  "Replacement Flag": {
+   "type": "char8",
+   "length": 9,
+   "value": "ORIGINAL\u0000"
+  },
+  "Orbit Node Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 0.0
+  },
+  "Orbit Number": {
+   "type": "int32",
+   "length": 1,
+   "value": 0
+  },
+  "Node Crossing Time": {
+   "type": "char8",
+   "length": 1,
+   "value": "\u0000"
+  },
+  "Processing Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2006002154443000\u0000"
+  },
+  "Creation Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2007121183557000\u0000"
+  },
+  "Processing Control": {
+   "type": "char8",
+   "length": 108,
+   "value": "MSl12 par=/data3/vdc/sdpsoper/vpu2/workbuf/A2004259075000.L1B_LAC.param metafile=A2004259075000.L2_LAC.meta\u0000"
+  },
+  "Input Parameters": {
+   "type": "char8",
+   "length": 2506,
+   "value": "\nIFILE1 = /data3/vdc/sdpsoper/vpu2/workbuf/A2004259075000.L1B_LAC \nOFILE1 = A2004259075000.L2_LAC_SST\nL2PROD1 = sst,qual_sst,l2_flags\nCALFILE = \nPOLFILE = /sdps/sdpsoper/data/modisa/cal/polcor_modisa\nCLDFILE = \nGEOFILE = /data3/vdc/sdpsoper/vpu2/workbuf/A2004259075000.GEO\nRFLAG = ORIGINAL\nEVAL =     0\nMODE =     0\nSPIXL =     1\nEPIXL =    -1\nDPIXL =     1\nSLINE =     1\nELINE =    -1\nDLINE =     1\nCTL_PT_INCR =     8\nPROC_OCEAN =   1\nPROC_LAND =   0\nATMOCOR =   0\nAER_OPT =  -3\nAER_ITER_MAX =  10\nBRDF_OPT =   7\nIOP_OPT =   0\nQAA_OPT =   0\nQAA_S  =  0.01500\nPOL_OPT =   3\nSL_PIXL =  -1\nSL_FRAC =   0.2500\nGLINT_OPT =   1\nOUTBAND_OPT =   2\nOXABAND_OPT =   0\nFILTER_OPT =   1\nFILTER_FILE = /sdps/sdpsoper/data/modisa/msl12_filter.dat\n# FILTER_1 = 7 x 5 (1) straylight filter on flag  5 \n# FILTER_2 = 7 x 5 (1) straylight filter on flag  10 \nMET1 = /data3/vdc/sdpsoper/vpu2/workbuf/S200425906_NCEP.MET\nMET2 = /data3/vdc/sdpsoper/vpu2/workbuf/S200425912_NCEP.MET\nMET3 = /data3/vdc/sdpsoper/vpu2/workbuf/S200425912_NCEP.MET\nOZONE1 = /data3/vdc/sdpsoper/vpu2/workbuf/S200425812_EPTOMS.OZONE\nOZONE2 = /data3/vdc/sdpsoper/vpu2/workbuf/S200425912_EPTOMS.OZONE\nOZONE3 = /data3/vdc/sdpsoper/vpu2/workbuf/S200425912_EPTOMS.OZONE\nLAND = /sdps/sdpsoper/data/common/landmask.dat\nWATER = /sdps/sdpsoper/data/common/watermask.dat\nDEMFILE = /sdps/sdpsoper/data/common/digital_elevation_map.hdf\nICEFILE = /sdps/sdpsoper/data/common/ice_mask.hdf\nSSTFILE = /data3/vdc/sdpsoper/vpu2/workbuf/oisst.20040915\nALPHAFILE = /sdps/sdpsoper/data/common/alpha510_climatology.hdf\nTAUAFILE = /sdps/sdpsoper/data/common/taua865_climatology.hdf\nGAIN =   0.9710,   0.9848,   0.9795,   0.9870,   0.9850,   0.9797,   0.9776,   0.9855,   1.0000\nOFFSET =  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000\nAERMODELS = o99, m50, m70, m90, m99, c50, c70, c90, c99, t50, t90, t99\nTAUA =   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000\nAERMODRAT =  0.00000\nAERMODMIN =  -1f\nAERMODMAX =  -1f\nALBEDO =    0.027\nABSAER =    0.000\nRHOAMIN  =  0.00010\nNLWMIN  =    0.150\nHIPOL  =    0.500\nWSMAX  =    8.000\nTAUAMAX  =    0.300\nEPSMIN  =    0.850\nEPSMAX  =    1.350\nGLINT_THRESH =    0.005\nWINDSPEED = -1000.000\nWINDANGLE = -1000.000\nPRESSURE = -1000.000\nOZONE = -1000.000\nWATERVAPOR = -1000.000\nRELHUMID = -1000.000\nSUNZEN =   90.000\nSATZEN =   60.000\nMASKLAND =  1\nMASKBATH =  0\nMASKCLOUD =  1\nMASKGLINT =  0\nMASKSUNZEN =  0\nMASKSATZEN =  0\nMASKHILT =  1\nMASKSTLIGHT =  0\u0000"
+  },
+  "Input Files": {
+   "type": "char8",
+   "length": 321,
+   "value": "A2004259075000.L1B_LAC,S200425906_NCEP.MET,S200425912_NCEP.MET,S200425912_NCEP.MET,S200425812_EPTOMS.OZONE,S200425912_EPTOMS.OZONE,S200425912_EPTOMS.OZONE,,polcor_modisa,,landmask.dat,watermask.dat,digital_elevation_map.hdf,ice_mask.hdf,oisst.20040915,alpha510_climatology.hdf,taua865_climatology.hdf,A2004259075000.GEO,\u0000"
+  },
+  "Mask Names": {
+   "type": "char8",
+   "length": 25,
+   "value": "ATMFAIL,LAND,CLDICE,HILT\u0000"
+  },
+  "Number of Bands": {
+   "type": "int32",
+   "length": 1,
+   "value": 9
+  },
+  "Number of Scan Lines": {
+   "type": "int32",
+   "length": 1,
+   "value": 992
+  },
+  "Pixels per Scan Line": {
+   "type": "int32",
+   "length": 1,
+   "value": 1267
+  },
+  "Scene Center Scan Line": {
+   "type": "int32",
+   "length": 1,
+   "value": 497
+  },
+  "Number of Scan Control Points": {
+   "type": "int32",
+   "length": 1,
+   "value": 992
+  },
+  "Number of Pixel Control Points": {
+   "type": "int32",
+   "length": 1,
+   "value": 1267
+  },
+  "Start Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2004259075237000\u0000"
+  },
+  "Start Year": {
+   "type": "int16",
+   "length": 1,
+   "value": 2004
+  },
+  "Start Day": {
+   "type": "int16",
+   "length": 1,
+   "value": 259
+  },
+  "Start Millisec": {
+   "type": "int32",
+   "length": 1,
+   "value": 28357000
+  },
+  "Upper Left Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -101.79159545898438
+  },
+  "Upper Right Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -77.19015502929688
+  },
+  "Upper Left Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 34.64350509643555
+  },
+  "Upper Right Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 31.080202102661133
+  },
+  "Start Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -89.21044921875
+  },
+  "Start Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 33.496192932128906
+  },
+  "Latitude Units": {
+   "type": "char8",
+   "length": 14,
+   "value": "degrees North\u0000"
+  },
+  "Longitude Units": {
+   "type": "char8",
+   "length": 13,
+   "value": "degrees East\u0000"
+  },
+  "Scene Center Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2004259075351000\u0000"
+  },
+  "Scene Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -90.38758087158203
+  },
+  "Scene Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 29.094120025634766
+  },
+  "Scene Center Solar Zenith": {
+   "type": "float32",
+   "length": 1,
+   "value": 137.47999572753906
+  },
+  "Earth-Sun Distance Correction": {
+   "type": "float64",
+   "length": 1,
+   "value": 0.9890405798679689
+  },
+  "End Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2004259075504000\u0000"
+  },
+  "End Year": {
+   "type": "int16",
+   "length": 1,
+   "value": 2004
+  },
+  "End Day": {
+   "type": "int16",
+   "length": 1,
+   "value": 259
+  },
+  "End Millisec": {
+   "type": "int32",
+   "length": 1,
+   "value": 28504000
+  },
+  "Lower Left Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -102.98038482666016
+  },
+  "Lower Right Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -80.33470916748047
+  },
+  "Lower Left Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 25.875022888183594
+  },
+  "Lower Right Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 22.588653564453125
+  },
+  "End Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -91.48551940917969
+  },
+  "End Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 24.69184684753418
+  },
+  "Northernmost Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 34.5098991394043
+  },
+  "Southernmost Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 22.678220748901367
+  },
+  "Easternmost Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -77.59852600097656
+  },
+  "Westernmost Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -100.0695571899414
+  },
+  "Start Node": {
+   "type": "char8",
+   "length": 11,
+   "value": "Descending\u0000"
+  },
+  "End Node": {
+   "type": "char8",
+   "length": 11,
+   "value": "Descending\u0000"
+  },
+  "Day or Night": {
+   "type": "char8",
+   "length": 6,
+   "value": "Night\u0000"
+  },
+  "Flag Percentages": {
+   "type": "float32",
+   "length": 32,
+   "value": [
+    0.0,
+    72.50653076171875,
+    14.274763107299805,
+    0.0,
+    0.0,
+    6.868537902832031,
+    5.786212921142578,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    100.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.21399830281734467,
+    0.0,
+    0.0,
+    0.0,
+    0.14760133624076843,
+    0.0,
+    0.0,
+    1.2119899988174438,
+    95.99552154541016,
+    7.431438446044922,
+    0.0,
+    27.49346923828125
+   ]
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "sst",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    992,
+    1267
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "HDFLookCopy": {
+     "type": "char8",
+     "length": 91,
+     "value": "THE ATTRIBUTES OF THE ORIGINAL SDS THAT ARE USED IN THE CONVERSION (RESAMPLING/GEOPHYSICAL)"
+    },
+    "long_name": {
+     "type": "char8",
+     "length": 24,
+     "value": "Sea Surface Temperature\u0000"
+    },
+    "slope": {
+     "type": "float32",
+     "length": 1,
+     "value": 0.004999999888241291
+    },
+    "intercept": {
+     "type": "float32",
+     "length": 1,
+     "value": 0.0
+    },
+    "units": {
+     "type": "char8",
+     "length": 10,
+     "value": "degrees-C\u0000"
+    }
+   },
+   "values_sha256": "a055493aa9b8c4b35cbf76526338b051aef5fe936704d97edc2f742019258dff",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2502,
+      "length": 2513728
+     }
+    ],
+    "stored_bytes": 2513728,
+    "decoded_bytes": 2513728
+   }
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "Attr0.0": 61
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 63,
+   "VS": 63
+  },
+  "special_elements": {}
+ }
+}

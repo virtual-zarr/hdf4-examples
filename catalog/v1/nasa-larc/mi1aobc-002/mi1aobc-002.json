@@ -1,0 +1,111 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mi1aobc-002",
+ "collection": "nasa-larc",
+ "geometry": null,
+ "properties": {
+  "title": "MI1AOBC v002",
+  "description": "MISR OBC Data V002. Granule MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.hdf.",
+  "datetime": "2003-07-30T15:35:07.000Z",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "annotation",
+   "eos_swath",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "odl_metadata",
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 6,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 21,
+  "sci:doi": "10.5067/Terra/MISR/MI1AOBC_L1A.002",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "license_name": "Data Use Guidance",
+   "license_text": null,
+   "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "access_description": "WORLD"
+  },
+  "cmr:collection_concept_id": "C2917605198-LARC_CLOUD",
+  "cmr:granule_concept_id": "G3425647279-LARC_CLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3425647279-LARC_CLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "Data Use Guidance"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/Terra/MISR/MI1AOBC_L1A.002",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 376520,
+   "file:checksum": "122071da8f18f3ae2dbc52860cde8da2e547d4553e950c8b3111365d8b9a2a9e9bfc"
+  },
+  "expected": {
+   "href": "./MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 209139,
+   "file:checksum": "1220b65557a7bf88bd9e6d07394d6d251849a34d3e0bb2aa00e05065f5929eb6ee78"
+  }
+ }
+}

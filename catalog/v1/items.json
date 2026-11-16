@@ -1,0 +1,2558 @@
+[
+ {
+  "collection": "gdal",
+  "id": "general-rimages",
+  "item": "gdal/general-rimages/general-rimages.json",
+  "data": "gdal/general-rimages/General_RImages.hdf",
+  "expected": "gdal/general-rimages/General_RImages.expected.json",
+  "size": 1210,
+  "sha256": "e6e59701346bb5e40dc423aacb931f9bf86578fa8f671ca6042247db809529aa",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "raster_image"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 0
+ },
+ {
+  "collection": "gdal",
+  "id": "image-with-palette",
+  "item": "gdal/image-with-palette/image-with-palette.json",
+  "data": "gdal/image-with-palette/Image_with_Palette.hdf",
+  "expected": "gdal/image-with-palette/Image_with_Palette.expected.json",
+  "size": 1252,
+  "sha256": "bae824b40cd0a1634829e603ed3d53bb8a52925c5032590fb76c8eb15f1cb275",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "raster_image"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 0
+ },
+ {
+  "collection": "gdal",
+  "id": "sds",
+  "item": "gdal/sds/sds.json",
+  "data": "gdal/sds/SDS.hdf",
+  "expected": "gdal/sds/SDS.expected.json",
+  "size": 4613,
+  "sha256": "b2079e20b509eec8e46e8edc278d02abfc7bf44c3685946f5a022c7c21b1c79d",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous",
+   "unwritten"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float64",
+   "int16",
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "dimension_scale"
+  ],
+  "hdf4:sds_count": 3,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "gdal",
+  "id": "sdsunlimited",
+  "item": "gdal/sdsunlimited/sdsunlimited.json",
+  "data": "gdal/sdsunlimited/SDSUNLIMITED.hdf",
+  "expected": "gdal/sdsunlimited/SDSUNLIMITED.expected.json",
+  "size": 5741,
+  "sha256": "f47be5c7b50d9e18fab3e7d32d7a4876580ea9d18ae87586fb1c45a1c44391b0",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous",
+   "linked_single"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "byte-2",
+  "item": "gdal/byte-2/byte-2.json",
+  "data": "gdal/byte-2/byte_2.hdf",
+  "expected": "gdal/byte-2/byte_2.expected.json",
+  "size": 3970,
+  "sha256": "f9c94fcd59bb9e4fe089bacb6ada064b39f929f693cf46bcdb66711dfe129f0f",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "byte-3",
+  "item": "gdal/byte-3/byte-3.json",
+  "data": "gdal/byte-3/byte_3.hdf",
+  "expected": "gdal/byte-3/byte_3.expected.json",
+  "size": 4109,
+  "sha256": "cfb9879dd2107596dcd4e7f157488b076c1822e58ce59e1277322ad7c12ba051",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "float32-2",
+  "item": "gdal/float32-2/float32-2.json",
+  "data": "gdal/float32-2/float32_2.hdf",
+  "expected": "gdal/float32-2/float32_2.expected.json",
+  "size": 5296,
+  "sha256": "7ac7a4ae83300428b5208f64917c0c4e8cf37dd07ea6d8b6d561542e97bc9bdb",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "float32-3",
+  "item": "gdal/float32-3/float32-3.json",
+  "data": "gdal/float32-3/float32_3.hdf",
+  "expected": "gdal/float32-3/float32_3.expected.json",
+  "size": 5436,
+  "sha256": "d0f1f91b6df38350b41ad8b2771a45e2a3452c96d1225dc7a78dfe9fd80188a7",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "float64-2",
+  "item": "gdal/float64-2/float64-2.json",
+  "data": "gdal/float64-2/float64_2.hdf",
+  "expected": "gdal/float64-2/float64_2.expected.json",
+  "size": 6896,
+  "sha256": "48b92ce0c48d330aa8460fb9395457d9207995ca7bc287605516d78e906fa61b",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float64"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "float64-3",
+  "item": "gdal/float64-3/float64-3.json",
+  "data": "gdal/float64-3/float64_3.hdf",
+  "expected": "gdal/float64-3/float64_3.expected.json",
+  "size": 6896,
+  "sha256": "84ebe67bc9fdfc2153f1b21ff97f2a91259154ebb61d092b9354ee9e95538a6b",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float64"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "int16-2",
+  "item": "gdal/int16-2/int16-2.json",
+  "data": "gdal/int16-2/int16_2.hdf",
+  "expected": "gdal/int16-2/int16_2.expected.json",
+  "size": 4494,
+  "sha256": "6dfa2f4cf9b33dad01abccf3278754aa99bc2b5f1ebee714028c10c963a637c1",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "int16-3",
+  "item": "gdal/int16-3/int16-3.json",
+  "data": "gdal/int16-3/int16_3.hdf",
+  "expected": "gdal/int16-3/int16_3.expected.json",
+  "size": 4634,
+  "sha256": "18cc163d5c41ec615317d70a3f47cd6eddb7167bf56f0cef3ce0989027f3cf0e",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "int32-2",
+  "item": "gdal/int32-2/int32-2.json",
+  "data": "gdal/int32-2/int32_2.hdf",
+  "expected": "gdal/int32-2/int32_2.expected.json",
+  "size": 5294,
+  "sha256": "4489df495ee20b97e2b0b6490579b79b6034826edea17336a8b19507f32615d4",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "int32-3",
+  "item": "gdal/int32-3/int32-3.json",
+  "data": "gdal/int32-3/int32_3.hdf",
+  "expected": "gdal/int32-3/int32_3.expected.json",
+  "size": 5434,
+  "sha256": "934e78d76f432047cc4003fb4fdf3ecf1043de07d199b55a2381d5d1ce3065ef",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "uint16-2",
+  "item": "gdal/uint16-2/uint16-2.json",
+  "data": "gdal/uint16-2/uint16_2.hdf",
+  "expected": "gdal/uint16-2/uint16_2.expected.json",
+  "size": 4495,
+  "sha256": "c9a092fc1b1b4da4b278b0fafc0608d97dbaf77ed5c9ed665257ccd0aa3659a4",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "uint16-3",
+  "item": "gdal/uint16-3/uint16-3.json",
+  "data": "gdal/uint16-3/uint16_3.hdf",
+  "expected": "gdal/uint16-3/uint16_3.expected.json",
+  "size": 4634,
+  "sha256": "0b52b68c6699283fd22e369101f3a500bdc8c57f096a3ebc9a3a0c753faa5c6e",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "uint32-2",
+  "item": "gdal/uint32-2/uint32-2.json",
+  "data": "gdal/uint32-2/uint32_2.hdf",
+  "expected": "gdal/uint32-2/uint32_2.expected.json",
+  "size": 5295,
+  "sha256": "a1aee04b3bc599c8a9674bd86bfb7c7085b5fe208483d3a50ab12acfd11f7238",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "uint32-3",
+  "item": "gdal/uint32-3/uint32-3.json",
+  "data": "gdal/uint32-3/uint32_3.hdf",
+  "expected": "gdal/uint32-3/uint32_3.expected.json",
+  "size": 5435,
+  "sha256": "96a8dcfcef9dd8a09506908c4d6160fa15bc40355b12533c96625714af6d1141",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint32"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "utmsmall-2",
+  "item": "gdal/utmsmall-2/utmsmall-2.json",
+  "data": "gdal/utmsmall-2/utmsmall_2.hdf",
+  "expected": "gdal/utmsmall-2/utmsmall_2.expected.json",
+  "size": 13697,
+  "sha256": "4374b9b34cb8f0416e38e6da36dce6032342baa20bafc798f3a8562644c255fe",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "utmsmall-3",
+  "item": "gdal/utmsmall-3/utmsmall-3.json",
+  "data": "gdal/utmsmall-3/utmsmall_3.hdf",
+  "expected": "gdal/utmsmall-3/utmsmall_3.expected.json",
+  "size": 13837,
+  "sha256": "776340eb4485b778c30a9e77694df6037286a75a9c07c428a7d303d91354770d",
+  "hdf4:library_version": "4.1.4",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "hdifftst2",
+  "item": "gdal/hdifftst2/hdifftst2.json",
+  "data": "gdal/hdifftst2/hdifftst2.hdf",
+  "expected": "gdal/hdifftst2/hdifftst2.expected.json",
+  "size": 3992,
+  "sha256": "4b67d62e18cc51bf3d7ee0d442d2c6a1b1fd7a2ce2636a99e49080843f0a88db",
+  "hdf4:library_version": "4.2.1",
+  "hdf4:data_models": [
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute"
+  ],
+  "hdf4:sds_count": 3,
+  "hdf4:vdata_count": 3,
+  "hdf4:range_count": 3
+ },
+ {
+  "collection": "gdal",
+  "id": "a2004259075000-l2-lac-sst",
+  "item": "gdal/a2004259075000-l2-lac-sst/a2004259075000-l2-lac-sst.json",
+  "data": "gdal/a2004259075000-l2-lac-sst/A2004259075000.L2_LAC_SST.hdf",
+  "expected": "gdal/a2004259075000-l2-lac-sst/A2004259075000.L2_LAC_SST.expected.json",
+  "size": 2524436,
+  "sha256": "419b6a27a106ac82e073f32aa4a326d34c1ea3191af83344f78bc359f5d081fc",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "gdal",
+  "id": "a2006005182000-l2-lac-sst-x",
+  "item": "gdal/a2006005182000-l2-lac-sst-x/a2006005182000-l2-lac-sst-x.json",
+  "data": "gdal/a2006005182000-l2-lac-sst-x/A2006005182000.L2_LAC_SST.x.hdf",
+  "expected": "gdal/a2006005182000-l2-lac-sst-x/A2006005182000.L2_LAC_SST.x.expected.json",
+  "size": 3566493,
+  "sha256": "a4ac6d11a35fa591d7efc17d4a1ca66131874ba1a784d26c8f5f6966b5e9473d",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16",
+   "int32",
+   "int8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute"
+  ],
+  "hdf4:sds_count": 24,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 24
+ },
+ {
+  "collection": "gdal",
+  "id": "mod09a1-a2010041-h06v03-005-2010051001103",
+  "item": "gdal/mod09a1-a2010041-h06v03-005-2010051001103/mod09a1-a2010041-h06v03-005-2010051001103.json",
+  "data": "gdal/mod09a1-a2010041-h06v03-005-2010051001103/MOD09A1.A2010041.h06v03.005.2010051001103.hdf",
+  "expected": "gdal/mod09a1-a2010041-h06v03-005-2010051001103/MOD09A1.A2010041.h06v03.005.2010051001103.expected.json",
+  "size": 4703875,
+  "sha256": "4449882122621c2d9f8551683e04bf9bfd2fd9c6be2e88b4ad3e6135764e5f52",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "uint16",
+   "uint32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 13,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 975
+ },
+ {
+  "collection": "gdal",
+  "id": "mod09q1g-evi-a2006233-h07v03-005-2008338190308",
+  "item": "gdal/mod09q1g-evi-a2006233-h07v03-005-2008338190308/mod09q1g-evi-a2006233-h07v03-005-2008338190308.json",
+  "data": "gdal/mod09q1g-evi-a2006233-h07v03-005-2008338190308/MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.hdf",
+  "expected": "gdal/mod09q1g-evi-a2006233-h07v03-005-2008338190308/MOD09Q1G_EVI.A2006233.h07v03.005.2008338190308.expected.json",
+  "size": 1318886,
+  "sha256": "8133d202220ee637623268187a93d2e1cc2c2e2dd3844c7c9fa49c053ea2f90d",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 6,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 6
+ },
+ {
+  "collection": "gdal",
+  "id": "reanalysis-1999217",
+  "item": "gdal/reanalysis-1999217/reanalysis-1999217.json",
+  "data": "gdal/reanalysis-1999217/REANALYSIS_1999217.hdf",
+  "expected": "gdal/reanalysis-1999217/REANALYSIS_1999217.expected.json",
+  "size": 269811,
+  "sha256": "b1176f964b96ee51e08502ab33ae8e565958251543288618c3673987abe51adb",
+  "hdf4:library_version": "4.2.1",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "array_attribute",
+   "dimension_scale"
+  ],
+  "hdf4:sds_count": 5,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 5
+ },
+ {
+  "collection": "gdal",
+  "id": "s2002196124536-l1a-hdun-bartonbendish-extract",
+  "item": "gdal/s2002196124536-l1a-hdun-bartonbendish-extract/s2002196124536-l1a-hdun-bartonbendish-extract.json",
+  "data": "gdal/s2002196124536-l1a-hdun-bartonbendish-extract/S2002196124536.L1A_HDUN.BartonBendish.extract.hdf",
+  "expected": "gdal/s2002196124536-l1a-hdun-bartonbendish-extract/S2002196124536.L1A_HDUN.BartonBendish.extract.expected.json",
+  "size": 2398456,
+  "sha256": "bba02fc4b24897c9cc397b7c37a97789c53068c6d5819ff692b48eca791251b5",
+  "hdf4:library_version": "4.1.1",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "int16",
+   "int32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "array_attribute"
+  ],
+  "hdf4:sds_count": 53,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 53
+ },
+ {
+  "collection": "nasa-ghrc",
+  "id": "olsana-1",
+  "item": "nasa-ghrc/olsana-1/olsana-1.json",
+  "data": "nasa-ghrc/olsana-1/olslit78.aug_analog.hdf",
+  "expected": "nasa-ghrc/olsana-1/olslit78.aug_analog.expected.json",
+  "size": 384014,
+  "sha256": "0d19498dd4791f4ab9290056f5f40243332d31554348cfd7590ab782cca67359",
+  "hdf4:library_version": "3.3.4",
+  "hdf4:data_models": [
+   "raster_image",
+   "vdata"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 0
+ },
+ {
+  "collection": "nasa-larc",
+  "id": "cal-wfc-l1-cal-standard-v4-00-v4-00",
+  "item": "nasa-larc/cal-wfc-l1-cal-standard-v4-00-v4-00/cal-wfc-l1-cal-standard-v4-00-v4-00.json",
+  "data": "nasa-larc/cal-wfc-l1-cal-standard-v4-00-v4-00/CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.hdf",
+  "expected": "nasa-larc/cal-wfc-l1-cal-standard-v4-00-v4-00/CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.expected.json",
+  "size": 32062,
+  "sha256": "60d5d5873621bce1e6c2ca47f0814c456c675ad7abd7026a3332c88beebba65a",
+  "hdf4:library_version": "4.2.13",
+  "hdf4:data_models": [
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "uint16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "unlimited_dimension",
+   "zero_length"
+  ],
+  "hdf4:sds_count": 14,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 0
+ },
+ {
+  "collection": "nasa-larc",
+  "id": "mi3daer-002",
+  "item": "nasa-larc/mi3daer-002/mi3daer-002.json",
+  "data": "nasa-larc/mi3daer-002/MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.hdf",
+  "expected": "nasa-larc/mi3daer-002/MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.expected.json",
+  "size": 49261,
+  "sha256": "4a3e53e8a81699e29fc912cd9224e576c6584e02b85891cde88a9acd42305e24",
+  "hdf4:library_version": "4.2.0",
+  "hdf4:data_models": [
+   "annotation",
+   "eos_grid",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int32",
+   "int8"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 4,
+  "hdf4:vdata_count": 7,
+  "hdf4:range_count": 4
+ },
+ {
+  "collection": "nasa-larc",
+  "id": "mi1aobc-002",
+  "item": "nasa-larc/mi1aobc-002/mi1aobc-002.json",
+  "data": "nasa-larc/mi1aobc-002/MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.hdf",
+  "expected": "nasa-larc/mi1aobc-002/MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.expected.json",
+  "size": 376520,
+  "sha256": "71da8f18f3ae2dbc52860cde8da2e547d4553e950c8b3111365d8b9a2a9e9bfc",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "annotation",
+   "eos_swath",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "odl_metadata",
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 6,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 21
+ },
+ {
+  "collection": "nasa-larc",
+  "id": "mb2lme-002",
+  "item": "nasa-larc/mb2lme-002/mb2lme-002.json",
+  "data": "nasa-larc/mb2lme-002/MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.hdf",
+  "expected": "nasa-larc/mb2lme-002/MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.expected.json",
+  "size": 5574833,
+  "sha256": "4aedeee9314c21f2eb3d54974e8ea04b2bf4c11f5e18976ec711d07988ecfecd",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "annotation",
+   "eos_grid",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "uint16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata",
+   "partial_chunks"
+  ],
+  "hdf4:sds_count": 10,
+  "hdf4:vdata_count": 3,
+  "hdf4:range_count": 30
+ },
+ {
+  "collection": "nasa-larc",
+  "id": "isccp-d2-1",
+  "item": "nasa-larc/isccp-d2-1/isccp-d2-1.json",
+  "data": "nasa-larc/isccp-d2-1/ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.hdf",
+  "expected": "nasa-larc/isccp-d2-1/ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.expected.json",
+  "size": 8040497,
+  "sha256": "361fc926df957c9e1a1cc1aa93727336a5014128dc0283e0a2f6f446166bdf4d",
+  "hdf4:library_version": "4.1.3",
+  "hdf4:data_models": [
+   "annotation",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 9,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 9
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod14-061",
+  "item": "nasa-lpcloud/mod14-061/mod14-061.json",
+  "data": "nasa-lpcloud/mod14-061/MOD14.A2000055.1025.061.2020037091616.hdf",
+  "expected": "nasa-lpcloud/mod14-061/MOD14.A2000055.1025.061.2020037091616.expected.json",
+  "size": 102432,
+  "sha256": "e27e919921b6b57e2fc1c3271652c8742d579c5e2e541678dfb7678d23532bf5",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate",
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16",
+   "uint16",
+   "uint32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "odl_metadata",
+   "unlimited_dimension",
+   "zero_length"
+  ],
+  "hdf4:sds_count": 30,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 398
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod09a1-061",
+  "item": "nasa-lpcloud/mod09a1-061/mod09a1-061.json",
+  "data": "nasa-lpcloud/mod09a1-061/MOD09A1.A2000049.h23v10.061.2020041203606.hdf",
+  "expected": "nasa-lpcloud/mod09a1-061/MOD09A1.A2000049.h23v10.061.2020041203606.expected.json",
+  "size": 408562,
+  "sha256": "adb9f17ceaffab0d973a768072ad3e4729ace1d474dfdb37f36ec5e3da26baf6",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "uint16",
+   "uint32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 13,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 975
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod09ga-061",
+  "item": "nasa-lpcloud/mod09ga-061/mod09ga-061.json",
+  "data": "nasa-lpcloud/mod09ga-061/MOD09GA.A2000055.h23v10.061.2020037171107.hdf",
+  "expected": "nasa-lpcloud/mod09ga-061/MOD09GA.A2000055.h23v10.061.2020037171107.expected.json",
+  "size": 510379,
+  "sha256": "80a41070db8d0d07a14a34bf3e24c32e3e890d83971adff4cf3fac59c1142b0e",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked",
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "deflate",
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "int32",
+   "int8",
+   "uint16",
+   "uint32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 32,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1290
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod11-l2-061",
+  "item": "nasa-lpcloud/mod11-l2-061/mod11-l2-061.json",
+  "data": "nasa-lpcloud/mod11-l2-061/MOD11_L2.A2000056.0510.061.2020042180153.hdf",
+  "expected": "nasa-lpcloud/mod11-l2-061/MOD11_L2.A2000056.0510.061.2020042180153.expected.json",
+  "size": 537253,
+  "sha256": "3bd0991575379b266d5db52792a0f99a1bcce16d1b5f9d1cdc27ecc1dc57bee1",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 9,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 9
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod11b1-061",
+  "item": "nasa-lpcloud/mod11b1-061/mod11b1-061.json",
+  "data": "nasa-lpcloud/mod11b1-061/MOD11B1.A2000055.h17v15.061.2020043121050.hdf",
+  "expected": "nasa-lpcloud/mod11b1-061/MOD11B1.A2000055.h17v15.061.2020043121050.expected.json",
+  "size": 93409,
+  "sha256": "43c04cbff0d89d392598f078025756b4ebe84f35235c310b46ba3812f5b7277c",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 23,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 23
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod11c1-061",
+  "item": "nasa-lpcloud/mod11c1-061/mod11c1-061.json",
+  "data": "nasa-lpcloud/mod11c1-061/MOD11C1.A2000231.061.2020059094504.hdf",
+  "expected": "nasa-lpcloud/mod11c1-061/MOD11C1.A2000231.061.2020059094504.expected.json",
+  "size": 5083021,
+  "sha256": "9fde9d130d323900ef188abce0e4b06c596e186ff0b4284ce8692afbf51ff4a0",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunk_multi_range",
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 21,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1100
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mcd12q1-061",
+  "item": "nasa-lpcloud/mcd12q1-061/mcd12q1-061.json",
+  "data": "nasa-lpcloud/mcd12q1-061/MCD12Q1.A2001001.h30v05.061.2022146161624.hdf",
+  "expected": "nasa-lpcloud/mcd12q1-061/MCD12Q1.A2001001.h30v05.061.2022146161624.expected.json",
+  "size": 145805,
+  "sha256": "ad892f49580ff8beb5264fe42e44fba8bdf36bc659e5f9856e05a11b1d1b0976",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 13,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 13
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod13a2-061",
+  "item": "nasa-lpcloud/mod13a2-061/mod13a2-061.json",
+  "data": "nasa-lpcloud/mod13a2-061/MOD13A2.A2000049.h20v00.061.2020041154035.hdf",
+  "expected": "nasa-lpcloud/mod13a2-061/MOD13A2.A2000049.h20v00.061.2020041154035.expected.json",
+  "size": 1296743,
+  "sha256": "3279bd63703e5f22f55131ddfe1453d5d4db0f1676b7869b3bec846db105ce00",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "int8",
+   "uint16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 12,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 14400
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mcd19a2-061",
+  "item": "nasa-lpcloud/mcd19a2-061/mcd19a2-061.json",
+  "data": "nasa-lpcloud/mcd19a2-061/MCD19A2.A2000055.h19v06.061.2022153215147.hdf",
+  "expected": "nasa-lpcloud/mcd19a2-061/MCD19A2.A2000055.h19v06.061.2022153215147.expected.json",
+  "size": 100702,
+  "sha256": "83294e09010935e81b207cc73b145fd17678ce526ed8953fd62e0dc1c42239fa",
+  "hdf4:library_version": "4.2.13",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16",
+   "uint16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 13,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 13
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod21-061",
+  "item": "nasa-lpcloud/mod21-061/mod21-061.json",
+  "data": "nasa-lpcloud/mod21-061/MOD21.A2000056.0405.061.2020037140051.hdf",
+  "expected": "nasa-lpcloud/mod21-061/MOD21.A2000056.0405.061.2020037140051.expected.json",
+  "size": 1382714,
+  "sha256": "a31e4b6b1bdcbb5bbbedcbd1f36d66b46f641d7bec04f086abb3bfeaad13879d",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 15,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 15
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mcd43a4-061",
+  "item": "nasa-lpcloud/mcd43a4-061/mcd43a4-061.json",
+  "data": "nasa-lpcloud/mcd43a4-061/MCD43A4.A2000055.h18v14.061.2020038135131.hdf",
+  "expected": "nasa-lpcloud/mcd43a4-061/MCD43A4.A2000055.h18v14.061.2020038135131.expected.json",
+  "size": 277992,
+  "sha256": "88576f68aa6162abb732fe725d008c9ffd0f1843e2ed290963afabb5627b69dc",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 14,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 336
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "mod28c2-061",
+  "item": "nasa-lpcloud/mod28c2-061/mod28c2-061.json",
+  "data": "nasa-lpcloud/mod28c2-061/MOD28C2.A2000057.061.2023167141051.hdf",
+  "expected": "nasa-lpcloud/mod28c2-061/MOD28C2.A2000057.061.2023167141051.expected.json",
+  "size": 25487,
+  "sha256": "de3723f560b7b248291812425934c048b8060c7ccc0de58d0cdb6011152a351b",
+  "hdf4:library_version": "4.2.13",
+  "hdf4:data_models": [
+   "vdata"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 0
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "ast-l1a-004",
+  "item": "nasa-lpcloud/ast-l1a-004/ast-l1a-004.json",
+  "data": "nasa-lpcloud/ast-l1a-004/AST_L1A_00403042000203404_20250124090801.hdf",
+  "expected": "nasa-lpcloud/ast-l1a-004/AST_L1A_00403042000203404_20250124090801.expected.json",
+  "size": 5974930,
+  "sha256": "429dff1d5716b39746b67794a276e8079e9ef39fd90813eb8570df0307bd7923",
+  "hdf4:library_version": "4.1.3",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "int32",
+   "uint16",
+   "uint32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 4,
+  "hdf4:features": [
+   "duplicate_names",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 64,
+  "hdf4:vdata_count": 22,
+  "hdf4:range_count": 64
+ },
+ {
+  "collection": "nasa-lpcloud",
+  "id": "gweldmo-003",
+  "item": "nasa-lpcloud/gweldmo-003/gweldmo-003.json",
+  "data": "nasa-lpcloud/gweldmo-003/L05.Globe.month12.2008.hh31vv09.h5v5.doy342to358.NBAR.v3.0.hdf",
+  "expected": "nasa-lpcloud/gweldmo-003/L05.Globe.month12.2008.hh31vv09.h5v5.doy342to358.NBAR.v3.0.expected.json",
+  "size": 5408040,
+  "sha256": "4d3810bb8d35e762de49132ecf0391d9cd5dd630c6469f9b57249028c3e8a78f",
+  "hdf4:library_version": "4.2.8",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 24,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 48
+ },
+ {
+  "collection": "nasa-nsidc",
+  "id": "ae-rngd-2",
+  "item": "nasa-nsidc/ae-rngd-2/ae-rngd-2.json",
+  "data": "nasa-nsidc/ae-rngd-2/AMSR_E_L3_RainGrid_V06_200907.hdf",
+  "expected": "nasa-nsidc/ae-rngd-2/AMSR_E_L3_RainGrid_V06_200907.expected.json",
+  "size": 91055,
+  "sha256": "5d0e713c913879797d48770de220c51bfdf88cb3f800e4a5bd5533b333118f15",
+  "hdf4:library_version": "4.2.1",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "nasa-nsidc",
+  "id": "mod10a1-61",
+  "item": "nasa-nsidc/mod10a1-61/mod10a1-61.json",
+  "data": "nasa-nsidc/mod10a1-61/MOD10A1.A2000055.h30v10.061.2020037172755.hdf",
+  "expected": "nasa-nsidc/mod10a1-61/MOD10A1.A2000055.h30v10.061.2020037172755.expected.json",
+  "size": 127400,
+  "sha256": "6fd8b748781fb4a572af734b7ee2f8c0ad1ad2ef65fb9daf31e72bb435f2102f",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "int8",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 7,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 14
+ },
+ {
+  "collection": "nasa-nsidc",
+  "id": "mod29-61",
+  "item": "nasa-nsidc/mod29-61/mod29-61.json",
+  "data": "nasa-nsidc/mod29-61/MOD29.A2000055.1120.061.2020037135737.hdf",
+  "expected": "nasa-nsidc/mod29-61/MOD29.A2000055.1120.061.2020037135737.expected.json",
+  "size": 969824,
+  "sha256": "599633d5f8d3036fec627d7e84ee2a651b9f4ba89c7b62349cee9de04e11cd8b",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked",
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "deflate",
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 4,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 206
+ },
+ {
+  "collection": "nasa-nsidc",
+  "id": "aa-l2a-1",
+  "item": "nasa-nsidc/aa-l2a-1/aa-l2a-1.json",
+  "data": "nasa-nsidc/aa-l2a-1/AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.hdf",
+  "expected": "nasa-nsidc/aa-l2a-1/AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.expected.json",
+  "size": 11559212,
+  "sha256": "31aa3329db586ae0f361137ef28c7cd95bdff5223b3d6e4533b2d32d8720953b",
+  "hdf4:library_version": "4.2.1",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16",
+   "int8",
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "duplicate_names",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 94,
+  "hdf4:vdata_count": 7,
+  "hdf4:range_count": 94
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-chunk-extra-area",
+  "item": "opendap/sds-chunk-extra-area/sds-chunk-extra-area.json",
+  "data": "opendap/sds-chunk-extra-area/SDS_chunk_extra_area.hdf",
+  "expected": "opendap/sds-chunk-extra-area/SDS_chunk_extra_area.expected.json",
+  "size": 7283,
+  "sha256": "37a841361d711cb62a1c5353f576c6cbdf259ddc7197413a6a49a1fc4c202952",
+  "hdf4:library_version": "4.2.15",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-chunk-extra-area-comp",
+  "item": "opendap/sds-chunk-extra-area-comp/sds-chunk-extra-area-comp.json",
+  "data": "opendap/sds-chunk-extra-area-comp/SDS_chunk_extra_area_comp.hdf",
+  "expected": "opendap/sds-chunk-extra-area-comp/SDS_chunk_extra_area_comp.expected.json",
+  "size": 7346,
+  "sha256": "7c62bc886290fe9c0ba61296a8a9543e44255fa75be615b0f27c034f862cd709",
+  "hdf4:library_version": "4.2.15",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-fillchunk-alltypes",
+  "item": "opendap/sds-fillchunk-alltypes/sds-fillchunk-alltypes.json",
+  "data": "opendap/sds-fillchunk-alltypes/SDS_fillchunk_alltypes.hdf",
+  "expected": "opendap/sds-fillchunk-alltypes/SDS_fillchunk_alltypes.expected.json",
+  "size": 26574,
+  "sha256": "9f9a30090813907a09b7aec53654316deedc8b4ad163f3792b0545cccb345adb",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "int32",
+   "int8",
+   "uint16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "fill_value",
+   "partial_chunks"
+  ],
+  "hdf4:sds_count": 5,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 10
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-fillchunk-comp",
+  "item": "opendap/sds-fillchunk-comp/sds-fillchunk-comp.json",
+  "data": "opendap/sds-fillchunk-comp/SDS_fillchunk_comp.hdf",
+  "expected": "opendap/sds-fillchunk-comp/SDS_fillchunk_comp.expected.json",
+  "size": 7404,
+  "sha256": "23a0e818dcd8ae672306764878017fd2f1ca33c842feb3c1b4e80ffe29b2a4a5",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "fill_value",
+   "partial_chunks"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-simple",
+  "item": "opendap/sds-simple/sds-simple.json",
+  "data": "opendap/sds-simple/SDS_simple.hdf",
+  "expected": "opendap/sds-simple/SDS_simple.expected.json",
+  "size": 2932,
+  "sha256": "1d1394c4a156692016f7de730119a3c105b8211ff06f5642f7d919fb94a3503d",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-simple-chunk",
+  "item": "opendap/sds-simple-chunk/sds-simple-chunk.json",
+  "data": "opendap/sds-simple-chunk/SDS_simple_chunk.hdf",
+  "expected": "opendap/sds-simple-chunk/SDS_simple_chunk.expected.json",
+  "size": 7285,
+  "sha256": "38a820e9b4bd11395a2b08dfde59dde7da2dcde29dca78795e07bb1a9cde4daf",
+  "hdf4:library_version": "4.2.15",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-simple-chunk-comp",
+  "item": "opendap/sds-simple-chunk-comp/sds-simple-chunk-comp.json",
+  "data": "opendap/sds-simple-chunk-comp/SDS_simple_chunk_comp.hdf",
+  "expected": "opendap/sds-simple-chunk-comp/SDS_simple_chunk_comp.expected.json",
+  "size": 7349,
+  "sha256": "f97b1e1238c4430a119cf3acbeee0f062aba99ea32fcb5341b814d1187ceafed",
+  "hdf4:library_version": "4.2.15",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-simple-comp",
+  "item": "opendap/sds-simple-comp/sds-simple-comp.json",
+  "data": "opendap/sds-simple-comp/SDS_simple_comp.hdf",
+  "expected": "opendap/sds-simple-comp/SDS_simple_comp.expected.json",
+  "size": 2957,
+  "sha256": "16032fea7636d63ff3f457b2155faeab609a4808124f20994334085e76079882",
+  "hdf4:library_version": "4.2.15",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-simple-double",
+  "item": "opendap/sds-simple-double/sds-simple-double.json",
+  "data": "opendap/sds-simple-double/SDS_simple_double.hdf",
+  "expected": "opendap/sds-simple-double/SDS_simple_double.expected.json",
+  "size": 2978,
+  "sha256": "5f1db6fb7e48e4fa246c0f209f3d1a0656cab10a5558ea87cb64a7ec1d49df79",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float64"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-simple-float",
+  "item": "opendap/sds-simple-float/sds-simple-float.json",
+  "data": "opendap/sds-simple-float/SDS_simple_float.hdf",
+  "expected": "opendap/sds-simple-float/SDS_simple_float.expected.json",
+  "size": 2944,
+  "sha256": "e92bd5f5420c863f4e2528f3a238a9ef9064f6599a2cce11b6d8b6743eabdb6b",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "opendap",
+  "id": "sds-unlimited-2",
+  "item": "opendap/sds-unlimited-2/sds-unlimited-2.json",
+  "data": "opendap/sds-unlimited-2/SDS_unlimited_2.hdf",
+  "expected": "opendap/sds-unlimited-2/SDS_unlimited_2.expected.json",
+  "size": 4467,
+  "sha256": "aafa0ad202b42be3019239469de9b23ac664328c40813e5801b8043535464a3c",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous",
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 4
+ },
+ {
+  "collection": "opendap",
+  "id": "sinusoid",
+  "item": "opendap/sinusoid/sinusoid.json",
+  "data": "opendap/sinusoid/sinusoid.hdf",
+  "expected": "opendap/sinusoid/sinusoid.expected.json",
+  "size": 35234,
+  "sha256": "3fc03745f79d2e9b0187cb9464225085fa11986d8e875fe6a16875b670f12e80",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "opendap",
+  "id": "vg-hl-test",
+  "item": "opendap/vg-hl-test/vg-hl-test.json",
+  "data": "opendap/vg-hl-test/vg_hl_test.hdf",
+  "expected": "opendap/vg-hl-test/vg_hl_test.expected.json",
+  "size": 1323,
+  "sha256": "cf536121814f033764ac1afe0e4e9f9e0bf237ed71f24ad352819f173918b64c",
+  "hdf4:library_version": "4.2.16",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "contiguous-int16",
+  "item": "synthetic/contiguous-int16/contiguous-int16.json",
+  "data": "synthetic/contiguous-int16/contiguous-int16.hdf",
+  "expected": "synthetic/contiguous-int16/contiguous-int16.expected.json",
+  "size": 2921,
+  "sha256": "395d5e11fa471cc11df118477d851c89028401885efe193eb699a461f69932e1",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "contiguous-sliced-writes",
+  "item": "synthetic/contiguous-sliced-writes/contiguous-sliced-writes.json",
+  "data": "synthetic/contiguous-sliced-writes/contiguous-sliced-writes.hdf",
+  "expected": "synthetic/contiguous-sliced-writes/contiguous-sliced-writes.expected.json",
+  "size": 42905,
+  "sha256": "2a266fa84bea850a3b15cad95d88544a67aa28c5a311a59a7831c590e4cda967",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "deflate-float32",
+  "item": "synthetic/deflate-float32/deflate-float32.json",
+  "data": "synthetic/deflate-float32/deflate-float32.hdf",
+  "expected": "synthetic/deflate-float32/deflate-float32.expected.json",
+  "size": 2956,
+  "sha256": "61f14df86708ad0b1e7f4327c0f5ef1c9eef81d14843e00eb3c858ef0c75f941",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "deflate-float64",
+  "item": "synthetic/deflate-float64/deflate-float64.json",
+  "data": "synthetic/deflate-float64/deflate-float64.hdf",
+  "expected": "synthetic/deflate-float64/deflate-float64.expected.json",
+  "size": 2969,
+  "sha256": "5897ff7591917e196eb95ecb27cbb82ee97b7ddce3f6490a766cecaecdf0e9ce",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float64"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "rle-int16",
+  "item": "synthetic/rle-int16/rle-int16.json",
+  "data": "synthetic/rle-int16/rle-int16.hdf",
+  "expected": "synthetic/rle-int16/rle-int16.expected.json",
+  "size": 3018,
+  "sha256": "f0c0b20dcc5c6387e1cbb559367fc94a1809abb7df3132d66b6061d5264b0461",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "rle"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "skphuff-int16",
+  "item": "synthetic/skphuff-int16/skphuff-int16.json",
+  "data": "synthetic/skphuff-int16/skphuff-int16.hdf",
+  "expected": "synthetic/skphuff-int16/skphuff-int16.expected.json",
+  "size": 2941,
+  "sha256": "e3fb13a1f0247086cbc67e11d11d5ba45828c78d43a0d3c17190f7635e7c65c6",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "skphuff"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1,
+  "hdf4:reproducible": false
+ },
+ {
+  "collection": "synthetic",
+  "id": "chunked-uncompressed",
+  "item": "synthetic/chunked-uncompressed/chunked-uncompressed.json",
+  "data": "synthetic/chunked-uncompressed/chunked-uncompressed.hdf",
+  "expected": "synthetic/chunked-uncompressed/chunked-uncompressed.expected.json",
+  "size": 7288,
+  "sha256": "1ec9345cf11adba56e9aae8bb67af3eecca95c349e0a926b5245a51362ffb0c7",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 4
+ },
+ {
+  "collection": "synthetic",
+  "id": "chunked-deflate-3d",
+  "item": "synthetic/chunked-deflate-3d/chunked-deflate-3d.json",
+  "data": "synthetic/chunked-deflate-3d/chunked-deflate-3d.hdf",
+  "expected": "synthetic/chunked-deflate-3d/chunked-deflate-3d.expected.json",
+  "size": 7741,
+  "sha256": "c9140d38d5fc19a7e66fd2ab38beaa0c26ece8b373fcc8f915d526a9a75213b4",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 8
+ },
+ {
+  "collection": "synthetic",
+  "id": "chunked-deflate-edge",
+  "item": "synthetic/chunked-deflate-edge/chunked-deflate-edge.json",
+  "data": "synthetic/chunked-deflate-edge/chunked-deflate-edge.hdf",
+  "expected": "synthetic/chunked-deflate-edge/chunked-deflate-edge.expected.json",
+  "size": 7557,
+  "sha256": "9d0c3c29695a46a24a0a463674b7440ef6998604bf0854b5f540f40978d63e55",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 9
+ },
+ {
+  "collection": "synthetic",
+  "id": "chunked-deflate-partial",
+  "item": "synthetic/chunked-deflate-partial/chunked-deflate-partial.json",
+  "data": "synthetic/chunked-deflate-partial/chunked-deflate-partial.hdf",
+  "expected": "synthetic/chunked-deflate-partial/chunked-deflate-partial.expected.json",
+  "size": 7377,
+  "sha256": "1bf0c15f8ef1445423092680366bff5b13296811b2293c45731b4c6f4359c4e6",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "fill_value",
+   "partial_chunks"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "synthetic",
+  "id": "chunked-deflate-single",
+  "item": "synthetic/chunked-deflate-single/chunked-deflate-single.json",
+  "data": "synthetic/chunked-deflate-single/chunked-deflate-single.hdf",
+  "expected": "synthetic/chunked-deflate-single/chunked-deflate-single.expected.json",
+  "size": 3144,
+  "sha256": "260f45dde54202a8b5b5b80f70942a59dc2bba654bdf45cd769234017d872e0b",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "unlimited-one-block",
+  "item": "synthetic/unlimited-one-block/unlimited-one-block.json",
+  "data": "synthetic/unlimited-one-block/unlimited-one-block.hdf",
+  "expected": "synthetic/unlimited-one-block/unlimited-one-block.expected.json",
+  "size": 3687,
+  "sha256": "090a03aee3a9f85ea186ff17491e32af114df326d5c6e12399f8e15236abc4d8",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous",
+   "linked_single"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "unlimited-interleaved",
+  "item": "synthetic/unlimited-interleaved/unlimited-interleaved.json",
+  "data": "synthetic/unlimited-interleaved/unlimited-interleaved.hdf",
+  "expected": "synthetic/unlimited-interleaved/unlimited-interleaved.expected.json",
+  "size": 24285,
+  "sha256": "a4d7526e359527004b0cee7e2b7b6f19450f631d4a9f7c000845d80299309d4b",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "unlimited_dimension"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 40
+ },
+ {
+  "collection": "synthetic",
+  "id": "never-written",
+  "item": "synthetic/never-written/never-written.json",
+  "data": "synthetic/never-written/never-written.hdf",
+  "expected": "synthetic/never-written/never-written.expected.json",
+  "size": 3569,
+  "sha256": "0949e433abcdcf2406e35f31436277068eb9238be961ab6caf41f3ad8205790c",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "unwritten"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "fill_value"
+  ],
+  "hdf4:sds_count": 3,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 0
+ },
+ {
+  "collection": "synthetic",
+  "id": "all-number-types",
+  "item": "synthetic/all-number-types/all-number-types.json",
+  "data": "synthetic/all-number-types/all-number-types.hdf",
+  "expected": "synthetic/all-number-types/all-number-types.expected.json",
+  "size": 5573,
+  "sha256": "4a5d23a32e7417aa97bd7ccc62f20a6024d06e610ee5d544d5e0879d4c13edaa",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "int16",
+   "int32",
+   "int8",
+   "uint16",
+   "uint32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 8,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 8
+ },
+ {
+  "collection": "synthetic",
+  "id": "little-endian-types",
+  "item": "synthetic/little-endian-types/little-endian-types.json",
+  "data": "synthetic/little-endian-types/little-endian-types.hdf",
+  "expected": "synthetic/little-endian-types/little-endian-types.expected.json",
+  "size": 4087,
+  "sha256": "e18969d5a7eea26fdd6bf11cd94c03392f74226ac198fd3b2ca0b32bf3fd9511",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32-le",
+   "float64-le",
+   "int16-le",
+   "int32-le"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 4,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 4
+ },
+ {
+  "collection": "synthetic",
+  "id": "char-dataset",
+  "item": "synthetic/char-dataset/char-dataset.json",
+  "data": "synthetic/char-dataset/char-dataset.hdf",
+  "expected": "synthetic/char-dataset/char-dataset.expected.json",
+  "size": 2872,
+  "sha256": "6ce44d120fef591932e5d0c4ac4d0f8d3f838854ac1d47417c4bc584a8063007",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "char8"
+  ],
+  "hdf4:max_rank": 1,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "attributes",
+  "item": "synthetic/attributes/attributes.json",
+  "data": "synthetic/attributes/attributes.hdf",
+  "expected": "synthetic/attributes/attributes.expected.json",
+  "size": 3766,
+  "sha256": "03ce1f35664744034262935cbc34d6fbb631ac0a63e950402a7e2d61f2fb9e3c",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "named-dimensions",
+  "item": "synthetic/named-dimensions/named-dimensions.json",
+  "data": "synthetic/named-dimensions/named-dimensions.hdf",
+  "expected": "synthetic/named-dimensions/named-dimensions.expected.json",
+  "size": 3294,
+  "sha256": "4a039b293ef5275977f8821f0acb7a391e2728e914512d027111a5b1032df9fa",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed",
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "deflate",
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float64",
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "dimension_scale"
+  ],
+  "hdf4:sds_count": 3,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 3
+ },
+ {
+  "collection": "synthetic",
+  "id": "duplicate-names",
+  "item": "synthetic/duplicate-names/duplicate-names.json",
+  "data": "synthetic/duplicate-names/duplicate-names.hdf",
+  "expected": "synthetic/duplicate-names/duplicate-names.expected.json",
+  "size": 3265,
+  "sha256": "bc7e51b2a7542f4a74076f95703eca45d191873ff982909d70532d5c3746d693",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "duplicate_names"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ {
+  "collection": "synthetic",
+  "id": "zero-length",
+  "item": "synthetic/zero-length/zero-length.json",
+  "data": "synthetic/zero-length/zero-length.hdf",
+  "expected": "synthetic/zero-length/zero-length.expected.json",
+  "size": 3137,
+  "sha256": "8531b614710ade5ababc072a37a4b3ce83160d6eb9b396bc347ba0ae6d5644c1",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "unlimited_dimension",
+   "zero_length"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ {
+  "collection": "synthetic",
+  "id": "vdata-and-vgroup",
+  "item": "synthetic/vdata-and-vgroup/vdata-and-vgroup.json",
+  "data": "synthetic/vdata-and-vgroup/vdata-and-vgroup.hdf",
+  "expected": "synthetic/vdata-and-vgroup/vdata-and-vgroup.expected.json",
+  "size": 3052,
+  "sha256": "ff5e513004ddf578898135f5b800c2f460b488478e494b2548cee27361b50725",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 1
+ }
+]

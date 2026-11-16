@@ -1,0 +1,433 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "unlimited-interleaved.hdf",
+  "size": 24285,
+  "sha256": "a4d7526e359527004b0cee7e2b7b6f19450f631d4a9f7c000845d80299309d4b",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "a",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    40,
+    64
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": true
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "179b9e4c0ab72a2d43c8bb0ff16e0282e89f53562a6388852913fa06538891fe",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2776,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 4074,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5098,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 6122,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 7146,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 8170,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 9194,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 10218,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 11242,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 12266,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 13290,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 14314,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 15338,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 16362,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 17386,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 18410,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 19434,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 20458,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 21482,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 22506,
+      "length": 512
+     }
+    ],
+    "stored_bytes": 10240,
+    "decoded_bytes": 10240
+   }
+  },
+  {
+   "index": 1,
+   "ref": 3,
+   "name": "b",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    40,
+    64
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim2",
+     "unlimited": true
+    },
+    {
+     "name": "fakeDim3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "afb233c409c108a8c6e8dcc1533e3888a84bc9678da88bfa795ef37ed1fad0ef",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3562,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 4586,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5610,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 6634,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 7658,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 8682,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 9706,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 10730,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 11754,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 12778,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 13802,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 14826,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 15850,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 16874,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 17898,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 18922,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 19946,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 20970,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 21994,
+      "length": 512
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 23018,
+      "length": 512
+     }
+    ],
+    "stored_bytes": 10240,
+    "decoded_bytes": 10240
+   }
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 4,
+  "SDSVar": 2
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "LINKED": 42,
+   "NDG": 2,
+   "NT": 2,
+   "SD": 2,
+   "SDD": 2,
+   "VERSION": 1,
+   "VG": 7,
+   "VH": 6,
+   "VS": 6
+  },
+  "special_elements": {
+   "SD": {
+    "linked": 2
+   }
+  }
+ }
+}

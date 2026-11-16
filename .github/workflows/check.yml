@@ -1,0 +1,22 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Regenerate the synthetic files
+        run: uv run tools/gen_synthetic.py
+      - name: Fetch the pinned GDAL and OPeNDAP files
+        run: uv run tools/fetch.py gdal opendap
+      - name: Check the catalogue
+        run: uv run pytest -q

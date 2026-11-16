@@ -1,0 +1,36 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "Image_with_Palette.hdf",
+  "size": 1252,
+  "sha256": "bae824b40cd0a1634829e603ed3d53bb8a52925c5032590fb76c8eb15f1cb275",
+  "written_by": {
+   "version": "4.2.10",
+   "text": "HDF Version 4.2 Release 10, February 7, 2014"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [],
+ "vdata": [],
+ "internal_vdata_classes": {},
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "ID": 1,
+   "LD": 1,
+   "LUT": 1,
+   "NT": 2,
+   "RI": 1,
+   "RIG": 1,
+   "VERSION": 1,
+   "VG": 2
+  },
+  "special_elements": {}
+ }
+}

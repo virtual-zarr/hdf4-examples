@@ -1,0 +1,90 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "olslit78.aug_analog.hdf",
+  "size": 384014,
+  "sha256": "0d19498dd4791f4ab9290056f5f40243332d31554348cfd7590ab782cca67359",
+  "written_by": {
+   "version": "3.3.4",
+   "text": "NCSA HDF Version 3.3 Release 4, October 1994"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [],
+ "vdata": [
+  {
+   "ref": 3,
+   "name": "metadata",
+   "class": "description",
+   "records": 3,
+   "record_bytes": 80,
+   "interlace": "full",
+   "fields": [
+    {
+     "name": "text",
+     "type": "char8",
+     "order": 80
+    }
+   ],
+   "records_json_sha256": "9cb2a1d3e677b3fcf1f9fd56e63ba4e871f7ced58a46efc7cf23550b1a5a443a",
+   "ranges": [
+    {
+     "offset": 382750,
+     "length": 80
+    },
+    {
+     "offset": 382912,
+     "length": 160
+    }
+   ],
+   "rows": [
+    [
+     "Ascending nodes : 0 Descending nodes : 0                                        "
+    ],
+    [
+     "total points : 0                                                                "
+    ],
+    [
+     "Strips without points : 0                                                       "
+    ]
+   ]
+  }
+ ],
+ "internal_vdata_classes": {},
+ "vgroups": [
+  {
+   "ref": 2,
+   "name": "Strips",
+   "class": " ",
+   "members": []
+  }
+ ],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "ID": 1,
+   "ID8": 1,
+   "IP8": 2,
+   "LINKED": 3,
+   "LUT": 2,
+   "NT": 1,
+   "RI": 1,
+   "RI8": 1,
+   "RIG": 1,
+   "VERSION": 1,
+   "VG": 1,
+   "VH": 1,
+   "VS": 1
+  },
+  "special_elements": {
+   "VS": {
+    "linked": 1
+   }
+  }
+ }
+}

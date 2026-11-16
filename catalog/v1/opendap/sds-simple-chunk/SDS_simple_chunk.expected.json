@@ -1,0 +1,122 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "SDS_simple_chunk.hdf",
+  "size": 7285,
+  "sha256": "38a820e9b4bd11395a2b08dfde59dde7da2dcde29dca78795e07bb1a9cde4daf",
+  "written_by": {
+   "version": "4.2.15",
+   "text": "HDF Version 4.2 Release 15, November 28, 2019"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "SDS_simple_chunk",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    2,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "8b4b2444e57aed8c2d05a1293255da1b048c63224317d4666230760935fa4a18",
+   "storage": {
+    "coder": "none",
+    "layout": "chunked",
+    "chunk_shape": [
+     2,
+     2
+    ],
+    "chunk_grid": [
+     1,
+     2
+    ],
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2581,
+      "length": 16
+     },
+     {
+      "chunk": [
+       0,
+       1
+      ],
+      "offset": 6743,
+      "length": 16
+     }
+    ],
+    "stored_bytes": 32,
+    "decoded_bytes": 32
+   },
+   "values": [
+    [
+     1,
+     2,
+     3,
+     4
+    ],
+    [
+     5,
+     6,
+     7,
+     8
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "_HDF_CHK_TBL_0": 1,
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "CHUNK": 2,
+   "LINKED": 3,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 4,
+   "VS": 4
+  },
+  "special_elements": {
+   "SD": {
+    "chunked": 1
+   },
+   "VS": {
+    "linked": 1
+   }
+  }
+ }
+}

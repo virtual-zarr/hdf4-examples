@@ -1,0 +1,140 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mod29-61",
+ "collection": "nasa-nsidc",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     149.95414084646,
+     20.0995923744351
+    ],
+    [
+     179.326695486898,
+     20.0995923744351
+    ],
+    [
+     179.326695486898,
+     41.5120538203405
+    ],
+    [
+     149.95414084646,
+     41.5120538203405
+    ],
+    [
+     149.95414084646,
+     20.0995923744351
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MOD29 v61",
+  "description": "MODIS/Terra Sea Ice Extent 5-Min L2 Swath 1km V061. Granule MOD29.A2000055.1120.061.2020037135737.hdf.",
+  "datetime": "2000-02-24T11:20:00.000Z",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked",
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "deflate",
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 4,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 206,
+  "sci:doi": "10.5067/MODIS/MOD29.061",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/data-use-and-copyright. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+   "use_description": null,
+   "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+  },
+  "cmr:collection_concept_id": "C3050355038-NSIDC_CPRD",
+  "cmr:granule_concept_id": "G3051312975-NSIDC_CPRD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3051312975-NSIDC_CPRD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3050355038-NSIDC_CPRD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/MODIS/MOD29.061",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MOD29.A2000055.1120.061.2020037135737.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 969824,
+   "file:checksum": "1220599633d5f8d3036fec627d7e84ee2a651b9f4ba89c7b62349cee9de04e11cd8b"
+  },
+  "expected": {
+   "href": "./MOD29.A2000055.1120.061.2020037135737.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 236928,
+   "file:checksum": "1220efd04a317c98c038fc55647c8006195a5bb5722faa5e3d5a3af068fd855bda5a"
+  }
+ },
+ "bbox": [
+  149.95414084646,
+  20.0995923744351,
+  179.326695486898,
+  41.5120538203405
+ ]
+}

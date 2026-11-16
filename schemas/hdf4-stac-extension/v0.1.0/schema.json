@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "title": "HDF4 structure tags",
+  "description": "STAC item properties describing how an HDF4 file is stored. Every value is computed from the file by tools/build_catalog.py.",
+  "type": "object",
+  "definitions": {
+    "fields": {
+      "type": "object",
+      "properties": {
+        "hdf4:library_version": {"type": "string", "description": "Version of the HDF library that wrote the file, from its version tag."},
+        "hdf4:data_models": {"type": "array", "uniqueItems": true, "items": {"enum": ["sd", "vdata", "raster_image", "annotation", "eos_grid", "eos_swath", "eos_point"]}},
+        "hdf4:layouts": {"type": "array", "uniqueItems": true, "items": {"enum": ["contiguous", "compressed", "chunked", "chunk_multi_range", "linked_single", "linked_scattered", "external", "unwritten"]}},
+        "hdf4:coders": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^(none|rle|nbit|skphuff|deflate|szip|unknown-[0-9]+)$"}},
+        "hdf4:number_types": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^(u?char8|u?int(8|16|32|64)|float(32|64))(-le)?$"}},
+        "hdf4:max_rank": {"type": "integer", "minimum": 0},
+        "hdf4:features": {"type": "array", "uniqueItems": true, "items": {"enum": ["unlimited_dimension", "dimension_scale", "partial_chunks", "zero_length", "array_attribute", "odl_metadata", "duplicate_names", "fill_value"]}},
+        "hdf4:sds_count": {"type": "integer", "minimum": 0},
+        "hdf4:vdata_count": {"type": "integer", "minimum": 0},
+        "hdf4:range_count": {"type": "integer", "minimum": 0, "description": "Byte ranges across all scientific datasets, after merging back-to-back ranges."},
+        "hdf4:reproducible": {"const": false, "description": "Set on generated files whose bytes vary between machines; the published file is the reference."},
+        "hdf4:expect": {"enum": ["error"], "description": "Set on deliberately malformed files that a reader should refuse."}
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "type": {"const": "Feature"},
+        "properties": {
+          "allOf": [
+            {"$ref": "#/definitions/fields"},
+            {"required": ["hdf4:library_version", "hdf4:data_models", "hdf4:layouts", "hdf4:coders", "hdf4:number_types", "hdf4:max_rank", "hdf4:features", "hdf4:sds_count", "hdf4:vdata_count", "hdf4:range_count"]}
+          ]
+        }
+      },
+      "required": ["type", "properties"]
+    },
+    {
+      "properties": {"type": {"const": "Collection"}},
+      "required": ["type"]
+    }
+  ]
+}

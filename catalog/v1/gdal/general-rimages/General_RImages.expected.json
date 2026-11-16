@@ -1,0 +1,37 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "General_RImages.hdf",
+  "size": 1210,
+  "sha256": "e6e59701346bb5e40dc423aacb931f9bf86578fa8f671ca6042247db809529aa",
+  "written_by": {
+   "version": "4.2.10",
+   "text": "HDF Version 4.2 Release 10, February 7, 2014"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "RIATTR0.0C": 4
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "ID": 1,
+   "NT": 1,
+   "RI": 1,
+   "VERSION": 1,
+   "VG": 2,
+   "VH": 4,
+   "VS": 4
+  },
+  "special_elements": {}
+ }
+}

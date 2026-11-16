@@ -1,0 +1,108 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "MOD28C2.A2000057.061.2023167141051.hdf",
+  "size": 25487,
+  "sha256": "de3723f560b7b248291812425934c048b8060c7ccc0de58d0cdb6011152a351b",
+  "written_by": {
+   "version": "4.2.13",
+   "text": "HDF Version 4.2 Release 13, June 24, 2017"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "CoreMetadata.0": {
+   "type": "char8",
+   "length": 14844,
+   "value": "\nGROUP                  = INVENTORYMETADATA\n  GROUPTYPE            = MASTERGROUP\n\n  GROUP                  = ECSDATAGRANULE\n\n    OBJECT                 = REPROCESSINGPLANNED\n      NUM_VAL              = 1\n      VALUE                = \"further update is anticipated\"\n    END_OBJECT             = REPROCESSINGPLANNED\n\n    OBJECT                 = REPROCESSINGACTUAL\n      NUM_VAL              = 1\n      VALUE                = \"reprocessed\"\n    END_OBJECT             = REPROCESSINGACTUAL\n\n    OBJECT                 = LOCALGRANULEID\n      NUM_VAL              = 1\n      VALUE                = \"MOD28C2.A2000057.061.2023167141051.hdf\"\n    END_OBJECT             = LOCALGRANULEID\n\n    OBJECT                 = DAYNIGHTFLAG\n      NUM_VAL              = 1\n      VALUE                = \"Day\"\n    END_OBJECT             = DAYNIGHTFLAG\n\n    OBJECT                 = PRODUCTIONDATETIME\n      NUM_VAL              = 1\n      VALUE                = \"2023-06-16T18:10:51.000Z\"\n    END_OBJECT             = PRODUCTIONDATETIME\n\n  END_GROUP              = ECSDATAGRANULE\n\n  GROUP                  = MEASUREDPARAMETER\n\n    OBJECT                 = MEASUREDPARAMETERCONTAINER\n      CLASS                = \"1\"\n\n      OBJECT                 = PARAMETERNAME\n        NUM_VAL              = 1\n        CLASS                = \"1\"\n        VALUE                = \"MOD28C2\"\n      END_OBJECT             = PARAMETERNAME\n\n      GROUP                  = QAFLAGS\n        CLASS                = \"1\"\n\n        OBJECT                 = AUTOMATICQUALITYFLAG\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = \"Passed\"\n        END_OBJECT             = AUTOMATICQUALITYFLAG\n\n        OBJECT                 = AUTOMATICQUALITYFLAGEXPLANATION\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = \"Always Passed\"\n        END_OBJECT             = AUTOMATICQUALITYFLAGEXPLANATION\n\n        OBJECT                 = SCIENCEQUALITYFLAG\n          NUM_VAL              = 1\n          VALUE                = \"Not Investigated\"\n          CLASS                = \"1\"\n        END_OBJECT             = SCIENCEQUALITYFLAG\n\n        OBJECT                 = SCIENCEQUALITYFLAGEXPLANATION\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = \"See http://landweb.nascom.nasa.gov/cgi-bin/QA_WWW/qaFlagPage.cgi?sat=terra&ver=C5 for the product Science Quality status.\"\n        END_OBJECT             = SCIENCEQUALITYFLAGEXPLANATION\n\n      END_GROUP              = QAFLAGS\n\n      GROUP                  = QASTATS\n        CLASS                = \"1\"\n\n        OBJECT                 = QAPERCENTINTERPOLATEDDATA\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = 0\n        END_OBJECT             = QAPERCENTINTERPOLATEDDATA\n\n        OBJECT                 = QAPERCENTMISSINGDATA\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = 0\n        END_OBJECT             = QAPERCENTMISSINGDATA\n\n        OBJECT                 = QAPERCENTOUTOFBOUNDSDATA\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = 0\n        END_OBJECT             = QAPERCENTOUTOFBOUNDSDATA\n\n        OBJECT                 = QAPERCENTCLOUDCOVER\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = 0\n        END_OBJECT             = QAPERCENTCLOUDCOVER\n\n      END_GROUP              = QASTATS\n\n    END_OBJECT             = MEASUREDPARAMETERCONTAINER\n\n  END_GROUP              = MEASUREDPARAMETER\n\n  GROUP                  = COLLECTIONDESCRIPTIONCLASS\n\n    OBJECT                 = SHORTNAME\n      NUM_VAL              = 1\n      VALUE                = \"MOD28C2\"\n    END_OBJECT             = SHORTNAME\n\n    OBJECT                 = VERSIONID\n      NUM_VAL              = 1\n      VALUE                = 61\n    END_OBJECT             = VERSIONID\n\n  END_GROUP              = COLLECTIONDESCRIPTIONCLASS\n\n  GROUP                  = INPUTGRANULE\n\n    OBJECT                 = INPUTPOINTER\n      NUM_VAL              = 100\n      VALUE                = (\"MOD28A2.A2000057.h08v04.061.2021011223048.hdf\", \"MOD28A2.A2000057.h08v05.061.2021011223052.hdf\", \"MOD28A2.A2000057.h08v07.061.2021011223045.hdf\", \"MOD28A2.A2000057.h09v04.061.2021011223048.hdf\", \"MOD28A2.A2000057.h09v05.061.2021011223048.hdf\", \"\n          MOD28A2.A2000057.h09v06.061.2021011223049.hdf\", \"MOD28A2.A2000057.h09v07.061.2021011223046.hdf\", \"MOD28A2.A2000057.h10v03.061.2021011223104.hdf\", \"MOD28A2.A2000057.h10v04.061.2021011223104.hdf\", \"MOD28A2.A2000057.h10v05.061.2021011223054.hdf\", \"\n          MOD28A2.A2000057.h10v06.061.2021011223059.hdf\", \"MOD28A2.A2000057.h10v10.061.2021011223046.hdf\", \"MOD28A2.A2000057.h11v03.061.2021011223052.hdf\", \"MOD28A2.A2000057.h11v04.061.2021011223053.hdf\", \"MOD28A2.A2000057.h11v08.061.2021011223102.hdf\", \"\n          MOD28A2.A2000057.h12v03.061.2021011223052.hdf\", \"MOD28A2.A2000057.h12v04.061.2021011223058.hdf\", \"MOD28A2.A2000057.h12v11.061.2021011223049.hdf\", \"MOD28A2.A2000057.h12v12.061.2021011223103.hdf\", \"MOD28A2.A2000057.h13v03.061.2021011223049.hdf\", \"\n          MOD28A2.A2000057.h13v04.061.2021011223051.hdf\", \"MOD28A2.A2000057.h13v09.061.2021011223053.hdf\", \"MOD28A2.A2000057.h13v10.061.2021011223047.hdf\", \"MOD28A2.A2000057.h13v11.061.2021011223054.hdf\", \"MOD28A2.A2000057.h13v12.061.2021011223058.hdf\", \"\n          MOD28A2.A2000057.h14v03.061.2021011223054.hdf\", \"MOD28A2.A2000057.h14v04.061.2021011223057.hdf\", \"MOD28A2.A2000057.h14v09.061.2021011223117.hdf\", \"MOD28A2.A2000057.h17v05.061.2021011223052.hdf\", \"MOD28A2.A2000057.h17v07.061.2021011223046.hdf\", \"\n          MOD28A2.A2000057.h17v08.061.2021011223046.hdf\", \"MOD28A2.A2000057.h18v02.061.2021011223050.hdf\", \"MOD28A2.A2000057.h18v07.061.2021011223102.hdf\", \"MOD28A2.A2000057.h18v08.061.2021011223052.hdf\", \"MOD28A2.A2000057.h19v02.061.2021011223103.hdf\", \"\n          MOD28A2.A2000057.h19v03.061.2021011223052.hdf\", \"MOD28A2.A2000057.h19v07.061.2021011223103.hdf\", \"MOD28A2.A2000057.h19v08.061.2021011223049.hdf\", \"MOD28A2.A2000057.h19v09.061.2021011223049.hdf\", \"MOD28A2.A2000057.h20v03.061.2021011223051.hdf\", \"\n          MOD28A2.A2000057.h20v04.061.2021011223051.hdf\", \"MOD28A2.A2000057.h20v05.061.2021011223054.hdf\", \"MOD28A2.A2000057.h20v06.061.2021011223056.hdf\", \"MOD28A2.A2000057.h20v10.061.2021011223052.hdf\", \"MOD28A2.A2000057.h20v11.061.2021011223051.hdf\", \"\n          MOD28A2.A2000057.h20v12.061.2021011223048.hdf\", \"MOD28A2.A2000057.h21v02.061.2021011223051.hdf\", \"MOD28A2.A2000057.h21v03.061.2021011223049.hdf\", \"MOD28A2.A2000057.h21v04.061.2021011223049.hdf\", \"MOD28A2.A2000057.h21v05.061.2021011223051.hdf\", \"\n          MOD28A2.A2000057.h21v06.061.2021011223057.hdf\", \"MOD28A2.A2000057.h21v07.061.2021011223054.hdf\", \"MOD28A2.A2000057.h21v08.061.2021011223054.hdf\", \"MOD28A2.A2000057.h21v09.061.2021011223117.hdf\", \"MOD28A2.A2000057.h21v10.061.2021011223047.hdf\", \"\n          MOD28A2.A2000057.h22v02.061.2021011223046.hdf\", \"MOD28A2.A2000057.h22v03.061.2021011223048.hdf\", \"MOD28A2.A2000057.h23v02.061.2021011223047.hdf\", \"MOD28A2.A2000057.h23v03.061.2021011223100.hdf\", \"MOD28A2.A2000057.h23v04.061.2021011223049.hdf\", \"\n          MOD28A2.A2000057.h23v05.061.2021011223102.hdf\", \"MOD28A2.A2000057.h24v03.061.2021011223103.hdf\", \"MOD28A2.A2000057.h24v05.061.2021011223048.hdf\", \"MOD28A2.A2000057.h24v06.061.2021011223049.hdf\", \"MOD28A2.A2000057.h25v02.061.2021011223047.hdf\", \"\n          MOD28A2.A2000057.h25v03.061.2021011223052.hdf\", \"MOD28A2.A2000057.h25v06.061.2021011223057.hdf\", \"MOD28A2.A2000057.h25v07.061.2021011223048.hdf\", \"MOD28A2.A2000057.h26v04.061.2021011223052.hdf\", \"MOD28A2.A2000057.h26v05.061.2021011223050.hdf\", \"\n          MOD28A2.A2000057.h27v05.061.2021011223054.hdf\", \"MOD28A2.A2000057.h27v07.061.2021011223050.hdf\", \"MOD28A2.A2000057.h28v07.061.2021011223050.hdf\", \"MOD28A2.A2000057.h28v13.061.2021011223051.hdf\", \"MOD28A2.A2000057.h29v12.061.2021011223055.hdf\", \"\n          MOD28A2.A2000057.h30v10.061.2021011223117.hdf\", \"MOD28A2.A2000057.h30v12.061.2021011223045.hdf\", \"MOD28A2.A2000057.h30v13.061.2021011223047.hdf\", \"MOD28A2.A2000057.h31v10.061.2021011223049.hdf\", \"MOD28A2.A2000057.h31v11.061.2021011223047.hdf\", \"modis_lake_info.6.1.3.txt\")\n    END_OBJECT             = INPUTPOINTER\n\n  END_GROUP              = INPUTGRANULE\n\n  GROUP                  = SPATIALDOMAINCONTAINER\n\n    GROUP                  = HORIZONTALSPATIALDOMAINCONTAINER\n\n      GROUP                  = BOUNDINGRECTANGLE\n\n        OBJECT                 = EASTBOUNDINGCOORDINATE\n          NUM_VAL              = 1\n          VALUE                = 180.0\n        END_OBJECT             = EASTBOUNDINGCOORDINATE\n\n        OBJECT                 = WESTBOUNDINGCOORDINATE\n          NUM_VAL              = 1\n          VALUE                = -180.0\n        END_OBJECT             = WESTBOUNDINGCOORDINATE\n\n        OBJECT                 = SOUTHBOUNDINGCOORDINATE\n          NUM_VAL              = 1\n          VALUE                = -90.0\n        END_OBJECT             = SOUTHBOUNDINGCOORDINATE\n\n        OBJECT                 = NORTHBOUNDINGCOORDINATE\n          NUM_VAL              = 1\n          VALUE                = 90.0\n        END_OBJECT             = NORTHBOUNDINGCOORDINATE\n\n      END_GROUP              = BOUNDINGRECTANGLE\n\n    END_GROUP              = HORIZONTALSPATIALDOMAINCONTAINER\n\n    GROUP                  = GRANULELOCALITY\n\n      OBJECT                 = LOCALITYVALUE\n        NUM_VAL              = 1\n        VALUE                = \"Global\"\n      END_OBJECT             = LOCALITYVALUE\n\n    END_GROUP              = GRANULELOCALITY\n\n  END_GROUP              = SPATIALDOMAINCONTAINER\n\n  GROUP                  = RANGEDATETIME\n\n    OBJECT                 = RANGEBEGINNINGDATE\n      NUM_VAL              = 1\n      VALUE                = \"2000-02-26\"\n    END_OBJECT             = RANGEBEGINNINGDATE\n\n    OBJECT                 = RANGEBEGINNINGTIME\n      NUM_VAL              = 1\n      VALUE                = \"00:00:00.000000\"\n    END_OBJECT             = RANGEBEGINNINGTIME\n\n    OBJECT                 = RANGEENDINGDATE\n      NUM_VAL              = 1\n      VALUE                = \"2000-03-04\"\n    END_OBJECT             = RANGEENDINGDATE\n\n    OBJECT                 = RANGEENDINGTIME\n      NUM_VAL              = 1\n      VALUE                = \"23:59:59.000000\"\n    END_OBJECT             = RANGEENDINGTIME\n\n  END_GROUP              = RANGEDATETIME\n\n  GROUP                  = PGEVERSIONCLASS\n\n    OBJECT                 = PGEVERSION\n      NUM_VAL              = 1\n      VALUE                = \"6.1.5\"\n    END_OBJECT             = PGEVERSION\n\n  END_GROUP              = PGEVERSIONCLASS\n\n  GROUP                  = ASSOCIATEDPLATFORMINSTRUMENTSENSOR\n\n    OBJECT                 = ASSOCIATEDPLATFORMINSTRUMENTSENSORCONTAINER\n      CLASS                = \"1\"\n\n      OBJECT                 = ASSOCIATEDSENSORSHORTNAME\n        CLASS                = \"1\"\n        NUM_VAL              = 1\n        VALUE                = \"MODIS\"\n      END_OBJECT             = ASSOCIATEDSENSORSHORTNAME\n\n      OBJECT                 = ASSOCIATEDPLATFORMSHORTNAME\n        CLASS                = \"1\"\n        NUM_VAL              = 1\n        VALUE                = \"Terra\"\n      END_OBJECT             = ASSOCIATEDPLATFORMSHORTNAME\n\n      OBJECT                 = ASSOCIATEDINSTRUMENTSHORTNAME\n        CLASS                = \"1\"\n        NUM_VAL              = 1\n        VALUE                = \"MODIS\"\n      END_OBJECT             = ASSOCIATEDINSTRUMENTSHORTNAME\n\n    END_OBJECT             = ASSOCIATEDPLATFORMINSTRUMENTSENSORCONTAINER\n\n  END_GROUP              = ASSOCIATEDPLATFORMINSTRUMENTSENSOR\n\n  GROUP                  = ADDITIONALATTRIBUTES\n\n    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER\n      CLASS                = \"8\"\n\n      OBJECT                 = ADDITIONALATTRIBUTENAME\n        CLASS                = \"8\"\n        NUM_VAL              = 1\n        VALUE                = \"identifier_product_doi\"\n      END_OBJECT             = ADDITIONALATTRIBUTENAME\n\n      GROUP                  = INFORMATIONCONTENT\n        CLASS                = \"8\"\n\n        OBJECT                 = PARAMETERVALUE\n          NUM_VAL              = 1\n          CLASS                = \"8\"\n          VALUE                = \"10.5067/MODIS/MOD28C2.061\"\n        END_OBJECT             = PARAMETERVALUE\n\n      END_GROUP              = INFORMATIONCONTENT\n\n    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER\n\n    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER\n      CLASS                = \"9\"\n\n      OBJECT                 = ADDITIONALATTRIBUTENAME\n        CLASS                = \"9\"\n        NUM_VAL              = 1\n        VALUE                = \"identifier_product_doi_authority\"\n      END_OBJECT             = ADDITIONALATTRIBUTENAME\n\n      GROUP                  = INFORMATIONCONTENT\n        CLASS                = \"9\"\n\n        OBJECT                 = PARAMETERVALUE\n          NUM_VAL              = 1\n          CLASS                = \"9\"\n          VALUE                = \"https://doi.org\"\n        END_OBJECT             = PARAMETERVALUE\n\n      END_GROUP              = INFORMATIONCONTENT\n\n    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER\n\n    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER\n      CLASS                = \"1\"\n\n      OBJECT                 = ADDITIONALATTRIBUTENAME\n        CLASS                = \"1\"\n        NUM_VAL              = 1\n        VALUE                = \"QAPERCENTGOODQUALITY\"\n      END_OBJECT             = ADDITIONALATTRIBUTENAME\n\n      GROUP                  = INFORMATIONCONTENT\n        CLASS                = \"1\"\n\n        OBJECT                 = PARAMETERVALUE\n          NUM_VAL              = 1\n          CLASS                = \"1\"\n          VALUE                = \"0\"\n        END_OBJECT             = PARAMETERVALUE\n\n      END_GROUP              = INFORMATIONCONTENT\n\n    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER\n\n    OBJECT                 = ADDITIONALATTRIBUTESCONTAINER\n      CLASS                = \"2\"\n\n      OBJECT                 = ADDITIONALATTRIBUTENAME\n        CLASS                = \"2\"\n        NUM_VAL              = 1\n        VALUE                = \"QAPERCENTOTHERQUALITY\"\n      END_OBJECT             = ADDITIONALATTRIBUTENAME\n\n      GROUP                  = INFORMATIONCONTENT\n        CLASS                = \"2\"\n\n        OBJECT                 = PARAMETERVALUE\n          NUM_VAL              = 1\n          CLASS                = \"2\"\n          VALUE                = \"0\"\n        END_OBJECT             = PARAMETERVALUE\n\n      END_GROUP              = INFORMATIONCONTENT\n\n    END_OBJECT             = ADDITIONALATTRIBUTESCONTAINER\n\n  END_GROUP              = ADDITIONALATTRIBUTES\n\nEND_GROUP              = INVENTORYMETADATA\n\nEND\n"
+  },
+  "ArchiveMetadata.0": {
+   "type": "char8",
+   "length": 1787,
+   "value": "\nGROUP                  = ARCHIVEDMETADATA\n  GROUPTYPE            = MASTERGROUP\n\n  OBJECT                 = ALGORITHMPACKAGEACCEPTANCEDATE\n    NUM_VAL              = 1\n    VALUE                = \"2005-02-11\"\n  END_OBJECT             = ALGORITHMPACKAGEACCEPTANCEDATE\n\n  OBJECT                 = ALGORITHMPACKAGEMATURITYCODE\n    NUM_VAL              = 1\n    VALUE                = \"Normal\"\n  END_OBJECT             = ALGORITHMPACKAGEMATURITYCODE\n\n  OBJECT                 = ALGORITHMPACKAGENAME\n    NUM_VAL              = 1\n    VALUE                = \"MOD28C2\"\n  END_OBJECT             = ALGORITHMPACKAGENAME\n\n  OBJECT                 = ALGORITHMPACKAGEVERSION\n    NUM_VAL              = 1\n    VALUE                = \"61\"\n  END_OBJECT             = ALGORITHMPACKAGEVERSION\n\n  OBJECT                 = INSTRUMENTNAME\n    NUM_VAL              = 1\n    VALUE                = \"Moderate Resolution Imaging Spectroradiometer\"\n  END_OBJECT             = INSTRUMENTNAME\n\n  OBJECT                 = PLATFORMSHORTNAME\n    NUM_VAL              = 1\n    VALUE                = \"Terra\"\n  END_OBJECT             = PLATFORMSHORTNAME\n\n  OBJECT                 = LONGNAME\n    NUM_VAL              = 1\n    VALUE                = \"MODIS/Terra Water Reservoir 8-Day L3 Global\"\n  END_OBJECT             = LONGNAME\n\n  OBJECT                 = PROCESSINGCENTER\n    NUM_VAL              = 1\n    VALUE                = \"MODAPS\"\n  END_OBJECT             = PROCESSINGCENTER\n\n  OBJECT                 = SPSOPARAMETERS\n    NUM_VAL              = 1\n    VALUE                = (\"3716\")\n  END_OBJECT             = SPSOPARAMETERS\n\n  OBJECT                 = DESCRREVISION\n    NUM_VAL              = 1\n    VALUE                = \"6.1\"\n  END_OBJECT             = DESCRREVISION\n\nEND_GROUP              = ARCHIVEDMETADATA\n\nEND\n"
+  },
+  "identifier_product_doi ": {
+   "type": "char8",
+   "length": 25,
+   "value": "10.5067/MODIS/MOD28C2.061"
+  },
+  "identifier_product_doi_authority ": {
+   "type": "char8",
+   "length": 15,
+   "value": "https://doi.org"
+  },
+  "MOD28 version": {
+   "type": "char8",
+   "length": 18,
+   "value": "TAMU_collection6.1"
+  }
+ },
+ "sds": [],
+ "vdata": [
+  {
+   "ref": 2,
+   "name": "lakes",
+   "class": "lake ID, location (lon, lat), area, elevation and storage",
+   "records": 164,
+   "record_bytes": 42,
+   "interlace": "full",
+   "fields": [
+    {
+     "name": "lake_ID",
+     "type": "int16",
+     "order": 1
+    },
+    {
+     "name": "lake_longitude",
+     "type": "float64",
+     "order": 1
+    },
+    {
+     "name": "lake_latitude",
+     "type": "float64",
+     "order": 1
+    },
+    {
+     "name": "lake_area",
+     "type": "float64",
+     "order": 1
+    },
+    {
+     "name": "lake_elevation",
+     "type": "float64",
+     "order": 1
+    },
+    {
+     "name": "lake_storage",
+     "type": "float64",
+     "order": 1
+    }
+   ],
+   "records_json_sha256": "bce37f1223cc7f2946d4433fc17d58d63d4e2d12b7b4ec61dcb2225eb9b1f1c1",
+   "ranges": [
+    {
+     "offset": 294,
+     "length": 6888
+    }
+   ]
+  }
+ ],
+ "internal_vdata_classes": {
+  "Attr0.0": 12
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "VERSION": 1,
+   "VG": 1,
+   "VH": 13,
+   "VS": 13
+  },
+  "special_elements": {}
+ }
+}

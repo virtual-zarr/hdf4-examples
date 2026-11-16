@@ -1,0 +1,80 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "chunked-deflate-partial",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "chunked-deflate-partial",
+  "description": "Chunked deflate with 2 of 4 chunks written and a fill value",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "fill_value",
+   "partial_chunks"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'chunked-deflate-partial'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./chunked-deflate-partial.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 7377,
+   "file:checksum": "12201bf0c15f8ef1445423092680366bff5b13296811b2293c45731b4c6f4359c4e6"
+  },
+  "expected": {
+   "href": "./chunked-deflate-partial.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2200,
+   "file:checksum": "1220b3a817a4b71b667df2b1214f0ea8b99c86aaf8e089f7cf226e6e5e8b500e2484"
+  }
+ }
+}

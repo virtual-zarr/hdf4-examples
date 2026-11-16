@@ -1,0 +1,1216 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.hdf",
+  "size": 32062,
+  "sha256": "60d5d5873621bce1e6c2ca47f0814c456c675ad7abd7026a3332c88beebba65a",
+  "written_by": {
+   "version": "4.2.13",
+   "text": "HDF Version 4.2 Release 13, June 24, 2017"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "coremetadata": {
+   "type": "char8",
+   "length": 4937,
+   "value": "\nGROUP                  = INVENTORYMETADATA\n  GROUPTYPE            = MASTERGROUP\n\n  GROUP                  = GRANULE\n\n    OBJECT                 = GRANULEID\n      NUM_VAL              = 1\n      VALUE                = \"L0_WFC\"\n    END_OBJECT             = GRANULEID\n\n    OBJECT                 = GRANULENAME\n      NUM_VAL              = 1\n      VALUE                = \"CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.hdf\"\n    END_OBJECT             = GRANULENAME\n\n    OBJECT                 = GRANULEVERSION\n      NUM_VAL              = 1\n      VALUE                = \"V01\"\n    END_OBJECT             = GRANULEVERSION\n\n    OBJECT                 = DAYNIGHT\n      NUM_VAL              = 1\n      VALUE                = \"D\"\n    END_OBJECT             = DAYNIGHT\n\n    OBJECT                 = BROWSE\n      NUM_VAL              = 1\n      VALUE                = \"N\"\n    END_OBJECT             = BROWSE\n\n    OBJECT                 = GRINGTYPE\n      NUM_VAL              = 1\n      VALUE                = \"R\"\n    END_OBJECT             = GRINGTYPE\n\n  END_GROUP              = GRANULE\n\n  GROUP                  = METADATA\n\n    OBJECT                 = METADATANAME\n      NUM_VAL              = 1\n      VALUE                = \"CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.hdf.met\"\n    END_OBJECT             = METADATANAME\n\n  END_GROUP              = METADATA\n\n  GROUP                  = TEMPORALINFORMATION\n\n    OBJECT                 = PRODUCTIONDATETIME\n      NUM_VAL              = 1\n      VALUE                = \"2025-02-04T12:47:40Z\"\n    END_OBJECT             = PRODUCTIONDATETIME\n\n    OBJECT                 = START_DATE\n      NUM_VAL              = 1\n      VALUE                = \"2006-06-14T08:10:53.587000Z\u0001\"\n    END_OBJECT             = START_DATE\n\n    OBJECT                 = STOP_DATE\n      NUM_VAL              = 1\n      VALUE                = \"2006-06-14T08:48:31.996200Z\"\n    END_OBJECT             = STOP_DATE\n\n  END_GROUP              = TEMPORALINFORMATION\n\n  GROUP                  = QA\n\n    OBJECT                 = QAFLAG\n      NUM_VAL              = 1\n      VALUE                = \"Passed\"\n    END_OBJECT             = QAFLAG\n\n    OBJECT                 = QAEXPLANATION\n      NUM_VAL              = 1\n      VALUE                = \"All data passed during checkout\"\n    END_OBJECT             = QAEXPLANATION\n\n  END_GROUP              = QA\n\n  GROUP                  = GEOMINMAX\n\n    OBJECT                 = MINLAT\n      NUM_VAL              = 1\n      VALUE                = -90.0\n    END_OBJECT             = MINLAT\n\n    OBJECT                 = MINLON\n      NUM_VAL              = 1\n      VALUE                = -180.0\n    END_OBJECT             = MINLON\n\n    OBJECT                 = MAXLAT\n      NUM_VAL              = 1\n      VALUE                = 90.0\n    END_OBJECT             = MAXLAT\n\n    OBJECT                 = MAXLON\n      NUM_VAL              = 1\n      VALUE                = 180.0\n    END_OBJECT             = MAXLON\n\n  END_GROUP              = GEOMINMAX\n\n  GROUP                  = GRING\n\n    OBJECT                 = GRINGCONTAINER\n      CLASS                = \"1\"\n\n      OBJECT                 = GRINGLATITUDE\n        CLASS                = \"1\"\n        NUM_VAL              = 21\n        VALUE                = (90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 45.0, 0.0, -45.0, -90.0, -90.0, -90.0, -90.0, -90.0, -90.0, -90.0, -45.0, 0.0, 45.0, 90.0)\n      END_OBJECT             = GRINGLATITUDE\n\n      OBJECT                 = GRINGLONGITUDE\n        CLASS                = \"1\"\n        NUM_VAL              = 21\n        VALUE                = (-180.0, -120.0, -60.0, 0.0, 60.0, 120.0, 180.0, 180.0, 180.0, 180.0, 180.0, 120.0, 60.0, 0.0, -60.0, -120.0, -180.0, -180.0, -180.0, -180.0, -180.0)\n      END_OBJECT             = GRINGLONGITUDE\n\n    END_OBJECT             = GRINGCONTAINER\n\n  END_GROUP              = GRING\n\n  GROUP                  = ORBITPATH\n\n    OBJECT                 = STARTORBITNUMBER\n      NUM_VAL              = 1\n      VALUE                = 684\n    END_OBJECT             = STARTORBITNUMBER\n\n    OBJECT                 = STOPORBITNUMBER\n      NUM_VAL              = 1\n      VALUE                = 685\n    END_OBJECT             = STOPORBITNUMBER\n\n    OBJECT                 = ORBITCHANGETIME\n      NUM_VAL              = 1\n      VALUE                = 6.061434852613517e+04\n    END_OBJECT             = ORBITCHANGETIME\n\n    OBJECT                 = STARTPATHNUMBER\n      NUM_VAL              = 1\n      VALUE                = 16\n    END_OBJECT             = STARTPATHNUMBER\n\n    OBJECT                 = STOPPATHNUMBER\n      NUM_VAL              = 1\n      VALUE                = 32\n    END_OBJECT             = STOPPATHNUMBER\n\n    OBJECT                 = PATHCHANGETIME\n      NUM_VAL              = 1\n      VALUE                = 6.061436565763194e+04\n    END_OBJECT             = PATHCHANGETIME\n\n  END_GROUP              = ORBITPATH\n\nEND_GROUP              = INVENTORYMETADATA\n\nEND\n"
+  },
+  "archivemetadata": {
+   "type": "char8",
+   "length": 274,
+   "value": "\nGROUP                  = ARCHIVEDMETADATA\n  GROUPTYPE            = MASTERGROUP\n\n  OBJECT                 = NUMBEROFRECORDS\n    NUM_VAL              = 1\n    VALUE                = -1\n  END_OBJECT             = NUMBEROFRECORDS\n\nEND_GROUP              = ARCHIVEDMETADATA\n\nEND\n"
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "1Km_Row_Time",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 1.642145323e-314,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 1,
+     "value": "s"
+    },
+    "valid_range": {
+     "type": "float64",
+     "length": 2,
+     "value": [
+      420300000.0,
+      962300000.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_64"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 126,
+     "value": "Reports the International Atomic Time (TAI) in elapsed seconds from January 1, 1993. This parameter is for the 1km resolution."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 1,
+   "ref": 3,
+   "name": "1Km_Row_UTC_Time",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 1.642145323e-314,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 15,
+     "value": "yymmdd.ffffffff"
+    },
+    "valid_range": {
+     "type": "float64",
+     "length": 2,
+     "value": [
+      60428.0,
+      230701.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_64"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 308,
+     "value": "Reports the Coordinated Universal Time (UTC); format = yymmdd.ffffffff, where yy is a two digit data acquisition year number (06 to 23), mm is a month number (01 to 12), dd is a day number (01 to 31), and ffffffff is the elapsed fraction of the data acquisition day. This parameter is for the 1km resolution."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 2,
+   "ref": 4,
+   "name": "125m_Row_Time",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Index_125m",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 1.642145323e-314,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 1,
+     "value": "s"
+    },
+    "valid_range": {
+     "type": "float64",
+     "length": 2,
+     "value": [
+      420300000.0,
+      962300000.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_64"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 127,
+     "value": "Reports the International Atomic Time (TAI) in elapsed seconds from January 1, 1993. This parameter is for the 125m resolution."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 3,
+   "ref": 5,
+   "name": "125m_Row_UTC_Time",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Index_125m",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 1.642145323e-314,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 15,
+     "value": "yymmdd.ffffffff"
+    },
+    "valid_range": {
+     "type": "float64",
+     "length": 2,
+     "value": [
+      60428.0,
+      230701.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_64"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 309,
+     "value": "Reports the Coordinated Universal Time (UTC); format = yymmdd.ffffffff, where yy is a two digit data acquisition year number (06 to 23), mm is a month number (01 to 12), dd is a day number (01 to 31), and ffffffff is the elapsed fraction of the data acquisition day. This parameter is for the 125m resolution."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 4,
+   "ref": 6,
+   "name": "1Km_Latitude",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    61
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Index_1Km",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -9999.0,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "degrees"
+    },
+    "valid_range": {
+     "type": "float64",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float64",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_64"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 68,
+     "value": "Reports the latitude of the individual 1km WFC pixel on the surface."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 5,
+   "ref": 7,
+   "name": "1Km_Longitude",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    61
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Index_1Km",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -9999.0,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "degrees"
+    },
+    "valid_range": {
+     "type": "float64",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float64",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_64"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 69,
+     "value": "Reports the longitude of the individual 1km WFC pixel on the surface."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 6,
+   "ref": 8,
+   "name": "1Km_Pixel_Values",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    61
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Index_1Km",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 5,
+     "value": "count"
+    },
+    "valid_range": {
+     "type": "char8",
+     "length": 2,
+     "value": "0 "
+    },
+    "fillvalue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 65535
+    },
+    "format": {
+     "type": "char8",
+     "length": 7,
+     "value": "UInt_32"
+    },
+    "scale_factor": {
+     "type": "uint16",
+     "length": 1,
+     "value": 1
+    },
+    "offset": {
+     "type": "uint16",
+     "length": 1,
+     "value": 0
+    },
+    "comment": {
+     "type": "char8",
+     "length": 60,
+     "value": "Nighttime digital counts measured by WFC at 1km resolution. "
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 7,
+   "ref": 9,
+   "name": "125m_Pixel_Values",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    320
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Counts",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 5,
+     "value": "count"
+    },
+    "valid_range": {
+     "type": "char8",
+     "length": 2,
+     "value": "0 "
+    },
+    "fillvalue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 65535
+    },
+    "format": {
+     "type": "char8",
+     "length": 7,
+     "value": "UInt_32"
+    },
+    "scale_factor": {
+     "type": "uint16",
+     "length": 1,
+     "value": 1
+    },
+    "offset": {
+     "type": "uint16",
+     "length": 1,
+     "value": 0
+    },
+    "comment": {
+     "type": "char8",
+     "length": 61,
+     "value": "Nighttime digital counts measured by WFC at 125m resolution. "
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 8,
+   "ref": 10,
+   "name": "Col_Number_of_Center_Image_Pixel",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 65535,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "NoUnits"
+    },
+    "valid_range": {
+     "type": "uint32",
+     "length": 2,
+     "value": [
+      244,
+      268
+     ]
+    },
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 65535
+    },
+    "format": {
+     "type": "char8",
+     "length": 7,
+     "value": "UInt_16"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 44,
+     "value": "The column number of the center image pixel."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 9,
+   "ref": 11,
+   "name": "Row_Number_of_Center_Image_Pixel",
+   "number_type": "uint16",
+   "numpy_dtype": "u2",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 65535,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 7,
+     "value": "NoUnits"
+    },
+    "valid_range": {
+     "type": "uint32",
+     "length": 2,
+     "value": [
+      229,
+      258
+     ]
+    },
+    "_FillValue": {
+     "type": "uint16",
+     "length": 1,
+     "value": 65535
+    },
+    "format": {
+     "type": "char8",
+     "length": 7,
+     "value": "UInt_16"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 41,
+     "value": "The row number of the center image pixel."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 10,
+   "ref": 12,
+   "name": "CCD_Temperature",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -9999.0,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 4,
+     "value": "degC"
+    },
+    "typical_range": {
+     "type": "char8",
+     "length": 14,
+     "value": "-100.0...100.0"
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_32"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 406,
+     "value": "Temperature of the focal plane of the WFC Charge Coupled Device (CCD) array. The temperature of the WFC detector is actively controlled by a Thermoelectric Cooler (TEC). The set point is 0 degC and the nominal range is about +/- 0.5 degC. Larger excursions have been observed with no impact on the data quality. However, if excursions exceed more than about +/-5 degC, the data should be used with caution."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 11,
+   "ref": 13,
+   "name": "BasePlate_Temperature",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -9999.0,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 4,
+     "value": "degC"
+    },
+    "typical_range": {
+     "type": "char8",
+     "length": 14,
+     "value": "-100.0...100.0"
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_32"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 126,
+     "value": "Temperature of the feet of the WFC housing. Typically ranges between 10 degC and 20 degC. Primarily used as a diagnostic tool."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 12,
+   "ref": 14,
+   "name": "Frame_Time",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -9999.0,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 2,
+     "value": "ms"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      18.0,
+      19.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_32"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 45,
+     "value": "The total amount of time for a frame of data."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  },
+  {
+   "index": 13,
+   "ref": 15,
+   "name": "Integration_Time",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    0,
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "Record_Number",
+     "unlimited": true
+    },
+    {
+     "name": "Sample",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": -9999.0,
+   "attributes": {
+    "units": {
+     "type": "char8",
+     "length": 2,
+     "value": "ms"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      3.0,
+      4.0
+     ]
+    },
+    "_FillValue": {
+     "type": "float32",
+     "length": 1,
+     "value": -9999.0
+    },
+    "format": {
+     "type": "char8",
+     "length": 8,
+     "value": "Float_32"
+    },
+    "comment": {
+     "type": "char8",
+     "length": 80,
+     "value": "The amount of time the CCD is exposed to light during a single data acquisition."
+    }
+   },
+   "values_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [],
+    "stored_bytes": 0,
+    "decoded_bytes": 0
+   },
+   "values": []
+  }
+ ],
+ "vdata": [
+  {
+   "ref": 16,
+   "name": "metadata",
+   "class": "",
+   "records": 1,
+   "record_bytes": 1437,
+   "interlace": "full",
+   "fields": [
+    {
+     "name": "Product_ID",
+     "type": "char8",
+     "order": 80
+    },
+    {
+     "name": "Date_Time_at_Granule_Start",
+     "type": "char8",
+     "order": 27
+    },
+    {
+     "name": "Date_Time_at_Granule_End",
+     "type": "char8",
+     "order": 27
+    },
+    {
+     "name": "Date_Time_of_Production",
+     "type": "char8",
+     "order": 27
+    },
+    {
+     "name": "Number_of_Good_125m_Records",
+     "type": "int32",
+     "order": 1
+    },
+    {
+     "name": "Number_of_Bad_125m_Records",
+     "type": "int32",
+     "order": 1
+    },
+    {
+     "name": "Number_of_Good_1km_Records",
+     "type": "int32",
+     "order": 1
+    },
+    {
+     "name": "Number_of_Bad_1km_Records",
+     "type": "int32",
+     "order": 1
+    },
+    {
+     "name": "Initial_Subsatellite_Latitude",
+     "type": "float32",
+     "order": 1
+    },
+    {
+     "name": "Initial_Subsatellite_Longitude",
+     "type": "float32",
+     "order": 1
+    },
+    {
+     "name": "Final_Subsatellite_Latitude",
+     "type": "float32",
+     "order": 1
+    },
+    {
+     "name": "Final_Subsatellite_Longitude",
+     "type": "float32",
+     "order": 1
+    },
+    {
+     "name": "Orbit_Number_at_Granule_Start",
+     "type": "uint32",
+     "order": 1
+    },
+    {
+     "name": "Orbit_Number_at_Granule_End",
+     "type": "uint32",
+     "order": 1
+    },
+    {
+     "name": "Orbit_Number_Change_Time",
+     "type": "float64",
+     "order": 1
+    },
+    {
+     "name": "Path_Number_at_Granule_Start",
+     "type": "int16",
+     "order": 1
+    },
+    {
+     "name": "Path_Number_at_Granule_End",
+     "type": "int16",
+     "order": 1
+    },
+    {
+     "name": "Path_Number_Change_Time",
+     "type": "float64",
+     "order": 1
+    },
+    {
+     "name": "Ephemeris_Files_Used",
+     "type": "char8",
+     "order": 160
+    },
+    {
+     "name": "Attitude_Files_Used",
+     "type": "char8",
+     "order": 160
+    },
+    {
+     "name": "Vicarious_Calibration_File_Used",
+     "type": "char8",
+     "order": 80
+    },
+    {
+     "name": "1km_Radiance_Calibration_Coefficients",
+     "type": "float64",
+     "order": 61
+    },
+    {
+     "name": "125m_Radiance_Calibration_Coefficients",
+     "type": "float64",
+     "order": 40
+    },
+    {
+     "name": "Total_Proc_Day_Packets",
+     "type": "int32",
+     "order": 1
+    },
+    {
+     "name": "Total_Proc_Night_Packets",
+     "type": "int32",
+     "order": 1
+    }
+   ],
+   "records_json_sha256": "64ac5d7d9a112965cefcbc7bb4e25b3c68fe2e470f14b02fea3dfbe2571bc254",
+   "ranges": [
+    {
+     "offset": 14626,
+     "length": 1437
+    }
+   ],
+   "rows": [
+    [
+     "WFC_L1_Cal",
+     "2006-06-14T08:10:53.587000Z",
+     "2006-06-14T08:48:31.996200Z",
+     "2025-02-04T12:47:40Z\u00dc*",
+     121440,
+     0,
+     15180,
+     0,
+     -39.640228271484375,
+     89.80048370361328,
+     79.14103698730469,
+     -57.812252044677734,
+     684,
+     685,
+     60614.348526135174,
+     16,
+     32,
+     60614.36565763194,
+     "CAL_Eph_TK-Launch-V1-00.2006-06-13T05-00-00Z.eph, CAL_Eph_TK-Launch-V1-00.2006-06-14T05-00-00Z.eph\u0083\u00d7?\t\u00e8U\u000fxR\u0010\u00ebA\u00e0I_\u00fcR\u0015\u00f0A\u00eb",
+     "CAL_Att_TK-Launch-V1-00.2006-06-13T00-00-00Z.att, CAL_Att_TK-Launch-V1-00.2006-06-14T00-00-00Z.att\u0010@J_\u00fcR\u0015\u00e0I_\u00fcR\u0015\u00ebA\u0010\u00ebA\u00c0TJ\u00fcR\u0015\u0001",
+     "WFC_Input_Maps.hdf1-00.2006-06-14T00-00-00Z.att_Att_TK-Launch-V1-00.2006-06-14",
+     [
+      0.3419126272201538,
+      0.33798810839653015,
+      0.335685133934021,
+      0.33346837759017944,
+      0.329797625541687,
+      0.3292066156864166,
+      0.3247559070587158,
+      0.32415586709976196,
+      0.32300323247909546,
+      0.31969279050827026,
+      0.31915438175201416,
+      0.3174872398376465,
+      0.3159021735191345,
+      0.31590408086776733,
+      0.313409686088562,
+      0.31164997816085815,
+      0.3120627999305725,
+      0.31000250577926636,
+      0.3091121315956116,
+      0.30857300758361816,
+      0.30757248401641846,
+      0.30719223618507385,
+      0.30579420924186707,
+      0.30485600233078003,
+      0.30356645584106445,
+      0.30352476239204407,
+      0.30335792899131775,
+      0.3020833730697632,
+      0.30048099160194397,
+      0.3003947138786316,
+      0.300659716129303,
+      0.30058199167251587,
+      0.29884880781173706,
+      0.29945865273475647,
+      0.3005422353744507,
+      0.2985268831253052,
+      0.300010621547699,
+      0.3010696768760681,
+      0.2991318702697754,
+      0.2996864318847656,
+      0.2999610900878906,
+      0.300744891166687,
+      0.2996145188808441,
+      0.3026454448699951,
+      0.3015497326850891,
+      0.301261305809021,
+      0.3027994632720947,
+      0.3023618161678314,
+      0.3037234842777252,
+      0.30448341369628906,
+      0.30631470680236816,
+      0.3060266673564911,
+      0.30689552426338196,
+      0.3086854815483093,
+      0.3101934492588043,
+      0.3125513195991516,
+      0.3132381737232208,
+      0.3147820830345154,
+      0.31513553857803345,
+      0.3182693421840668,
+      0.32011979818344116
+     ],
+     [
+      0.30196765065193176,
+      0.3027048408985138,
+      0.29966166615486145,
+      0.29925668239593506,
+      0.2995747923851013,
+      0.3018794357776642,
+      0.29730504751205444,
+      0.30149775743484497,
+      0.298852801322937,
+      0.30149775743484497,
+      0.3001549243927002,
+      0.30111703276634216,
+      0.3007664680480957,
+      0.30047494173049927,
+      0.2987375855445862,
+      0.30155643820762634,
+      0.30000966787338257,
+      0.3010585606098175,
+      0.30158576369285583,
+      0.3003876209259033,
+      0.2998065650463104,
+      0.3022031784057617,
+      0.30085402727127075,
+      0.29937228560447693,
+      0.30085402727127075,
+      0.2981916069984436,
+      0.2998935878276825,
+      0.30229154229164124,
+      0.30059149861335754,
+      0.3006206154823303,
+      0.29998064041137695,
+      0.30223262310028076,
+      0.2996326982975006,
+      0.29784780740737915,
+      0.29687801003456116,
+      0.3007081151008606,
+      0.29551953077316284,
+      0.2977047860622406,
+      0.3007081151008606,
+      0.3017912805080414
+     ],
+     3036,
+     0
+    ]
+   ]
+  }
+ ],
+ "internal_vdata_classes": {
+  "DimVal0.1": 5,
+  "Attr0.0": 76,
+  "SDSVar": 14
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 14,
+   "NT": 14,
+   "SDD": 14,
+   "VERSION": 1,
+   "VG": 20,
+   "VH": 96,
+   "VS": 96
+  },
+  "special_elements": {}
+ }
+}

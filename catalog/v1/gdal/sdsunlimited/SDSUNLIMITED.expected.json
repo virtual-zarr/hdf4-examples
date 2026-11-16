@@ -1,0 +1,87 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "SDSUNLIMITED.hdf",
+  "size": 5741,
+  "sha256": "f47be5c7b50d9e18fab3e7d32d7a4876580ea9d18ae87586fb1c45a1c44391b0",
+  "written_by": {
+   "version": "4.2.10",
+   "text": "HDF Version 4.2 Release 10, February 7, 2014"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "AppendableData",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    11,
+    10
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": true
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "086dfb8ed3446d39cb1d1f56d30e0d0384b5f1f9afcbe2072b63710b2f6b1fc2",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2776,
+      "length": 440
+     }
+    ],
+    "stored_bytes": 440,
+    "decoded_bytes": 440
+   }
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "LINKED": 2,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 3,
+   "VS": 3
+  },
+  "special_elements": {
+   "SD": {
+    "linked": 1
+   }
+  }
+ }
+}

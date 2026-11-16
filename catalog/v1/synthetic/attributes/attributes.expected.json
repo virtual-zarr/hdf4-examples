@@ -1,0 +1,152 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "attributes.hdf",
+  "size": 3766,
+  "sha256": "03ce1f35664744034262935cbc34d6fbb631ac0a63e950402a7e2d61f2fb9e3c",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "title": {
+   "type": "char8",
+   "length": 14,
+   "value": "a global title"
+  },
+  "levels": {
+   "type": "int32",
+   "length": 3,
+   "value": [
+    7,
+    8,
+    9
+   ]
+  },
+  "CoreMetadata.0": {
+   "type": "char8",
+   "length": 218,
+   "value": "GROUP = INVENTORYMETADATA\n  OBJECT = SHORTNAME\n    NUM_VAL = 1\n    VALUE = \"MOD 14\"\n  END_OBJECT = SHORTNAME\n  OBJECT = LIST\n    NUM_VAL = 2\n    VALUE = (\"a\", \"b\")\n  END_OBJECT = LIST\nEND_GROUP = INVENTORYMETADATA\nEND\n"
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "v",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    2,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": 255,
+   "attributes": {
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      100
+     ]
+    },
+    "long_name": {
+     "type": "char8",
+     "length": 9,
+     "value": "two words"
+    },
+    "quoted": {
+     "type": "char8",
+     "length": 8,
+     "value": "\"quoted\""
+    },
+    "scale_factor": {
+     "type": "float64",
+     "length": 1,
+     "value": 0.01
+    },
+    "add_offset": {
+     "type": "float32",
+     "length": 1,
+     "value": 1.5
+    },
+    "_FillValue": {
+     "type": "uint8",
+     "length": 1,
+     "value": 255
+    }
+   },
+   "values_sha256": "054edec1d0211f624fed0cbca9d4f9400b0e491c43742af2c5b0abebf0c990d8",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2518,
+      "length": 12
+     }
+    ],
+    "stored_bytes": 12,
+    "decoded_bytes": 4
+   },
+   "values": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "Attr0.0": 9,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "COMPRESSED": 1,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 12,
+   "VS": 12
+  },
+  "special_elements": {
+   "SD": {
+    "compressed": 1
+   }
+  }
+ }
+}

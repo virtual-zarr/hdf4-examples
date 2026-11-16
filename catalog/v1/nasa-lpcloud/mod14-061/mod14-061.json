@@ -1,0 +1,146 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mod14-061",
+ "collection": "nasa-lpcloud",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -10.3024923862091,
+     -21.4211158837425
+    ],
+    [
+     12.8417581251185,
+     -21.4211158837425
+    ],
+    [
+     12.8417581251185,
+     -11.2990397261526
+    ],
+    [
+     -10.3024923862091,
+     -11.2990397261526
+    ],
+    [
+     -10.3024923862091,
+     -21.4211158837425
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MOD14 v061",
+  "description": "MODIS/Terra Thermal Anomalies/Fire 5-Min L2 Swath 1km V061. Granule MOD14.A2000055.1025.061.2020037091616.",
+  "datetime": "2000-02-24T10:25:00.000Z",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate",
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16",
+   "uint16",
+   "uint32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "odl_metadata",
+   "unlimited_dimension",
+   "zero_length"
+  ],
+  "hdf4:sds_count": 30,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 398,
+  "sci:doi": "10.5067/MODIS/MOD14.061",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+   "license_name": "Data Use Policy",
+   "license_text": null,
+   "use_description": "License URL for data use policy",
+   "access_description": null
+  },
+  "cmr:collection_concept_id": "C2271754179-LPCLOUD",
+  "cmr:granule_concept_id": "G2271994946-LPCLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2271994946-LPCLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2271754179-LPCLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "license",
+   "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+   "title": "Data Use Policy"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/MODIS/MOD14.061",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MOD14.A2000055.1025.061.2020037091616.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 102432,
+   "file:checksum": "1220e27e919921b6b57e2fc1c3271652c8742d579c5e2e541678dfb7678d23532bf5"
+  },
+  "expected": {
+   "href": "./MOD14.A2000055.1025.061.2020037091616.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 88608,
+   "file:checksum": "1220cfc7b020b21bcd2a67acba46f85b714969e0cf106b9778fa54075dedfd0ee25f"
+  }
+ },
+ "bbox": [
+  -10.3024923862091,
+  -21.4211158837425,
+  12.8417581251185,
+  -11.2990397261526
+ ]
+}

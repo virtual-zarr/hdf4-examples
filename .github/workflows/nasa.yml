@@ -1,0 +1,25 @@
+name: nasa
+
+# Downloads the NASA granules and checks them against the catalogue.
+# Needs an Earthdata Login token in the EARTHDATA_TOKEN repository secret.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 1 * *"
+
+permissions:
+  contents: read
+
+jobs:
+  granules:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Fetch the NASA granules
+        env:
+          EARTHDATA_TOKEN: ${{ secrets.EARTHDATA_TOKEN }}
+        run: uv run tools/fetch.py nasa-lpcloud nasa-larc nasa-nsidc nasa-ghrc
+      - name: Check them against the catalogue
+        run: uv run pytest -q

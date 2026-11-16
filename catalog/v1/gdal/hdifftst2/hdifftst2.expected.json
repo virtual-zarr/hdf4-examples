@@ -1,0 +1,361 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "hdifftst2.hdf",
+  "size": 3992,
+  "sha256": "4b67d62e18cc51bf3d7ee0d442d2c6a1b1fd7a2ce2636a99e49080843f0a88db",
+  "written_by": {
+   "version": "4.2.1",
+   "text": "NCSA HDF Version 4.2 Release 1-post3, January 27, 2006"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "File_contents": {
+   "type": "char8",
+   "length": 18,
+   "value": "Storm_track_data2\u0000"
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "dset1",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    3,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "Valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      1.0,
+      2.0
+     ]
+    }
+   },
+   "values_sha256": "90d856b7ecac90c26898af8a46404297aa0ef65768f62fdf8c3f08294bcbee49",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2502,
+      "length": 24
+     }
+    ],
+    "stored_bytes": 24,
+    "decoded_bytes": 24
+   },
+   "values": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "index": 1,
+   "ref": 4,
+   "name": "dset2",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    3,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim2",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "90d856b7ecac90c26898af8a46404297aa0ef65768f62fdf8c3f08294bcbee49",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2526,
+      "length": 24
+     }
+    ],
+    "stored_bytes": 24,
+    "decoded_bytes": 24
+   },
+   "values": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "index": 2,
+   "ref": 6,
+   "name": "dset3",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    3,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim4",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim5",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "11e0b791680470a9cef4015139cd07600fdc561626fbba0235f296d59ecfd62b",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2550,
+      "length": 24
+     }
+    ],
+    "stored_bytes": 24,
+    "decoded_bytes": 24
+   },
+   "values": [
+    [
+     120,
+     80
+    ],
+    [
+     0,
+     100
+    ],
+    [
+     0,
+     50
+    ]
+   ]
+  }
+ ],
+ "vdata": [
+  {
+   "ref": 29,
+   "name": "vdata1",
+   "class": "5x1 Array",
+   "records": 5,
+   "record_bytes": 1,
+   "interlace": "full",
+   "fields": [
+    {
+     "name": "Single-component Field",
+     "type": "char8",
+     "order": 1
+    }
+   ],
+   "records_json_sha256": "be8454de7a13cc4d54b41728dd405b1bcadfa26b1efe317f62d5229149a4cb9e",
+   "ranges": [
+    {
+     "offset": 3660,
+     "length": 5
+    }
+   ],
+   "rows": [
+    [
+     88
+    ],
+    [
+     68
+    ],
+    [
+     65
+    ],
+    [
+     84
+    ],
+    [
+     65
+    ]
+   ]
+  },
+  {
+   "ref": 30,
+   "name": "vdata2",
+   "class": "6x4 Array",
+   "records": 2,
+   "record_bytes": 16,
+   "interlace": "full",
+   "fields": [
+    {
+     "name": "Multi-component Field",
+     "type": "int32",
+     "order": 4
+    }
+   ],
+   "records_json_sha256": "00b68dab9dccf631290e3b6f7758eb3f4485e7df4aefa1a316d7d9879b6c3580",
+   "ranges": [
+    {
+     "offset": 3739,
+     "length": 32
+    }
+   ],
+   "rows": [
+    [
+     [
+      1,
+      1,
+      1,
+      1
+     ]
+    ],
+    [
+     [
+      5,
+      6,
+      7,
+      8
+     ]
+    ]
+   ]
+  },
+  {
+   "ref": 31,
+   "name": "vdata3",
+   "class": "Particle Data",
+   "records": 2,
+   "record_bytes": 24,
+   "interlace": "full",
+   "fields": [
+    {
+     "name": "Position",
+     "type": "float32",
+     "order": 3
+    },
+    {
+     "name": "Mass",
+     "type": "float32",
+     "order": 1
+    },
+    {
+     "name": "Temperature",
+     "type": "float32",
+     "order": 2
+    }
+   ],
+   "records_json_sha256": "f1c8dbc231d3b2773782efa2fadeaedceb05ebbd550956699d40a5915bfb3f7f",
+   "ranges": [
+    {
+     "offset": 3844,
+     "length": 48
+    }
+   ],
+   "rows": [
+    [
+     [
+      1.0,
+      1.0,
+      1.0
+     ],
+     1.0,
+     [
+      1.0,
+      1.0
+     ]
+    ],
+    [
+     [
+      7.0,
+      8.0,
+      9.0
+     ],
+     10.0,
+     [
+      11.0,
+      12.0
+     ]
+    ]
+   ]
+  }
+ ],
+ "internal_vdata_classes": {
+  "DimVal0.1": 6,
+  "Attr0.0": 2
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 3,
+   "NT": 3,
+   "SD": 3,
+   "SDD": 3,
+   "VERSION": 1,
+   "VG": 10,
+   "VH": 11,
+   "VS": 11
+  },
+  "special_elements": {}
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "ae-rngd-2",
+ "collection": "nasa-nsidc",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -180.0,
+     -90.0
+    ],
+    [
+     180.0,
+     -90.0
+    ],
+    [
+     180.0,
+     90.0
+    ],
+    [
+     -180.0,
+     90.0
+    ],
+    [
+     -180.0,
+     -90.0
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "AE_RnGd v2",
+  "description": "AMSR-E/Aqua Monthly L3 5x5 deg Rainfall Accumulations V002. Granule AMSR_E_L3_RainGrid_V06_200907.hdf.",
+  "datetime": "2009-07-02T00:21:40.910Z",
+  "hdf4:library_version": "4.2.1",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 2,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2,
+  "sci:doi": "10.5067/AMSR-E/AE_RNGD.002",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/use_copyright.html. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+   "use_description": null,
+   "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+  },
+  "cmr:collection_concept_id": "C3228763816-NSIDC_CPRD",
+  "cmr:granule_concept_id": "G3228771754-NSIDC_CPRD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3228771754-NSIDC_CPRD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3228763816-NSIDC_CPRD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/AMSR-E/AE_RNGD.002",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./AMSR_E_L3_RainGrid_V06_200907.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 91055,
+   "file:checksum": "12205d0e713c913879797d48770de220c51bfdf88cb3f800e4a5bd5533b333118f15"
+  },
+  "expected": {
+   "href": "./AMSR_E_L3_RainGrid_V06_200907.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 199234,
+   "file:checksum": "1220c3d36095229e748ca03e1c23b167e8f22b0bda282bf27f0736c5206c60fbe347"
+  }
+ },
+ "bbox": [
+  -180.0,
+  -90.0,
+  180.0,
+  90.0
+ ]
+}

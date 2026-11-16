@@ -1,0 +1,1956 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "A2006005182000.L2_LAC_SST.x.hdf",
+  "size": 3566493,
+  "sha256": "a4ac6d11a35fa591d7efc17d4a1ca66131874ba1a784d26c8f5f6966b5e9473d",
+  "written_by": {
+   "version": "4.1.5",
+   "text": "NCSA HDF Version 4.1 Release 5, November 5, 2001"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "Title": {
+   "type": "char8",
+   "length": 20,
+   "value": "MODISA Level-2 Data\u0000"
+  },
+  "Sensor Name": {
+   "type": "char8",
+   "length": 7,
+   "value": "MODISA\u0000"
+  },
+  "Product Name": {
+   "type": "char8",
+   "length": 26,
+   "value": "A2006005182000.L2_LAC_SST\u0000"
+  },
+  "Software Name": {
+   "type": "char8",
+   "length": 6,
+   "value": "MSl12\u0000"
+  },
+  "Software Version": {
+   "type": "char8",
+   "length": 6,
+   "value": "5.3.4\u0000"
+  },
+  "Replacement Flag": {
+   "type": "char8",
+   "length": 9,
+   "value": "ORIGINAL\u0000"
+  },
+  "Orbit Node Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 0.0
+  },
+  "Orbit Number": {
+   "type": "int32",
+   "length": 1,
+   "value": 0
+  },
+  "Node Crossing Time": {
+   "type": "char8",
+   "length": 1,
+   "value": "\u0000"
+  },
+  "Processing Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2006032202252000\u0000"
+  },
+  "Creation Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2007101223743000\u0000"
+  },
+  "Processing Control": {
+   "type": "char8",
+   "length": 108,
+   "value": "MSl12 par=/data1/vdc/sdpsoper/vpu0/workbuf/A2006005182000.L1B_LAC.param metafile=A2006005182000.L2_LAC.meta\u0000"
+  },
+  "Input Parameters": {
+   "type": "char8",
+   "length": 2518,
+   "value": "\nIFILE1 = /data1/vdc/sdpsoper/vpu0/workbuf/A2006005182000.L1B_LAC \nOFILE1 = A2006005182000.L2_LAC_SST\nL2PROD1 = sst,qual_sst,l2_flags\nCALFILE = \nPOLFILE = /sdps/sdpsoper/data/modisa/cal/polcor_modisa\nCLDFILE = \nGEOFILE = /data1/vdc/sdpsoper/vpu0/workbuf/A2006005182000.GEO\nRFLAG = ORIGINAL\nEVAL =     0\nMODE =     0\nSPIXL =     1\nEPIXL =    -1\nDPIXL =     1\nSLINE =     1\nELINE =    -1\nDLINE =     1\nCTL_PT_INCR =     8\nPROC_OCEAN =   1\nPROC_LAND =   0\nATMOCOR =   0\nAER_OPT =  -3\nAER_ITER_MAX =  10\nBRDF_OPT =   7\nIOP_OPT =   0\nQAA_OPT =   0\nQAA_S  =  0.01500\nPOL_OPT =   3\nSL_PIXL =  -1\nSL_FRAC =   0.2500\nGLINT_OPT =   1\nOUTBAND_OPT =   2\nOXABAND_OPT =   0\nFILTER_OPT =   1\nFILTER_FILE = /sdps/sdpsoper/data/modisa/msl12_filter.dat\n# FILTER_1 = 7 x 5 (1) straylight filter on flag  5 \n# FILTER_2 = 7 x 5 (1) straylight filter on flag  10 \nMET1 = /data1/vdc/sdpsoper/vpu0/workbuf/S200600518_NCEP.MET\nMET2 = /data1/vdc/sdpsoper/vpu0/workbuf/S200600600_NCEP.MET\nMET3 = /data1/vdc/sdpsoper/vpu0/workbuf/S200600600_NCEP.MET\nOZONE1 = /data1/vdc/sdpsoper/vpu0/workbuf/S20060050000523_TOAST.OZONE\nOZONE2 = /data1/vdc/sdpsoper/vpu0/workbuf/S20060060000623_TOAST.OZONE\nOZONE3 = /data1/vdc/sdpsoper/vpu0/workbuf/S20060060000623_TOAST.OZONE\nLAND = /sdps/sdpsoper/data/common/landmask.dat\nWATER = /sdps/sdpsoper/data/common/watermask.dat\nDEMFILE = /sdps/sdpsoper/data/common/digital_elevation_map.hdf\nICEFILE = /sdps/sdpsoper/data/common/ice_mask.hdf\nSSTFILE = /data1/vdc/sdpsoper/vpu0/workbuf/oisst.20060104\nALPHAFILE = /sdps/sdpsoper/data/common/alpha510_climatology.hdf\nTAUAFILE = /sdps/sdpsoper/data/common/taua865_climatology.hdf\nGAIN =   0.9710,   0.9848,   0.9795,   0.9870,   0.9850,   0.9797,   0.9776,   0.9855,   1.0000\nOFFSET =  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000,  0.00000\nAERMODELS = o99, m50, m70, m90, m99, c50, c70, c90, c99, t50, t90, t99\nTAUA =   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000,   0.0000\nAERMODRAT =  0.00000\nAERMODMIN =  -1f\nAERMODMAX =  -1f\nALBEDO =    0.027\nABSAER =    0.000\nRHOAMIN  =  0.00010\nNLWMIN  =    0.150\nHIPOL  =    0.500\nWSMAX  =    8.000\nTAUAMAX  =    0.300\nEPSMIN  =    0.850\nEPSMAX  =    1.350\nGLINT_THRESH =    0.005\nWINDSPEED = -1000.000\nWINDANGLE = -1000.000\nPRESSURE = -1000.000\nOZONE = -1000.000\nWATERVAPOR = -1000.000\nRELHUMID = -1000.000\nSUNZEN =   90.000\nSATZEN =   60.000\nMASKLAND =  1\nMASKBATH =  0\nMASKCLOUD =  1\nMASKGLINT =  0\nMASKSUNZEN =  0\nMASKSATZEN =  0\nMASKHILT =  1\nMASKSTLIGHT =  0\u0000"
+  },
+  "Input Files": {
+   "type": "char8",
+   "length": 333,
+   "value": "A2006005182000.L1B_LAC,S200600518_NCEP.MET,S200600600_NCEP.MET,S200600600_NCEP.MET,S20060050000523_TOAST.OZONE,S20060060000623_TOAST.OZONE,S20060060000623_TOAST.OZONE,,polcor_modisa,,landmask.dat,watermask.dat,digital_elevation_map.hdf,ice_mask.hdf,oisst.20060104,alpha510_climatology.hdf,taua865_climatology.hdf,A2006005182000.GEO,\u0000"
+  },
+  "Mask Names": {
+   "type": "char8",
+   "length": 25,
+   "value": "ATMFAIL,LAND,CLDICE,HILT\u0000"
+  },
+  "Number of Bands": {
+   "type": "int32",
+   "length": 1,
+   "value": 9
+  },
+  "Number of Scan Lines": {
+   "type": "int32",
+   "length": 1,
+   "value": 602
+  },
+  "Pixels per Scan Line": {
+   "type": "int32",
+   "length": 1,
+   "value": 389
+  },
+  "Scene Center Scan Line": {
+   "type": "int32",
+   "length": 1,
+   "value": 302
+  },
+  "Number of Scan Control Points": {
+   "type": "int32",
+   "length": 1,
+   "value": 602
+  },
+  "Number of Pixel Control Points": {
+   "type": "int32",
+   "length": 1,
+   "value": 389
+  },
+  "Start Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2006005182007000\u0000"
+  },
+  "Start Year": {
+   "type": "int16",
+   "length": 1,
+   "value": 2006
+  },
+  "Start Day": {
+   "type": "int16",
+   "length": 1,
+   "value": 5
+  },
+  "Start Millisec": {
+   "type": "int32",
+   "length": 1,
+   "value": 66007000
+  },
+  "Upper Left Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -64.6091537475586
+  },
+  "Upper Right Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -88.11378479003906
+  },
+  "Upper Left Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 30.144485473632812
+  },
+  "Upper Right Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 26.776865005493164
+  },
+  "Start Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -76.58080291748047
+  },
+  "Start Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 29.0142822265625
+  },
+  "Latitude Units": {
+   "type": "char8",
+   "length": 14,
+   "value": "degrees North\u0000"
+  },
+  "Longitude Units": {
+   "type": "char8",
+   "length": 13,
+   "value": "degrees East\u0000"
+  },
+  "Scene Center Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2006005182052000\u0000"
+  },
+  "Scene Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -77.2830810546875
+  },
+  "Scene Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 31.687042236328125
+  },
+  "Scene Center Solar Zenith": {
+   "type": "float32",
+   "length": 1,
+   "value": 56.5099983215332
+  },
+  "Earth-Sun Distance Correction": {
+   "type": "float64",
+   "length": 1,
+   "value": 1.0342507334948468
+  },
+  "End Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2006005182136000\u0000"
+  },
+  "End Year": {
+   "type": "int16",
+   "length": 1,
+   "value": 2006
+  },
+  "End Day": {
+   "type": "int16",
+   "length": 1,
+   "value": 5
+  },
+  "End Millisec": {
+   "type": "int32",
+   "length": 1,
+   "value": 66096000
+  },
+  "Lower Left Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -65.29938507080078
+  },
+  "Lower Right Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -90.14451599121094
+  },
+  "Lower Left Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 35.465484619140625
+  },
+  "Lower Right Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 31.9067325592041
+  },
+  "End Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -78.01443481445312
+  },
+  "End Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 34.347618103027344
+  },
+  "Northernmost Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 33.82318115234375
+  },
+  "Southernmost Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 26.776865005493164
+  },
+  "Easternmost Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -79.69388580322266
+  },
+  "Westernmost Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -90.15974426269531
+  },
+  "Start Node": {
+   "type": "char8",
+   "length": 10,
+   "value": "Ascending\u0000"
+  },
+  "End Node": {
+   "type": "char8",
+   "length": 10,
+   "value": "Ascending\u0000"
+  },
+  "Day or Night": {
+   "type": "char8",
+   "length": 4,
+   "value": "Day\u0000"
+  },
+  "Flag Percentages": {
+   "type": "float32",
+   "length": 32,
+   "value": [
+    0.0,
+    60.40314865112305,
+    0.0,
+    0.0,
+    85.67892456054688,
+    6.868537902832031,
+    9.522415161132812,
+    0.0,
+    10.465869903564453,
+    31.258377075195312,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.7843572497367859,
+    0.0,
+    0.0,
+    0.023320794105529785,
+    3.1946213245391846,
+    0.0,
+    0.0,
+    1.18172025680542,
+    94.47872161865234,
+    2.1571552753448486,
+    0.0,
+    8.338475227355957
+   ]
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "year",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 10,
+     "value": "Scan year\u0000"
+    },
+    "valid_range": {
+     "type": "int32",
+     "length": 2,
+     "value": [
+      1996,
+      2038
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 6,
+     "value": "years\u0000"
+    }
+   },
+   "values_sha256": "204c3d77484c90ee9cd10bbae94b4ccf06aca0cd43d134fdea1f13a7c1fcf4be",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 294,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 1,
+   "ref": 3,
+   "name": "day",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 17,
+     "value": "Scan day of year\u0000"
+    },
+    "valid_range": {
+     "type": "int32",
+     "length": 2,
+     "value": [
+      1,
+      366
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 5,
+     "value": "days\u0000"
+    }
+   },
+   "values_sha256": "98f6d8aaca1c4dc7c67f1654d3b39ecaa3bf6b4c6a503633df567af35d7f93a7",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 2702,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 2,
+   "ref": 4,
+   "name": "msec",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 36,
+     "value": "Scan-line time, milliseconds of day\u0000"
+    },
+    "valid_range": {
+     "type": "int32",
+     "length": 2,
+     "value": [
+      0,
+      86399999
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 13,
+     "value": "milliseconds\u0000"
+    }
+   },
+   "values_sha256": "6cc79928c4b31d0f68f61c6ad0f4c0a3351252b761f8976600da2ed347f00842",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 5110,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 3,
+   "ref": 5,
+   "name": "tilt",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 25,
+     "value": "Tilt angle for scan line\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -20.100000381469727,
+      20.100000381469727
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "5d81987966a0197c8a663d8800d87b97c0c5ea4f619d42f44e22bf5321d14cbb",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 7518,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 4,
+   "ref": 6,
+   "name": "slon",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Scan start-pixel longitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "8554bf41aa2d74f34de15315afe6e836a45b6f96edc9c1f930576fa7126bfe1c",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 9926,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 5,
+   "ref": 7,
+   "name": "clon",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "Scan center-pixel longitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "6089db5becc189f1b454ff3760741a3d27c802fab47f1cbe93d1650deabf11de",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 12334,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 6,
+   "ref": 8,
+   "name": "elon",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 25,
+     "value": "Scan end-pixel longitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "a4cc0dc0f4097db1de19a4665759db196c2d7396cebee91e24a49623d4a418bf",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 14742,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 7,
+   "ref": 9,
+   "name": "slat",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 26,
+     "value": "Scan start-pixel latitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "a2739729d3f42d5f717f0a7f3b568ae84281ff36e2a7cfa1ce168767dcb7faaf",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 17150,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 8,
+   "ref": 10,
+   "name": "clat",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Scan center-pixel latitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "44b346f034448c942125809c9824bcc9403407ac7d194f0bc9d896ed82fb5f95",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 19558,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 9,
+   "ref": 11,
+   "name": "elat",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 24,
+     "value": "Scan end-pixel latitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "a55ea2c5f44779d964c0b6c1e7ce63532a5f1cf1d758b718dc4dbc6a83132437",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 21966,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 10,
+   "ref": 12,
+   "name": "csol_z",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 37,
+     "value": "Scan center-pixel solar zenith angle\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      0.0,
+      180.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "f92e1e8627f591dfdac7dc608336c6f63313ed70cae7f6b28849c5dcf7cf3f0e",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 24374,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 11,
+   "ref": 13,
+   "name": "longitude",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602,
+    389
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Pixel Control Points",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 29,
+     "value": "Longitudes at control points\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "10958f84350805533c82fd9af8f612abfde73c6a0ac8a175b9cfa8cb405771be",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 26782,
+      "length": 936712
+     }
+    ],
+    "stored_bytes": 936712,
+    "decoded_bytes": 936712
+   }
+  },
+  {
+   "index": 12,
+   "ref": 14,
+   "name": "latitude",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    602,
+    389
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Pixel Control Points",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "Latitudes at control points\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 8,
+     "value": "degrees\u0000"
+    }
+   },
+   "values_sha256": "6960663b0d4fe13f7ebfa8e6e57dd9f4bb20abdd11fb095201bac2177fdf4438",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 963494,
+      "length": 936712
+     }
+    ],
+    "stored_bytes": 936712,
+    "decoded_bytes": 936712
+   }
+  },
+  {
+   "index": 13,
+   "ref": 15,
+   "name": "sst",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    602,
+    389
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Pixels per Scan Line",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 24,
+     "value": "Sea Surface Temperature\u0000"
+    },
+    "slope": {
+     "type": "float32",
+     "length": 1,
+     "value": 0.004999999888241291
+    },
+    "intercept": {
+     "type": "float32",
+     "length": 1,
+     "value": 0.0
+    },
+    "units": {
+     "type": "char8",
+     "length": 10,
+     "value": "degrees-C\u0000"
+    }
+   },
+   "values_sha256": "af5d05cee8153ed96cb64d58515958c9581f39933da65ac516e4e0600f07d235",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 1900206,
+      "length": 468356
+     }
+    ],
+    "stored_bytes": 468356,
+    "decoded_bytes": 468356
+   }
+  },
+  {
+   "index": 14,
+   "ref": 16,
+   "name": "qual_sst",
+   "number_type": "int8",
+   "numpy_dtype": "i1",
+   "stored_byte_order": "none",
+   "shape": [
+    602,
+    389
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Pixels per Scan Line",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 40,
+     "value": "Quality Levels, Sea Surface Temperature\u0000"
+    },
+    "slope": {
+     "type": "float32",
+     "length": 1,
+     "value": 1.0
+    },
+    "intercept": {
+     "type": "float32",
+     "length": 1,
+     "value": 0.0
+    },
+    "units": {
+     "type": "char8",
+     "length": 14,
+     "value": "dimensionless\u0000"
+    }
+   },
+   "values_sha256": "7099c9752cba76706ec66676dca3e0baa3b4b3e00daf2c42d0620a51951ac1c9",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2368562,
+      "length": 234178
+     }
+    ],
+    "stored_bytes": 234178,
+    "decoded_bytes": 234178
+   }
+  },
+  {
+   "index": 15,
+   "ref": 17,
+   "name": "l2_flags",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    602,
+    389
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Pixels per Scan Line",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 25,
+     "value": "Level-2 Processing Flags\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 14,
+     "value": "dimensionless\u0000"
+    },
+    "f01_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "ATMFAIL\u0000"
+    },
+    "f02_name": {
+     "type": "char8",
+     "length": 5,
+     "value": "LAND\u0000"
+    },
+    "f03_name": {
+     "type": "char8",
+     "length": 7,
+     "value": "BADANC\u0000"
+    },
+    "f04_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "HIGLINT\u0000"
+    },
+    "f05_name": {
+     "type": "char8",
+     "length": 5,
+     "value": "HILT\u0000"
+    },
+    "f06_name": {
+     "type": "char8",
+     "length": 9,
+     "value": "HISATZEN\u0000"
+    },
+    "f07_name": {
+     "type": "char8",
+     "length": 7,
+     "value": "COASTZ\u0000"
+    },
+    "f08_name": {
+     "type": "char8",
+     "length": 6,
+     "value": "NEGLW\u0000"
+    },
+    "f09_name": {
+     "type": "char8",
+     "length": 11,
+     "value": "STRAYLIGHT\u0000"
+    },
+    "f10_name": {
+     "type": "char8",
+     "length": 7,
+     "value": "CLDICE\u0000"
+    },
+    "f11_name": {
+     "type": "char8",
+     "length": 10,
+     "value": "COCCOLITH\u0000"
+    },
+    "f12_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "TURBIDW\u0000"
+    },
+    "f13_name": {
+     "type": "char8",
+     "length": 9,
+     "value": "HISOLZEN\u0000"
+    },
+    "f14_name": {
+     "type": "char8",
+     "length": 6,
+     "value": "HITAU\u0000"
+    },
+    "f15_name": {
+     "type": "char8",
+     "length": 6,
+     "value": "LOWLW\u0000"
+    },
+    "f16_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "CHLFAIL\u0000"
+    },
+    "f17_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "NAVWARN\u0000"
+    },
+    "f18_name": {
+     "type": "char8",
+     "length": 7,
+     "value": "ABSAER\u0000"
+    },
+    "f19_name": {
+     "type": "char8",
+     "length": 7,
+     "value": "TRICHO\u0000"
+    },
+    "f20_name": {
+     "type": "char8",
+     "length": 11,
+     "value": "MAXAERITER\u0000"
+    },
+    "f21_name": {
+     "type": "char8",
+     "length": 9,
+     "value": "MODGLINT\u0000"
+    },
+    "f22_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "CHLWARN\u0000"
+    },
+    "f23_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "ATMWARN\u0000"
+    },
+    "f24_name": {
+     "type": "char8",
+     "length": 10,
+     "value": "DARKPIXEL\u0000"
+    },
+    "f25_name": {
+     "type": "char8",
+     "length": 7,
+     "value": "SEAICE\u0000"
+    },
+    "f26_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "NAVFAIL\u0000"
+    },
+    "f27_name": {
+     "type": "char8",
+     "length": 7,
+     "value": "FILTER\u0000"
+    },
+    "f28_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "SSTWARN\u0000"
+    },
+    "f29_name": {
+     "type": "char8",
+     "length": 8,
+     "value": "SSTFAIL\u0000"
+    },
+    "f30_name": {
+     "type": "char8",
+     "length": 6,
+     "value": "HIPOL\u0000"
+    },
+    "f31_name": {
+     "type": "char8",
+     "length": 6,
+     "value": "SPARE\u0000"
+    },
+    "f32_name": {
+     "type": "char8",
+     "length": 6,
+     "value": "OCEAN\u0000"
+    }
+   },
+   "values_sha256": "455a960e5f18b82120771b30237a4bf6b3f6685badca1fe7596cba2bff85381f",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2602938,
+      "length": 936712
+     }
+    ],
+    "stored_bytes": 936712,
+    "decoded_bytes": 936712
+   }
+  },
+  {
+   "index": 16,
+   "ref": 18,
+   "name": "wavelength",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    9
+   ],
+   "dimensions": [
+    {
+     "name": "band number",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 12,
+     "value": "Wavelengths\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 3,
+     "value": "nm\u0000"
+    }
+   },
+   "values_sha256": "06ea380342cb8d85201a54362f73984335efdbabcbd46de626d53b9dae6ca21d",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3539650,
+      "length": 36
+     }
+    ],
+    "stored_bytes": 36,
+    "decoded_bytes": 36
+   },
+   "values": [
+    412,
+    443,
+    488,
+    531,
+    551,
+    667,
+    678,
+    748,
+    869
+   ]
+  },
+  {
+   "index": 17,
+   "ref": 19,
+   "name": "cntl_pt_cols",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    389
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Pixel Control Points",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 21,
+     "value": "Pixel control points\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 5,
+     "value": "none\u0000"
+    }
+   },
+   "values_sha256": "1ac5810765bdfee9b80d6604b7e3b3887c7d375591807a18587ef8a43459d8da",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3539686,
+      "length": 1556
+     }
+    ],
+    "stored_bytes": 1556,
+    "decoded_bytes": 1556
+   }
+  },
+  {
+   "index": 18,
+   "ref": 20,
+   "name": "cntl_pt_rows",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    602
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 20,
+     "value": "Scan control points\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 5,
+     "value": "none\u0000"
+    }
+   },
+   "values_sha256": "13f8e6c36bc8fd86a96ea6b7617c94aae8580421647ef97aa9d7784f3ec7ff17",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3541242,
+      "length": 2408
+     }
+    ],
+    "stored_bytes": 2408,
+    "decoded_bytes": 2408
+   }
+  },
+  {
+   "index": 19,
+   "ref": 21,
+   "name": "vcal_gain",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    9
+   ],
+   "dimensions": [
+    {
+     "name": "band number",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Vicarious Calibration Gain\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 14,
+     "value": "dimensionless\u0000"
+    }
+   },
+   "values_sha256": "bfa95dcc4d49d36a95a29fcaf69ede4507dd8fff53dd8c88fdf1093ee01f6f31",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3543650,
+      "length": 36
+     }
+    ],
+    "stored_bytes": 36,
+    "decoded_bytes": 36
+   },
+   "values": [
+    0.9710000157356262,
+    0.9847999811172485,
+    0.9794999957084656,
+    0.9869999885559082,
+    0.9850000143051147,
+    0.9797000288963318,
+    0.9775999784469604,
+    0.9854999780654907,
+    1.0
+   ]
+  },
+  {
+   "index": 20,
+   "ref": 22,
+   "name": "vcal_offset",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    9
+   ],
+   "dimensions": [
+    {
+     "name": "band number",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 29,
+     "value": "Vicarious Calibration Offset\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "mW cm^-2 um^-1 sr^-1\u0000"
+    }
+   },
+   "values_sha256": "6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3543686,
+      "length": 36
+     }
+    ],
+    "stored_bytes": 36,
+    "decoded_bytes": 36
+   },
+   "values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "index": 21,
+   "ref": 23,
+   "name": "F0",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    9
+   ],
+   "dimensions": [
+    {
+     "name": "band number",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 16,
+     "value": "Mean Solar Flux\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 21,
+     "value": "mW cm^-2 um^-1 sr^-1\u0000"
+    }
+   },
+   "values_sha256": "b831c0d507495d23c6256f64bbdb0c5d246b9cf663cacd52de96af745a157f1d",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3543722,
+      "length": 36
+     }
+    ],
+    "stored_bytes": 36,
+    "decoded_bytes": 36
+   },
+   "values": [
+    172.71800231933594,
+    187.68800354003906,
+    194.97300720214844,
+    185.82000732421875,
+    186.593994140625,
+    152.16299438476562,
+    148.0970001220703,
+    128.1230010986328,
+    95.8489990234375
+   ]
+  },
+  {
+   "index": 22,
+   "ref": 24,
+   "name": "k_oz",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    9
+   ],
+   "dimensions": [
+    {
+     "name": "band number",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 29,
+     "value": "Ozone Absorption Coefficient\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 6,
+     "value": "cm^-1\u0000"
+    }
+   },
+   "values_sha256": "d1dbe04adbb8c2710e0d956ef02e0d34e2c31dc96521a9b2bf76e98811b0f258",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3543758,
+      "length": 36
+     }
+    ],
+    "stored_bytes": 36,
+    "decoded_bytes": 36
+   },
+   "values": [
+    0.0024399999529123306,
+    0.0038300000596791506,
+    0.02250000089406967,
+    0.06629999727010727,
+    0.0835999995470047,
+    0.048500001430511475,
+    0.039500001817941666,
+    0.011900000274181366,
+    0.002630000002682209
+   ]
+  },
+  {
+   "index": 23,
+   "ref": 25,
+   "name": "Tau_r",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    9
+   ],
+   "dimensions": [
+    {
+     "name": "band number",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Rayleigh Optical Thickness\u0000"
+    },
+    "units": {
+     "type": "char8",
+     "length": 14,
+     "value": "dimensionless\u0000"
+    }
+   },
+   "values_sha256": "473624d8029a37db93c143135ce67701898cb57cd277abe80d74a833e652cf56",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 3543794,
+      "length": 36
+     }
+    ],
+    "stored_bytes": 36,
+    "decoded_bytes": 36
+   },
+   "values": [
+    0.3109000027179718,
+    0.23749999701976776,
+    0.15960000455379486,
+    0.11309999972581863,
+    0.09939999878406525,
+    0.044599998742341995,
+    0.041600000113248825,
+    0.028599999845027924,
+    0.01549999974668026
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 4,
+  "Attr0.0": 153
+ },
+ "vgroups": [
+  {
+   "ref": 50,
+   "name": "Scan-Line Attributes",
+   "class": "Per Scan Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 0
+    },
+    {
+     "kind": "sds",
+     "index": 1
+    },
+    {
+     "kind": "sds",
+     "index": 2
+    },
+    {
+     "kind": "sds",
+     "index": 4
+    },
+    {
+     "kind": "sds",
+     "index": 5
+    },
+    {
+     "kind": "sds",
+     "index": 6
+    },
+    {
+     "kind": "sds",
+     "index": 7
+    },
+    {
+     "kind": "sds",
+     "index": 8
+    },
+    {
+     "kind": "sds",
+     "index": 9
+    },
+    {
+     "kind": "sds",
+     "index": 10
+    }
+   ]
+  },
+  {
+   "ref": 51,
+   "name": "Geophysical Data",
+   "class": "Per Scan Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 13
+    },
+    {
+     "kind": "sds",
+     "index": 14
+    },
+    {
+     "kind": "sds",
+     "index": 15
+    }
+   ]
+  },
+  {
+   "ref": 52,
+   "name": "Navigation Data",
+   "class": "Per Scan Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 11
+    },
+    {
+     "kind": "sds",
+     "index": 12
+    },
+    {
+     "kind": "sds",
+     "index": 17
+    },
+    {
+     "kind": "sds",
+     "index": 18
+    },
+    {
+     "kind": "sds",
+     "index": 3
+    }
+   ]
+  }
+ ],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 24,
+   "NT": 24,
+   "SD": 24,
+   "SDD": 24,
+   "VERSION": 1,
+   "VG": 32,
+   "VH": 157,
+   "VS": 157
+  },
+  "special_elements": {}
+ }
+}

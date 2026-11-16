@@ -1,0 +1,71 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "image-with-palette",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "image-with-palette",
+  "description": "GDAL autotest file autotest/gcore/data/Image_with_Palette.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.10",
+  "hdf4:data_models": [
+   "raster_image"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 0
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OSGeo/gdal/blob/1fe1fe6b8a48f1213573b7e6c6d954e4b6fb031f/autotest/gcore/data/Image_with_Palette.hdf",
+   "title": "File in the GDAL repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./Image_with_Palette.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 1252,
+   "file:checksum": "1220bae824b40cd0a1634829e603ed3d53bb8a52925c5032590fb76c8eb15f1cb275"
+  },
+  "expected": {
+   "href": "./Image_with_Palette.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 695,
+   "file:checksum": "1220ebabecdf7fd59402ad0f81fd62339276f69eb1d968c3640109ff3c456d5135a4"
+  }
+ }
+}

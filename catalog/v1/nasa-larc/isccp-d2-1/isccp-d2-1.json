@@ -1,0 +1,138 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "isccp-d2-1",
+ "collection": "nasa-larc",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -180,
+     -90
+    ],
+    [
+     180,
+     -90
+    ],
+    [
+     180,
+     90
+    ],
+    [
+     -180,
+     90
+    ],
+    [
+     -180,
+     -90
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "ISCCP_D2 v1",
+  "description": "International Satellite Cloud Climatology Project (ISCCP) Stage D2 Monthly Cloud Products - Revised Algorithm in Hierarchical Data Format. Granule ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.hdf.",
+  "datetime": "1993-12-31T22:30:00.000Z",
+  "hdf4:library_version": "4.1.3",
+  "hdf4:data_models": [
+   "annotation",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 9,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 9,
+  "sci:doi": "10.5067/ISCCP/D2",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "license_name": "Data Use Guidance",
+   "license_text": null,
+   "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "access_description": "WORLD"
+  },
+  "cmr:collection_concept_id": "C3880704243-LARC_CLOUD",
+  "cmr:granule_concept_id": "G4124474331-LARC_CLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G4124474331-LARC_CLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3880704243-LARC_CLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "Data Use Guidance"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/ISCCP/D2",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 8040497,
+   "file:checksum": "1220361fc926df957c9e1a1cc1aa93727336a5014128dc0283e0a2f6f446166bdf4d"
+  },
+  "expected": {
+   "href": "./ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 11910,
+   "file:checksum": "12202a9a56a04b8716de02f358d1009820784575fc86b3761af95d7803872aa5386b"
+  }
+ },
+ "bbox": [
+  -180,
+  -90,
+  180,
+  90
+ ]
+}

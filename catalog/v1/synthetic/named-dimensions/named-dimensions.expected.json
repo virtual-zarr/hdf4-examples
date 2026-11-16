@@ -1,0 +1,211 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "named-dimensions.hdf",
+  "size": 3294,
+  "sha256": "4a039b293ef5275977f8821f0acb7a391e2728e914512d027111a5b1032df9fa",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "t1",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    3,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "lat",
+     "unlimited": false
+    },
+    {
+     "name": "lon",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "a46b67c8fb1c4c35fdfc8387c647f8c442a84e1520334a92a127f740b4c1dd5c",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2542,
+      "length": 29
+     }
+    ],
+    "stored_bytes": 29,
+    "decoded_bytes": 24
+   },
+   "values": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6,
+     7
+    ],
+    [
+     8,
+     9,
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "index": 1,
+   "ref": 4,
+   "name": "lat",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "lat",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": true,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "dacc3e6fa04b58efcd61bef0393827d52873f4ccfd8b1742498c25ca421da2c0",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 2518,
+      "length": 24
+     }
+    ],
+    "stored_bytes": 24,
+    "decoded_bytes": 24
+   },
+   "values": [
+    10.0,
+    20.0,
+    30.0
+   ]
+  },
+  {
+   "index": 2,
+   "ref": 6,
+   "name": "t2",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    3,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "lat",
+     "unlimited": false
+    },
+    {
+     "name": "lon",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "a46b67c8fb1c4c35fdfc8387c647f8c442a84e1520334a92a127f740b4c1dd5c",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2587,
+      "length": 29
+     }
+    ],
+    "stored_bytes": 29,
+    "decoded_bytes": 24
+   },
+   "values": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6,
+     7
+    ],
+    [
+     8,
+     9,
+     10,
+     11
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "SDSVar": 2,
+  "CoordVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "COMPRESSED": 2,
+   "NDG": 3,
+   "NT": 3,
+   "SD": 3,
+   "SDD": 3,
+   "VERSION": 1,
+   "VG": 6,
+   "VH": 5,
+   "VS": 5
+  },
+  "special_elements": {
+   "SD": {
+    "compressed": 2
+   }
+  }
+ }
+}

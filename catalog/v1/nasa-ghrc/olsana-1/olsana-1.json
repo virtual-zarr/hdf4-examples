@@ -1,0 +1,126 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "olsana-1",
+ "collection": "nasa-ghrc",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     -180,
+     -90
+    ],
+    [
+     180,
+     -90
+    ],
+    [
+     180,
+     90
+    ],
+    [
+     -180,
+     90
+    ],
+    [
+     -180,
+     -90
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "olsana v1",
+  "description": "OLS ANALOG DERIVED LIGHTNING V1. Granule olslit78.aug_analog.hdf.",
+  "datetime": "1978-08-01T00:00:00Z",
+  "hdf4:library_version": "3.3.4",
+  "hdf4:data_models": [
+   "raster_image",
+   "vdata"
+  ],
+  "hdf4:layouts": [],
+  "hdf4:coders": [],
+  "hdf4:number_types": [],
+  "hdf4:max_rank": 0,
+  "hdf4:features": [],
+  "hdf4:sds_count": 0,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 0,
+  "sci:doi": "10.5067/LIS/OLS/DATA301",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": null,
+   "use_description": null,
+   "access_description": "This product has full public access."
+  },
+  "cmr:collection_concept_id": "C1976712047-GHRC_DAAC",
+  "cmr:granule_concept_id": "G1976716750-GHRC_DAAC"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G1976716750-GHRC_DAAC",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C1976712047-GHRC_DAAC",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/LIS/OLS/DATA301",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./olslit78.aug_analog.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 384014,
+   "file:checksum": "12200d19498dd4791f4ab9290056f5f40243332d31554348cfd7590ab782cca67359"
+  },
+  "expected": {
+   "href": "./olslit78.aug_analog.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 1650,
+   "file:checksum": "1220523c20c14bbd3be59414a3cc02741ef3d0cb44a9b54327a33c12156da80488d4"
+  }
+ },
+ "bbox": [
+  -180,
+  -90,
+  180,
+  90
+ ]
+}

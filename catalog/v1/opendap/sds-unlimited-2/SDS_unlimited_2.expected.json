@@ -1,0 +1,159 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "SDS_unlimited_2.hdf",
+  "size": 4467,
+  "sha256": "aafa0ad202b42be3019239469de9b23ac664328c40813e5801b8043535464a3c",
+  "written_by": {
+   "version": "4.2.16",
+   "text": "HDF Version 4.2 Release 16, March 3, 2023"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "AppendableData",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    12,
+    10
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": true
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "001a4a5410f5cad0454b0d1e50bab6f54183889be505af74a932f0ab756f4bda",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2776,
+      "length": 400
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3580,
+      "length": 40
+     },
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 4426,
+      "length": 40
+     }
+    ],
+    "stored_bytes": 480,
+    "decoded_bytes": 480
+   }
+  },
+  {
+   "index": 1,
+   "ref": 112,
+   "name": "NormalData",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    1,
+    10
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim2",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "f2b43a16e91ed6d650c69a7e1f0867a642f339a7dad0aa12da461b2773cbcc8d",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3620,
+      "length": 40
+     }
+    ],
+    "stored_bytes": 40,
+    "decoded_bytes": 40
+   },
+   "values": [
+    [
+     2000,
+     2001,
+     2002,
+     2003,
+     2004,
+     2005,
+     2006,
+     2007,
+     2008,
+     2009
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 4,
+  "SDSVar": 2
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "LINKED": 121,
+   "NDG": 2,
+   "NT": 2,
+   "SD": 2,
+   "SDD": 2,
+   "VERSION": 1,
+   "VG": 7,
+   "VH": 6,
+   "VS": 6
+  },
+  "special_elements": {
+   "SD": {
+    "linked": 1
+   }
+  }
+ }
+}

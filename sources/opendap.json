@@ -1,0 +1,320 @@
+{
+ "id": "opendap",
+ "title": "HDF4 files from OPeNDAP's DMR++ tests",
+ "description": "Small files from the OPeNDAP BES repository's HDF4 DMR++ test data, pinned to one commit, each with OPeNDAP's own DMR++ description where one exists.",
+ "license": "other",
+ "datetime": "2026-11-16T00:00:00Z",
+ "providers": [
+  {
+   "name": "OPeNDAP",
+   "roles": [
+    "producer"
+   ],
+   "url": "https://www.opendap.org"
+  }
+ ],
+ "items": [
+  {
+   "id": "sds-chunk-extra-area",
+   "filename": "SDS_chunk_extra_area.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_chunk_extra_area.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_chunk_extra_area.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_chunk_extra_area.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_chunk_extra_area.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_chunk_extra_area.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "9fe6313b43aadfac9b705f7e1ed7235c70a9a85c973a2cca541265c909fefb35"
+    }
+   ],
+   "sha256": "37a841361d711cb62a1c5353f576c6cbdf259ddc7197413a6a49a1fc4c202952"
+  },
+  {
+   "id": "sds-chunk-extra-area-comp",
+   "filename": "SDS_chunk_extra_area_comp.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_chunk_extra_area_comp.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_chunk_extra_area_comp.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_chunk_extra_area_comp.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_chunk_extra_area_comp.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_chunk_extra_area_comp.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "3fe96fa04bddfd5287cacd1fdd331f06af1154933496818f06343de03bb348ac"
+    }
+   ],
+   "sha256": "7c62bc886290fe9c0ba61296a8a9543e44255fa75be615b0f27c034f862cd709"
+  },
+  {
+   "id": "sds-fillchunk-alltypes",
+   "filename": "SDS_fillchunk_alltypes.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_fillchunk_alltypes.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_fillchunk_alltypes.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_fillchunk_alltypes.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_fillchunk_alltypes.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_fillchunk_alltypes.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "edb056146e64e311dd9945402c2373864062e970ef29c2ac454545e3b5448b09"
+    }
+   ],
+   "sha256": "9f9a30090813907a09b7aec53654316deedc8b4ad163f3792b0545cccb345adb"
+  },
+  {
+   "id": "sds-fillchunk-comp",
+   "filename": "SDS_fillchunk_comp.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_fillchunk_comp.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_fillchunk_comp.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_fillchunk_comp.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_fillchunk_comp.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_fillchunk_comp.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "257f4bb7b1934f7e75adada091fa9436739e2894d2ce34a9ea3b9aaa97ab2b6e"
+    }
+   ],
+   "sha256": "23a0e818dcd8ae672306764878017fd2f1ca33c842feb3c1b4e80ffe29b2a4a5"
+  },
+  {
+   "id": "sds-simple",
+   "filename": "SDS_simple.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_simple.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_simple.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "b8079d2454ddb6deadafa7508ec4ae0c6a80320522c827d796941594319f4cf1"
+    }
+   ],
+   "sha256": "1d1394c4a156692016f7de730119a3c105b8211ff06f5642f7d919fb94a3503d"
+  },
+  {
+   "id": "sds-simple-chunk",
+   "filename": "SDS_simple_chunk.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_simple_chunk.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_chunk.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_chunk.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_simple_chunk.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_chunk.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "211581a0d2b1c36502993c9a45a76f7da257cdef45b0c855c54f4e4f9f872c25"
+    }
+   ],
+   "sha256": "38a820e9b4bd11395a2b08dfde59dde7da2dcde29dca78795e07bb1a9cde4daf"
+  },
+  {
+   "id": "sds-simple-chunk-comp",
+   "filename": "SDS_simple_chunk_comp.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_simple_chunk_comp.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_chunk_comp.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_chunk_comp.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_simple_chunk_comp.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_chunk_comp.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "a911b3b386e99a99414baa6d24cbed422f01bd8cb64188472295c3671ae32d76"
+    }
+   ],
+   "sha256": "f97b1e1238c4430a119cf3acbeee0f062aba99ea32fcb5341b814d1187ceafed"
+  },
+  {
+   "id": "sds-simple-comp",
+   "filename": "SDS_simple_comp.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_simple_comp.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_comp.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_comp.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_simple_comp.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_comp.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "47939dcffd640a331634335d62622c7bea8d1f38615212d6caa655adb5082eb4"
+    }
+   ],
+   "sha256": "16032fea7636d63ff3f457b2155faeab609a4808124f20994334085e76079882"
+  },
+  {
+   "id": "sds-simple-double",
+   "filename": "SDS_simple_double.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_simple_double.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_double.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_double.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_simple_double.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_double.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "dd9c479217548710d61cfe571bfee6d9c5ebda4b76cd1083d4739950e6d377cf"
+    }
+   ],
+   "sha256": "5f1db6fb7e48e4fa246c0f209f3d1a0656cab10a5558ea87cb64a7ec1d49df79"
+  },
+  {
+   "id": "sds-simple-float",
+   "filename": "SDS_simple_float.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_simple_float.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_float.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_float.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_simple_float.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_simple_float.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "b50cb77d185c78bdc95a1bc6669c03f2115e483135603d9853bb32bb9c79f9d8"
+    }
+   ],
+   "sha256": "e92bd5f5420c863f4e2528f3a238a9ef9064f6599a2cce11b6d8b6743eabdb6b"
+  },
+  {
+   "id": "sds-unlimited-2",
+   "filename": "SDS_unlimited_2.hdf",
+   "description": "OPeNDAP BES DMR++ test file SDS_unlimited_2.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_unlimited_2.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_unlimited_2.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "SDS_unlimited_2.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_unlimited_2.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "77a6df5370e77e963dbe64d8d83ca0a6fe12a31f2a1ee3b2c7c969506cdcdb12"
+    }
+   ],
+   "sha256": "aafa0ad202b42be3019239469de9b23ac664328c40813e5801b8043535464a3c"
+  },
+  {
+   "id": "sinusoid",
+   "filename": "sinusoid.hdf",
+   "description": "OPeNDAP BES DMR++ test file sinusoid.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/sinusoid.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/sinusoid.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sha256": "3fc03745f79d2e9b0187cb9464225085fa11986d8e875fe6a16875b670f12e80"
+  },
+  {
+   "id": "vg-hl-test",
+   "filename": "vg_hl_test.hdf",
+   "description": "OPeNDAP BES DMR++ test file vg_hl_test.hdf",
+   "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/vg_hl_test.hdf",
+   "via": [
+    {
+     "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/vg_hl_test.hdf",
+     "title": "File in the OPeNDAP BES repository"
+    }
+   ],
+   "sidecars": [
+    {
+     "key": "dmrpp",
+     "filename": "vg_hl_test.hdf.dmrpp",
+     "url": "https://raw.githubusercontent.com/OPENDAP/bes/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/vg_hl_test.hdf.dmrpp",
+     "type": "application/xml",
+     "title": "DMR++ description from OPeNDAP",
+     "sha256": "4edc8fc2e62b6a274844bfa3f7ff160ee463e9ca107031570d40fbcb9a02cf32"
+    }
+   ],
+   "sha256": "cf536121814f033764ac1afe0e4e9f9e0bf237ed71f24ad352819f173918b64c"
+  }
+ ],
+ "license_note": "From the OPeNDAP BES repository, whose COPYING file is the GNU LGPL version 3",
+ "links": [
+  {
+   "rel": "license",
+   "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/COPYING",
+   "title": "OPeNDAP BES COPYING (GNU Lesser General Public License, version 3)"
+  },
+  {
+   "rel": "license",
+   "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/COPYRIGHT_UCAR",
+   "title": "OPeNDAP BES COPYRIGHT_UCAR"
+  }
+ ]
+}

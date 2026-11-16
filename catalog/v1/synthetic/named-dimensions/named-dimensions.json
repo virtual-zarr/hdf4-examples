@@ -1,0 +1,82 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "named-dimensions",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "named-dimensions",
+  "description": "Two datasets sharing named dimensions, one with a dimension scale",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed",
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "deflate",
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float64",
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "dimension_scale"
+  ],
+  "hdf4:sds_count": 3,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 3
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'named-dimensions'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./named-dimensions.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 3294,
+   "file:checksum": "12204a039b293ef5275977f8821f0acb7a391e2728e914512d027111a5b1032df9fa"
+  },
+  "expected": {
+   "href": "./named-dimensions.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 3241,
+   "file:checksum": "12200e2e9b1482278730ab73e9635d8615b8a059a899b6d1ffa3b46109328f0344dd"
+  }
+ }
+}

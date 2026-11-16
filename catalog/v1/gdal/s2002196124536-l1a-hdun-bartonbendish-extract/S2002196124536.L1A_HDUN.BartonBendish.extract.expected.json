@@ -1,0 +1,3537 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "S2002196124536.L1A_HDUN.BartonBendish.extract.hdf",
+  "size": 2398456,
+  "sha256": "bba02fc4b24897c9cc397b7c37a97789c53068c6d5819ff692b48eca791251b5",
+  "written_by": {
+   "version": "4.1.1",
+   "text": "NCSA HDF Version 4.1 Release 1, February 21, 1997"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {
+  "Product Name": {
+   "type": "char8",
+   "length": 50,
+   "value": "S2002196124536.L1A_HDUN.BartonBendish.extract.hdf\u0000"
+  },
+  "Title": {
+   "type": "char8",
+   "length": 22,
+   "value": "SeaWiFS Level-1A Data\u0000"
+  },
+  "Data Center": {
+   "type": "char8",
+   "length": 21,
+   "value": "University of Dundee\u0000"
+  },
+  "Station Name": {
+   "type": "char8",
+   "length": 33,
+   "value": "NERC Satellite Receiving Station\u0000"
+  },
+  "Station Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 56.459999084472656
+  },
+  "Station Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -2.9800000190734863
+  },
+  "Mission": {
+   "type": "char8",
+   "length": 16,
+   "value": "SeaStar SeaWiFS\u0000"
+  },
+  "Mission Characteristics": {
+   "type": "char8",
+   "length": 157,
+   "value": "Nominal orbit: inclination = 98.2 (Sun-synchronous); node = 12 noon local (descending); eccentricity = <0.002; altitude = 705 km; ground speed = 6.75 km/sec\u0000"
+  },
+  "Sensor": {
+   "type": "char8",
+   "length": 48,
+   "value": "Sea-viewing Wide Field-of-view Sensor (SeaWiFS)\u0000"
+  },
+  "Sensor Characteristics": {
+   "type": "char8",
+   "length": 247,
+   "value": "Number of bands = 8; number of active bands = 8; wavelengths per band (nm) = 412, 443, 490, 510, 555, 670, 765, 865; bits per pixel = 10; instantaneous field-of-view = 1.5835 mrad; pixels per scan = 1285; scan rate = 6/sec; sample rate = 7710/sec\u0000"
+  },
+  "Data Type": {
+   "type": "char8",
+   "length": 5,
+   "value": "HRPT\u0000"
+  },
+  "Replacement Flag": {
+   "type": "char8",
+   "length": 9,
+   "value": "ORIGINAL\u0000"
+  },
+  "Software ID": {
+   "type": "char8",
+   "length": 4,
+   "value": "3.8\u0000"
+  },
+  "Processing Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2002196105206000\u0000"
+  },
+  "Input Files": {
+   "type": "char8",
+   "length": 42,
+   "value": "/vdc/seawifsp/cpu0/S2002196124536.L0_HDUN\u0000"
+  },
+  "Processing Control": {
+   "type": "char8",
+   "length": 91,
+   "value": "SWl01 /vdc/seawifsp/cpu0/S2002196124536.L0_HDUN /vdc/seawifsp/cpu0/S2002196124536.L1A_HDUN\u0000"
+  },
+  "Processing Log": {
+   "type": "char8",
+   "length": 1,
+   "value": "\u0000"
+  },
+  "Start Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2002196125318926\u0000"
+  },
+  "End Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2002196125417425\u0000"
+  },
+  "Scene Center Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2002196125348092\u0000"
+  },
+  "Node Crossing Time": {
+   "type": "char8",
+   "length": 17,
+   "value": "2002196130749740\u0000"
+  },
+  "Start Year": {
+   "type": "int16",
+   "length": 1,
+   "value": 2002
+  },
+  "Start Day": {
+   "type": "int16",
+   "length": 1,
+   "value": 196
+  },
+  "Start Millisec": {
+   "type": "int32",
+   "length": 1,
+   "value": 46398926
+  },
+  "End Year": {
+   "type": "int16",
+   "length": 1,
+   "value": 2002
+  },
+  "End Day": {
+   "type": "int16",
+   "length": 1,
+   "value": 196
+  },
+  "End Millisec": {
+   "type": "int32",
+   "length": 1,
+   "value": 46457425
+  },
+  "Orbit Number": {
+   "type": "int32",
+   "length": 1,
+   "value": 26356
+  },
+  "Start Node": {
+   "type": "char8",
+   "length": 11,
+   "value": "Descending\u0000"
+  },
+  "End Node": {
+   "type": "char8",
+   "length": 11,
+   "value": "Descending\u0000"
+  },
+  "NORAD Line 1": {
+   "type": "char8",
+   "length": 1,
+   "value": "\u0000"
+  },
+  "NORAD Line 2": {
+   "type": "char8",
+   "length": 1,
+   "value": "\u0000"
+  },
+  "Pixels per Scan Line": {
+   "type": "int32",
+   "length": 1,
+   "value": 320
+  },
+  "Number of Scan Lines": {
+   "type": "int32",
+   "length": 1,
+   "value": 352
+  },
+  "LAC Pixel Start Number": {
+   "type": "int32",
+   "length": 1,
+   "value": 546
+  },
+  "LAC Pixel Subsampling": {
+   "type": "int32",
+   "length": 1,
+   "value": 1
+  },
+  "Scene Center Scan Line": {
+   "type": "int32",
+   "length": 1,
+   "value": 176
+  },
+  "Filled Scan Lines": {
+   "type": "int32",
+   "length": 1,
+   "value": 0
+  },
+  "FF Missing Frames": {
+   "type": "int32",
+   "length": 1,
+   "value": 0
+  },
+  "SDPS Missing Frames": {
+   "type": "int32",
+   "length": 1,
+   "value": 0
+  },
+  "Latitude Units": {
+   "type": "char8",
+   "length": 14,
+   "value": "degrees North\u0000"
+  },
+  "Longitude Units": {
+   "type": "char8",
+   "length": 13,
+   "value": "degrees East\u0000"
+  },
+  "Scene Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 52.64656448364258
+  },
+  "Scene Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 0.3974631428718567
+  },
+  "Scene Center Solar Zenith": {
+   "type": "float32",
+   "length": 1,
+   "value": 37.7795295715332
+  },
+  "Upper Left Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 54.80641555786133
+  },
+  "Upper Left Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -1.565017580986023
+  },
+  "Upper Right Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 53.817649841308594
+  },
+  "Upper Right Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 4.332542896270752
+  },
+  "Lower Left Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 51.3375244140625
+  },
+  "Lower Left Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -3.1029791831970215
+  },
+  "Lower Right Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 50.428680419921875
+  },
+  "Lower Right Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 2.3799068927764893
+  },
+  "Northernmost Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 54.80641555786133
+  },
+  "Southernmost Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 50.428680419921875
+  },
+  "Westernmost Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -3.1029791831970215
+  },
+  "Easternmost Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 4.332542896270752
+  },
+  "Start Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 54.35658264160156
+  },
+  "Start Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 1.29567289352417
+  },
+  "End Center Latitude": {
+   "type": "float32",
+   "length": 1,
+   "value": 50.922119140625
+  },
+  "End Center Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -0.4490720331668854
+  },
+  "Orbit Node Longitude": {
+   "type": "float32",
+   "length": 1,
+   "value": -15.046916961669922
+  },
+  "Gain 1 Saturated Pixels": {
+   "type": "int32",
+   "length": 8,
+   "value": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "Gain 2 Saturated Pixels": {
+   "type": "int32",
+   "length": 8,
+   "value": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "Gain 1 Non-Saturated Pixels": {
+   "type": "int32",
+   "length": 8,
+   "value": [
+    112640,
+    112640,
+    112640,
+    112640,
+    112640,
+    112640,
+    112640,
+    112640
+   ]
+  },
+  "Gain 2 Non-Saturated Pixels": {
+   "type": "int32",
+   "length": 8,
+   "value": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "Zero Pixels": {
+   "type": "int32",
+   "length": 8,
+   "value": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    125,
+    81
+   ]
+  },
+  "Mean Gain 1 Radiance": {
+   "type": "float32",
+   "length": 8,
+   "value": [
+    673.2337036132812,
+    658.70654296875,
+    676.181640625,
+    688.757080078125,
+    710.0824584960938,
+    670.984130859375,
+    644.0491333007812,
+    632.1088256835938
+   ]
+  },
+  "Mean Gain 2 Radiance": {
+   "type": "float32",
+   "length": 8,
+   "value": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "sds": [
+  {
+   "index": 0,
+   "ref": 3,
+   "name": "msec",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 36,
+     "value": "Scan-line time, milliseconds of day\u0000"
+    },
+    "valid_range": {
+     "type": "int32",
+     "length": 2,
+     "value": [
+      0,
+      86399999
+     ]
+    }
+   },
+   "values_sha256": "992339e60f69afb8fe7db3424b1504266c8c121f44c91a2a4f752d07cd078458",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 2502,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 1,
+   "ref": 5,
+   "name": "eng_qual",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    352,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "4",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 36,
+     "value": "Engineering data-out-of-range flags\u0000"
+    }
+   },
+   "values_sha256": "d4e7eff5348eeb507806c494d9fb6a3087977d5f0edfebc58378a16eb35ffba8",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 3910,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 2,
+   "ref": 7,
+   "name": "s_flags",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    352,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "4",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 24,
+     "value": "Scan-line quality flags\u0000"
+    }
+   },
+   "values_sha256": "d6b4fe722a8c340b41db2ad2203655ef092b65d56beca19b69f7d5a5f74453e8",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 5318,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 3,
+   "ref": 9,
+   "name": "s_satp",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 36,
+     "value": "Number of saturated pixels per band\u0000"
+    }
+   },
+   "values_sha256": "07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 6726,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 4,
+   "ref": 11,
+   "name": "s_zerop",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 31,
+     "value": "Number of zero pixels per band\u0000"
+    }
+   },
+   "values_sha256": "5dfcdb7a86fa478a9a338449cd48d4425bb0f74dd548d498a17297b31e55f1ea",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 12358,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 5,
+   "ref": 13,
+   "name": "slat",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 26,
+     "value": "Scan start-pixel latitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    }
+   },
+   "values_sha256": "2c62f179dce57b22cc22ef064cd24c762ec4b626c6b728484d82db7f48130b45",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 17990,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 6,
+   "ref": 15,
+   "name": "slon",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Scan start-pixel longitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    }
+   },
+   "values_sha256": "647e9a5cbd804249301183f93031fce75f30e1ba925b48a722c0cceb6d5d8d7d",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 19398,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 7,
+   "ref": 17,
+   "name": "clat",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Scan center-pixel latitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    }
+   },
+   "values_sha256": "f34e0320aa8e4ff29b10613ac5e4c079f6c76345aeb83256ee15eaf9d27ca8cc",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 20806,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 8,
+   "ref": 19,
+   "name": "clon",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "Scan center-pixel longitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    }
+   },
+   "values_sha256": "7b2a4155b04b77319133b86aa10ef2ca6ad3d0204f039034777677a047441276",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 22214,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 9,
+   "ref": 21,
+   "name": "elat",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 24,
+     "value": "Scan end-pixel latitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    }
+   },
+   "values_sha256": "7d82c0f8fedcdb254b8658e3c6bfe0c18a850cedc7bd5f2d40cf1c600cad3210",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 23622,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 10,
+   "ref": 23,
+   "name": "elon",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 25,
+     "value": "Scan end-pixel longitude\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    }
+   },
+   "values_sha256": "973b856c12d6c5368d5cc8f142e6471e7770f202260f42f81f2cd5fae2e38b83",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 25030,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 11,
+   "ref": 25,
+   "name": "csol_z",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 37,
+     "value": "Scan center-pixel solar zenith angle\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      0.0,
+      180.0
+     ]
+    }
+   },
+   "values_sha256": "9346d27cbba4113a373dc7d329e3c7883ecb88df0f149fa3005822227e6ce4eb",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 26438,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 12,
+   "ref": 27,
+   "name": "tilt",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 25,
+     "value": "Tilt angle for scan line\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -20.100000381469727,
+      20.100000381469727
+     ]
+    }
+   },
+   "values_sha256": "cde5b34847b6f4bf0d743489a51b60a5bcf25161b5bbec01e91d28d1d622b58a",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 27846,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 13,
+   "ref": 30,
+   "name": "sc_id",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "2",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 14,
+     "value": "Spacecraft ID\u0000"
+    }
+   },
+   "values_sha256": "8c392f7c4eae8fc7b482e314b25141b80c5672bf099cb028653293928779d259",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 29354,
+      "length": 1408
+     }
+    ],
+    "stored_bytes": 1408,
+    "decoded_bytes": 1408
+   }
+  },
+  {
+   "index": 14,
+   "ref": 32,
+   "name": "sc_ttag",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "4",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 20,
+     "value": "Spacecraft time tag\u0000"
+    }
+   },
+   "values_sha256": "f0b38908e3272f192d6a234401a7cb91bbd7a362f18bc7e380a0dca7dd13ab56",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 30762,
+      "length": 2816
+     }
+    ],
+    "stored_bytes": 2816,
+    "decoded_bytes": 2816
+   }
+  },
+  {
+   "index": 15,
+   "ref": 34,
+   "name": "sc_soh",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    352,
+    775
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "775",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 32,
+     "value": "Spacecraft state-of-health data\u0000"
+    }
+   },
+   "values_sha256": "5832267bf555c98747b995a2a77933c7747d590ac5b42ff820d733ca23553b8f",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 33578,
+      "length": 272800
+     }
+    ],
+    "stored_bytes": 272800,
+    "decoded_bytes": 272800
+   }
+  },
+  {
+   "index": 16,
+   "ref": 36,
+   "name": "inst_tlm",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    44
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "44",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 29,
+     "value": "SeaWiFS instrument telemetry\u0000"
+    }
+   },
+   "values_sha256": "a70d5f743062a5f84fa8bbf9c027dc624a757e645ef67a0454799dd158ff273d",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 306378,
+      "length": 30976
+     }
+    ],
+    "stored_bytes": 30976,
+    "decoded_bytes": 30976
+   }
+  },
+  {
+   "index": 17,
+   "ref": 38,
+   "name": "l1a_data",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    320,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Pixels per Scan Line",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 14,
+     "value": "Level-1A data\u0000"
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      1023
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 16,
+     "value": "radiance counts\u0000"
+    }
+   },
+   "values_sha256": "ed79a1fd446dbdcf01ca84bd4b352f6e27c6e007b46084ceea0fa9267e2a7628",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0,
+       0
+      ],
+      "offset": 561823,
+      "length": 1802240
+     }
+    ],
+    "stored_bytes": 1802240,
+    "decoded_bytes": 1802240
+   }
+  },
+  {
+   "index": 18,
+   "ref": 39,
+   "name": "start_syn",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 18,
+     "value": "Start-synch pixel\u0000"
+    }
+   },
+   "values_sha256": "559077e8b9327ca6cc42f31a0868b6a5910ab4f3d2a28fc42ecd3254fd837d57",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 337354,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 19,
+   "ref": 41,
+   "name": "stop_syn",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 17,
+     "value": "Stop-synch pixel\u0000"
+    }
+   },
+   "values_sha256": "5c903f11c5dab14be9297e90d517ef364cdf1c8b9cd90f1d14373acbc885b496",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 342986,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 20,
+   "ref": 43,
+   "name": "dark_rest",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 19,
+     "value": "Dark-restore pixel\u0000"
+    }
+   },
+   "values_sha256": "84ab0266fb84e0431f94facf4e3eae98c413dbc180def2d1cc6c256eb0f63f7c",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 348618,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 21,
+   "ref": 45,
+   "name": "gain",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 19,
+     "value": "Band gain settings\u0000"
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      3
+     ]
+    }
+   },
+   "values_sha256": "07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 354250,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 22,
+   "ref": 47,
+   "name": "tdi",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 41,
+     "value": "Band time-delay and integration settings\u0000"
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      255
+     ]
+    }
+   },
+   "values_sha256": "07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 359882,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 23,
+   "ref": 50,
+   "name": "inst_ana",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    40
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "40",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "Instrument analog telemetry\u0000"
+    }
+   },
+   "values_sha256": "9a40fb5b850ea56a71243a93d2c40287cc5ed0f86131d2900be177c73efd918f",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 365598,
+      "length": 56320
+     }
+    ],
+    "stored_bytes": 56320,
+    "decoded_bytes": 56320
+   }
+  },
+  {
+   "index": 24,
+   "ref": 52,
+   "name": "inst_dis",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    352,
+    32
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "32",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 30,
+     "value": "Instrument discrete telemetry\u0000"
+    }
+   },
+   "values_sha256": "3ea5f87e22916377ff75cac642b380d1ee80d3a9bcbb9b08a060e1c56627b14c",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 421918,
+      "length": 11264
+     }
+    ],
+    "stored_bytes": 11264,
+    "decoded_bytes": 11264
+   }
+  },
+  {
+   "index": 25,
+   "ref": 54,
+   "name": "sc_ana",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    40
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "40",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "Spacecraft analog telemetry\u0000"
+    }
+   },
+   "values_sha256": "ea5625bcbad9bb8607b72274568e014a645e892e2c1407bec0c86b5cc809c1fd",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 433182,
+      "length": 56320
+     }
+    ],
+    "stored_bytes": 56320,
+    "decoded_bytes": 56320
+   }
+  },
+  {
+   "index": 26,
+   "ref": 56,
+   "name": "sc_dis",
+   "number_type": "uint8",
+   "numpy_dtype": "u1",
+   "stored_byte_order": "none",
+   "shape": [
+    352,
+    40
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "40",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 30,
+     "value": "Spacecraft discrete telemetry\u0000"
+    }
+   },
+   "values_sha256": "29eb0a9a968460137adaae061ac6370160bb084382a582fb0c06a610158d15ec",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 489502,
+      "length": 14080
+     }
+    ],
+    "stored_bytes": 14080,
+    "decoded_bytes": 14080
+   }
+  },
+  {
+   "index": 27,
+   "ref": 58,
+   "name": "scan_temp",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "Detector temperature counts\u0000"
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      255
+     ]
+    }
+   },
+   "values_sha256": "76de91ee532dd09c0f5008718f5315ffa10e0d94425f5baa3f14607f694b3482",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 503582,
+      "length": 5632
+     }
+    ],
+    "stored_bytes": 5632,
+    "decoded_bytes": 5632
+   }
+  },
+  {
+   "index": 28,
+   "ref": 60,
+   "name": "side",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    352
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 26,
+     "value": "Mirror side for scan line\u0000"
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      0,
+      1
+     ]
+    }
+   },
+   "values_sha256": "d5b2df1f6d67c415445b454ffc25784819c9d1309d0ebfab7979fa0aaf65cf5a",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 509214,
+      "length": 704
+     }
+    ],
+    "stored_bytes": 704,
+    "decoded_bytes": 704
+   }
+  },
+  {
+   "index": 29,
+   "ref": 63,
+   "name": "orb_vec",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 40,
+     "value": "Orbit position vector at scan line time\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -7200.0,
+      7200.0
+     ]
+    },
+    "units": {
+     "type": "char8",
+     "length": 11,
+     "value": "kilometers\u0000"
+    }
+   },
+   "values_sha256": "265b249da2b9b8951861e29a55c0a6bd00545e64cef3171b17140dbc2a1204a5",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 509989,
+      "length": 4224
+     }
+    ],
+    "stored_bytes": 4224,
+    "decoded_bytes": 4224
+   }
+  },
+  {
+   "index": 30,
+   "ref": 65,
+   "name": "l_vert",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 36,
+     "value": "Local vertical vector in ECEF frame\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -1.0,
+      1.0
+     ]
+    }
+   },
+   "values_sha256": "a9ea124fb51a5ada6b99d503c5e64501c0cf0d3304d285eaccf8ecb6c541cbe0",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 514213,
+      "length": 4224
+     }
+    ],
+    "stored_bytes": 4224,
+    "decoded_bytes": 4224
+   }
+  },
+  {
+   "index": 31,
+   "ref": 67,
+   "name": "sun_ref",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 35,
+     "value": "Reference Sun vector in ECEF frame\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -1.0,
+      1.0
+     ]
+    }
+   },
+   "values_sha256": "9f953fe5f04bf051f194886c98937b09da91a21b74b2a7d71be2f04d48551ab7",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 518437,
+      "length": 4224
+     }
+    ],
+    "stored_bytes": 4224,
+    "decoded_bytes": 4224
+   }
+  },
+  {
+   "index": 32,
+   "ref": 69,
+   "name": "att_ang",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 26,
+     "value": "Computed yaw, roll, pitch\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    }
+   },
+   "values_sha256": "0357c98a7fcadf389b06a1af257b23ef4051acd75c00c985b605cff3d0167e73",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 522661,
+      "length": 4224
+     }
+    ],
+    "stored_bytes": 4224,
+    "decoded_bytes": 4224
+   }
+  },
+  {
+   "index": 33,
+   "ref": 71,
+   "name": "sen_mat",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    3,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "3",
+     "unlimited": false
+    },
+    {
+     "name": "3",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "ECEF-to-sensor-frame matrix\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -1.0,
+      1.0
+     ]
+    }
+   },
+   "values_sha256": "bdb7babf1c08cdc21abff3d97d517da4939bf025bbb061f4cf371c7ff5d36b51",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0,
+       0
+      ],
+      "offset": 526885,
+      "length": 12672
+     }
+    ],
+    "stored_bytes": 12672,
+    "decoded_bytes": 12672
+   }
+  },
+  {
+   "index": 34,
+   "ref": 73,
+   "name": "scan_ell",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    6
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "6",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 32,
+     "value": "Scan-track ellipse coefficients\u0000"
+    }
+   },
+   "values_sha256": "f38fad97000f4164fcc86727e4dc7cf24a737c7e47f01d3d9165e080e632ea34",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 539557,
+      "length": 8448
+     }
+    ],
+    "stored_bytes": 8448,
+    "decoded_bytes": 8448
+   }
+  },
+  {
+   "index": 35,
+   "ref": 75,
+   "name": "nflag",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    352,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Scan Lines",
+     "unlimited": false
+    },
+    {
+     "name": "8",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 17,
+     "value": "Navigation flags\u0000"
+    }
+   },
+   "values_sha256": "5309e677c79cffae49a65728c61b436d3cdc2a2bab4c81bf0038415f74a56880",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 548005,
+      "length": 11264
+     }
+    ],
+    "stored_bytes": 11264,
+    "decoded_bytes": 11264
+   }
+  },
+  {
+   "index": 36,
+   "ref": 78,
+   "name": "ntilts",
+   "number_type": "int32",
+   "numpy_dtype": "i4",
+   "stored_byte_order": "big",
+   "shape": [
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 28,
+     "value": "Number of scene tilt states\u0000"
+    }
+   },
+   "values_sha256": "67abdd721024f0ff4e0b3f4c2fc13bc5bad42d0b7851d456d88d203d15aaa450",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 559335,
+      "length": 4
+     }
+    ],
+    "stored_bytes": 4,
+    "decoded_bytes": 4
+   },
+   "values": [
+    1
+   ]
+  },
+  {
+   "index": 37,
+   "ref": 80,
+   "name": "tilt_flags",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    20
+   ],
+   "dimensions": [
+    {
+     "name": "20",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 16,
+     "value": "Tilt indicators\u0000"
+    },
+    "valid_range": {
+     "type": "int16",
+     "length": 2,
+     "value": [
+      -1,
+      3
+     ]
+    }
+   },
+   "values_sha256": "74d8b89f49a16dd0a338f1dc90fe470f3137d7df12cf0b76c82b0b5f2fa9028b",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 559339,
+      "length": 40
+     }
+    ],
+    "stored_bytes": 40,
+    "decoded_bytes": 40
+   },
+   "values": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "index": 38,
+   "ref": 82,
+   "name": "tilt_ranges",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    20,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "20",
+     "unlimited": false
+    },
+    {
+     "name": "2",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 45,
+     "value": "Scan-line number ranges of scene tilt states\u0000"
+    }
+   },
+   "values_sha256": "1d740610178753bd207970fcfdfd15dfb0a39173521b2fce03b26fd7d72d6e41",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 559379,
+      "length": 80
+     }
+    ],
+    "stored_bytes": 80,
+    "decoded_bytes": 80
+   },
+   "values": [
+    [
+     1,
+     352
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "index": 39,
+   "ref": 84,
+   "name": "tilt_lats",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    20,
+    2,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "20",
+     "unlimited": false
+    },
+    {
+     "name": "2",
+     "unlimited": false
+    },
+    {
+     "name": "2",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 45,
+     "value": "Latitudes of tilt-range scan line end points\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -90.0,
+      90.0
+     ]
+    }
+   },
+   "values_sha256": "bfd646fcc2aedf8275b699c7d765df263ba635156cbe43a049cff316a172300e",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0,
+       0
+      ],
+      "offset": 559459,
+      "length": 320
+     }
+    ],
+    "stored_bytes": 320,
+    "decoded_bytes": 320
+   }
+  },
+  {
+   "index": 40,
+   "ref": 86,
+   "name": "tilt_lons",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    20,
+    2,
+    2
+   ],
+   "dimensions": [
+    {
+     "name": "20",
+     "unlimited": false
+    },
+    {
+     "name": "2",
+     "unlimited": false
+    },
+    {
+     "name": "2",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 46,
+     "value": "Longitudes of tilt-range scan line end points\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      -180.0,
+      180.0
+     ]
+    }
+   },
+   "values_sha256": "292c75a7eb3233ac44091e6e2463bb8cbb40537d5902b0f1f35e55d309df7d42",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0,
+       0
+      ],
+      "offset": 559779,
+      "length": 320
+     }
+    ],
+    "stored_bytes": 320,
+    "decoded_bytes": 320
+   }
+  },
+  {
+   "index": 41,
+   "ref": 89,
+   "name": "entry_year",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 23,
+     "value": "Calibration entry year\u0000"
+    }
+   },
+   "values_sha256": "3be90d393f91241448d7dceadad32d91c1c94f307805937b46ed01ea669c17c3",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560158,
+      "length": 2
+     }
+    ],
+    "stored_bytes": 2,
+    "decoded_bytes": 2
+   },
+   "values": [
+    -32767
+   ]
+  },
+  {
+   "index": 42,
+   "ref": 91,
+   "name": "entry_day",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 30,
+     "value": "Calibration entry day-of-year\u0000"
+    }
+   },
+   "values_sha256": "3be90d393f91241448d7dceadad32d91c1c94f307805937b46ed01ea669c17c3",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560160,
+      "length": 2
+     }
+    ],
+    "stored_bytes": 2,
+    "decoded_bytes": 2
+   },
+   "values": [
+    -32767
+   ]
+  },
+  {
+   "index": 43,
+   "ref": 93,
+   "name": "ref_year",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Calibration reference year\u0000"
+    }
+   },
+   "values_sha256": "3be90d393f91241448d7dceadad32d91c1c94f307805937b46ed01ea669c17c3",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560162,
+      "length": 2
+     }
+    ],
+    "stored_bytes": 2,
+    "decoded_bytes": 2
+   },
+   "values": [
+    -32767
+   ]
+  },
+  {
+   "index": 44,
+   "ref": 95,
+   "name": "ref_day",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 34,
+     "value": "Calibration reference day-of-year\u0000"
+    }
+   },
+   "values_sha256": "3be90d393f91241448d7dceadad32d91c1c94f307805937b46ed01ea669c17c3",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560164,
+      "length": 2
+     }
+    ],
+    "stored_bytes": 2,
+    "decoded_bytes": 2
+   },
+   "values": [
+    -32767
+   ]
+  },
+  {
+   "index": 45,
+   "ref": 97,
+   "name": "ref_minute",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    1
+   ],
+   "dimensions": [
+    {
+     "name": "1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 36,
+     "value": "Calibration reference minute-of-day\u0000"
+    }
+   },
+   "values_sha256": "3be90d393f91241448d7dceadad32d91c1c94f307805937b46ed01ea669c17c3",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560166,
+      "length": 2
+     }
+    ],
+    "stored_bytes": 2,
+    "decoded_bytes": 2
+   },
+   "values": [
+    -32767
+   ]
+  },
+  {
+   "index": 46,
+   "ref": 99,
+   "name": "mirror",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    2,
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Sides",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 31,
+     "value": "Mirror-side correction factors\u0000"
+    }
+   },
+   "values_sha256": "909c79574f6ac003053c22d7b1738cd1c986af6be449928eb867aa15281e155e",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 560168,
+      "length": 64
+     }
+    ],
+    "stored_bytes": 64,
+    "decoded_bytes": 64
+   },
+   "values": [
+    [
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36
+    ],
+    [
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36,
+     9.969209968386869e+36
+    ]
+   ]
+  },
+  {
+   "index": 47,
+   "ref": 101,
+   "name": "t_const",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 41,
+     "value": "Time-dependent correction constant terms\u0000"
+    }
+   },
+   "values_sha256": "9fa81a6d682998e002f6562cc6494ab3c740d540923a6cb0596d9d80b94cae26",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560232,
+      "length": 64
+     }
+    ],
+    "stored_bytes": 64,
+    "decoded_bytes": 64
+   },
+   "values": [
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36
+   ]
+  },
+  {
+   "index": 48,
+   "ref": 103,
+   "name": "t_linear",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 46,
+     "value": "Time-dependent correction linear coefficients\u0000"
+    }
+   },
+   "values_sha256": "9fa81a6d682998e002f6562cc6494ab3c740d540923a6cb0596d9d80b94cae26",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560296,
+      "length": 64
+     }
+    ],
+    "stored_bytes": 64,
+    "decoded_bytes": 64
+   },
+   "values": [
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36
+   ]
+  },
+  {
+   "index": 49,
+   "ref": 105,
+   "name": "t_quadratic",
+   "number_type": "float64",
+   "numpy_dtype": "f8",
+   "stored_byte_order": "big",
+   "shape": [
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 49,
+     "value": "Time-dependent correction quadratic coefficients\u0000"
+    }
+   },
+   "values_sha256": "9fa81a6d682998e002f6562cc6494ab3c740d540923a6cb0596d9d80b94cae26",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560360,
+      "length": 64
+     }
+    ],
+    "stored_bytes": 64,
+    "decoded_bytes": 64
+   },
+   "values": [
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36
+   ]
+  },
+  {
+   "index": 50,
+   "ref": 107,
+   "name": "cal_offs",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    8
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 27,
+     "value": "Calibration system offsets\u0000"
+    }
+   },
+   "values_sha256": "b694c46b13270ed3136e923853285c39e3637b26740086c5742f59639db097d2",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0
+      ],
+      "offset": 560424,
+      "length": 32
+     }
+    ],
+    "stored_bytes": 32,
+    "decoded_bytes": 32
+   },
+   "values": [
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36,
+    9.969209968386869e+36
+   ]
+  },
+  {
+   "index": 51,
+   "ref": 109,
+   "name": "counts",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    8,
+    4,
+    5
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Gains",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Knees",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 36,
+     "value": "Digital counts of calibration knees\u0000"
+    },
+    "valid_range": {
+     "type": "float32",
+     "length": 2,
+     "value": [
+      0.0,
+      1023.0
+     ]
+    }
+   },
+   "values_sha256": "011cc6f4a3d3d1f157842304d84225d5590cf21341e98f62636de9b0d4f45cd8",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0,
+       0
+      ],
+      "offset": 560456,
+      "length": 640
+     }
+    ],
+    "stored_bytes": 640,
+    "decoded_bytes": 640
+   }
+  },
+  {
+   "index": 52,
+   "ref": 111,
+   "name": "rads",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    8,
+    4,
+    5
+   ],
+   "dimensions": [
+    {
+     "name": "Number of Bands",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Gains",
+     "unlimited": false
+    },
+    {
+     "name": "Number of Knees",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {
+    "long_name": {
+     "type": "char8",
+     "length": 31,
+     "value": "Radiances of calibration knees\u0000"
+    }
+   },
+   "values_sha256": "011cc6f4a3d3d1f157842304d84225d5590cf21341e98f62636de9b0d4f45cd8",
+   "storage": {
+    "coder": "none",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0,
+       0
+      ],
+      "offset": 561096,
+      "length": 640
+     }
+    ],
+    "stored_bytes": 640,
+    "decoded_bytes": 640
+   }
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 17,
+  "DimVal0.0": 17,
+  "Attr0.0": 147
+ },
+ "vgroups": [
+  {
+   "ref": 2,
+   "name": "Scan-Line Attributes",
+   "class": "Per Scan Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 0
+    },
+    {
+     "kind": "sds",
+     "index": 1
+    },
+    {
+     "kind": "sds",
+     "index": 2
+    },
+    {
+     "kind": "sds",
+     "index": 3
+    },
+    {
+     "kind": "sds",
+     "index": 4
+    },
+    {
+     "kind": "sds",
+     "index": 5
+    },
+    {
+     "kind": "sds",
+     "index": 6
+    },
+    {
+     "kind": "sds",
+     "index": 7
+    },
+    {
+     "kind": "sds",
+     "index": 8
+    },
+    {
+     "kind": "sds",
+     "index": 9
+    },
+    {
+     "kind": "sds",
+     "index": 10
+    },
+    {
+     "kind": "sds",
+     "index": 11
+    },
+    {
+     "kind": "sds",
+     "index": 12
+    }
+   ]
+  },
+  {
+   "ref": 29,
+   "name": "Raw SeaStar Data",
+   "class": "Per Scan Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 13
+    },
+    {
+     "kind": "sds",
+     "index": 14
+    },
+    {
+     "kind": "sds",
+     "index": 15
+    },
+    {
+     "kind": "sds",
+     "index": 16
+    },
+    {
+     "kind": "sds",
+     "index": 17
+    },
+    {
+     "kind": "sds",
+     "index": 18
+    },
+    {
+     "kind": "sds",
+     "index": 19
+    },
+    {
+     "kind": "sds",
+     "index": 20
+    },
+    {
+     "kind": "sds",
+     "index": 21
+    },
+    {
+     "kind": "sds",
+     "index": 22
+    }
+   ]
+  },
+  {
+   "ref": 49,
+   "name": "Converted Telemetry",
+   "class": "Per Scan Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 23
+    },
+    {
+     "kind": "sds",
+     "index": 24
+    },
+    {
+     "kind": "sds",
+     "index": 25
+    },
+    {
+     "kind": "sds",
+     "index": 26
+    },
+    {
+     "kind": "sds",
+     "index": 27
+    },
+    {
+     "kind": "sds",
+     "index": 28
+    }
+   ]
+  },
+  {
+   "ref": 62,
+   "name": "Navigation",
+   "class": "Per Scan Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 29
+    },
+    {
+     "kind": "sds",
+     "index": 30
+    },
+    {
+     "kind": "sds",
+     "index": 31
+    },
+    {
+     "kind": "sds",
+     "index": 32
+    },
+    {
+     "kind": "sds",
+     "index": 33
+    },
+    {
+     "kind": "sds",
+     "index": 34
+    },
+    {
+     "kind": "sds",
+     "index": 35
+    }
+   ]
+  },
+  {
+   "ref": 77,
+   "name": "Sensor Tilt",
+   "class": "Per File Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 36
+    },
+    {
+     "kind": "sds",
+     "index": 37
+    },
+    {
+     "kind": "sds",
+     "index": 38
+    },
+    {
+     "kind": "sds",
+     "index": 39
+    },
+    {
+     "kind": "sds",
+     "index": 40
+    }
+   ]
+  },
+  {
+   "ref": 88,
+   "name": "Calibration",
+   "class": "Per File Data",
+   "members": [
+    {
+     "kind": "sds",
+     "index": 41
+    },
+    {
+     "kind": "sds",
+     "index": 42
+    },
+    {
+     "kind": "sds",
+     "index": 43
+    },
+    {
+     "kind": "sds",
+     "index": 44
+    },
+    {
+     "kind": "sds",
+     "index": 45
+    },
+    {
+     "kind": "sds",
+     "index": 46
+    },
+    {
+     "kind": "sds",
+     "index": 47
+    },
+    {
+     "kind": "sds",
+     "index": 48
+    },
+    {
+     "kind": "sds",
+     "index": 49
+    },
+    {
+     "kind": "sds",
+     "index": 50
+    },
+    {
+     "kind": "sds",
+     "index": 51
+    },
+    {
+     "kind": "sds",
+     "index": 52
+    }
+   ]
+  }
+ ],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "NDG": 53,
+   "NT": 53,
+   "SD": 53,
+   "SDD": 53,
+   "VERSION": 1,
+   "VG": 77,
+   "VH": 181,
+   "VS": 181
+  },
+  "special_elements": {}
+ }
+}

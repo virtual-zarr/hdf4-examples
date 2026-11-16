@@ -1,0 +1,340 @@
+{
+ "id": "nasa-larc",
+ "title": "NASA HDF4 granules from ASDC",
+ "description": "One small granule per selected collection from NASA's ASDC cloud archive (LARC_CLOUD in CMR), chosen to cover distinct products. Each item links to its CMR granule and collection records.",
+ "license": "other",
+ "license_note": "Each granule carries its collection's terms as recorded in NASA CMR; see the item's cmr:terms",
+ "datetime": "2026-11-16T00:00:00Z",
+ "providers": [
+  {
+   "name": "ASDC",
+   "roles": [
+    "producer",
+    "licensor"
+   ]
+  }
+ ],
+ "links": [
+  {
+   "rel": "license",
+   "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+   "title": "NASA Earth science data use guidance (general policy; item terms take precedence)"
+  }
+ ],
+ "items": [
+  {
+   "id": "cal-wfc-l1-cal-standard-v4-00-v4-00",
+   "filename": "CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.hdf",
+   "title": "CAL_WFC_L1_Cal-Standard-V4-00 vV4-00",
+   "description": "CALIPSO Wide Field Camera Level 1B Calibration data, V4-00. Granule CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.hdf.",
+   "datetime": "2006-06-14T08:10:53.587+00:00",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/CALIPSO/CAL_WFC_L1_Cal-Standard-V4-00_V4-00/2006.06/CAL_WFC_L1_Cal-Standard-V4-00.2006-06-14T07-16-55Z.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3982331350-LARC_CLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3964849107-LARC_CLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+     "title": "Data Use Guidance"
+    },
+    {
+     "href": "https://doi.org/10.5067/WFC/CALIPSO/CAL_WFC_L1_Cal-Standard-V4-00",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C3964849107-LARC_CLOUD",
+    "granule_concept_id": "G3982331350-LARC_CLOUD",
+    "short_name": "CAL_WFC_L1_Cal-Standard-V4-00",
+    "version": "V4-00"
+   },
+   "doi": "10.5067/WFC/CALIPSO/CAL_WFC_L1_Cal-Standard-V4-00",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "license_name": "Data Use Guidance",
+    "license_text": null,
+    "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "access_description": "WORLD"
+   },
+   "bbox": [
+    -180,
+    -90,
+    180,
+    90
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       -90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       -180,
+       90
+      ],
+      [
+       -180,
+       -90
+      ]
+     ]
+    ]
+   },
+   "sha256": "60d5d5873621bce1e6c2ca47f0814c456c675ad7abd7026a3332c88beebba65a"
+  },
+  {
+   "id": "mi3daer-002",
+   "filename": "MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.hdf",
+   "title": "MI3DAER v002",
+   "description": "MISR Level 3 Component Global Aerosol Regional public Product covering a day V002. Granule MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.hdf.",
+   "datetime": "2006-09-01T00:00:00.000Z",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MI3DAER.002/2006.09.01/MISR_AM1_CGAS_SEP_01_2006_SITE_GOMACCS_F06_0023.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3565550062-LARC_CLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3422083888-LARC_CLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+     "title": "Data Use Guidance"
+    },
+    {
+     "href": "https://doi.org/10.5067/Terra/MISR/MI3DAER_L3.002",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C3422083888-LARC_CLOUD",
+    "granule_concept_id": "G3565550062-LARC_CLOUD",
+    "short_name": "MI3DAER",
+    "version": "002"
+   },
+   "doi": "10.5067/Terra/MISR/MI3DAER_L3.002",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "license_name": "Data Use Guidance",
+    "license_text": null,
+    "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "access_description": "WORLD"
+   },
+   "bbox": [
+    -100.0,
+    24.0,
+    -84.0,
+    32.0
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -100.0,
+       24.0
+      ],
+      [
+       -84.0,
+       24.0
+      ],
+      [
+       -84.0,
+       32.0
+      ],
+      [
+       -100.0,
+       32.0
+      ],
+      [
+       -100.0,
+       24.0
+      ]
+     ]
+    ]
+   },
+   "sha256": "4a3e53e8a81699e29fc912cd9224e576c6584e02b85891cde88a9acd42305e24"
+  },
+  {
+   "id": "mi1aobc-002",
+   "filename": "MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.hdf",
+   "title": "MI1AOBC v002",
+   "description": "MISR OBC Data V002. Granule MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.hdf.",
+   "datetime": "2003-07-30T15:35:07.000Z",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MI1AOBC.002/2003.07.30/MISR_AM1_FM_OBC_CL_P016_O019227_F01_0006.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3425647279-LARC_CLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2917605198-LARC_CLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+     "title": "Data Use Guidance"
+    },
+    {
+     "href": "https://doi.org/10.5067/Terra/MISR/MI1AOBC_L1A.002",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2917605198-LARC_CLOUD",
+    "granule_concept_id": "G3425647279-LARC_CLOUD",
+    "short_name": "MI1AOBC",
+    "version": "002"
+   },
+   "doi": "10.5067/Terra/MISR/MI1AOBC_L1A.002",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "license_name": "Data Use Guidance",
+    "license_text": null,
+    "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "access_description": "WORLD"
+   },
+   "sha256": "71da8f18f3ae2dbc52860cde8da2e547d4553e950c8b3111365d8b9a2a9e9bfc"
+  },
+  {
+   "id": "mb2lme-002",
+   "filename": "MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.hdf",
+   "title": "MB2LME v002",
+   "description": "MISR Level 1B2 Local Mode Ellipsoid Radiance Data V002. Granule MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.hdf.",
+   "datetime": "2000-03-01T16:13:17.604000+00:00",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/MISR/MB2LME.002/2000.03.01/MISR_AM1_GRP_ELLIPSOID_LM_P014_O001082_AA_SITE_CHESAPEAKE_F03_2025.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G4130681791-LARC_CLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2854334785-LARC_CLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+     "title": "Data Use Guidance"
+    },
+    {
+     "href": "https://doi.org/10.5067/Terra/MISR/MB2LME_L1.002",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C2854334785-LARC_CLOUD",
+    "granule_concept_id": "G4130681791-LARC_CLOUD",
+    "short_name": "MB2LME",
+    "version": "002"
+   },
+   "doi": "10.5067/Terra/MISR/MB2LME_L1.002",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "license_name": "Data Use Guidance",
+    "license_text": null,
+    "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "access_description": "WORLD"
+   },
+   "sha256": "4aedeee9314c21f2eb3d54974e8ea04b2bf4c11f5e18976ec711d07988ecfecd"
+  },
+  {
+   "id": "isccp-d2-1",
+   "filename": "ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.hdf",
+   "title": "ISCCP_D2 v1",
+   "description": "International Satellite Cloud Climatology Project (ISCCP) Stage D2 Monthly Cloud Products - Revised Algorithm in Hierarchical Data Format. Granule ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.hdf.",
+   "datetime": "1993-12-31T22:30:00.000Z",
+   "url": "https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/ISCCP/ISCCP_D2_1/1993/12/ISCCP.D2.0.GLOBAL.1994.01.99.9999.GPC.hdf",
+   "via": [
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/G4124474331-LARC_CLOUD",
+     "title": "Granule record in NASA CMR"
+    },
+    {
+     "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3880704243-LARC_CLOUD",
+     "title": "Collection record in NASA CMR"
+    },
+    {
+     "rel": "license",
+     "href": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+     "title": "Data Use Guidance"
+    },
+    {
+     "href": "https://doi.org/10.5067/ISCCP/D2",
+     "title": "Dataset DOI"
+    }
+   ],
+   "cmr": {
+    "collection_concept_id": "C3880704243-LARC_CLOUD",
+    "granule_concept_id": "G4124474331-LARC_CLOUD",
+    "short_name": "ISCCP_D2",
+    "version": "1"
+   },
+   "doi": "10.5067/ISCCP/D2",
+   "terms": {
+    "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+    "license_url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "license_name": "Data Use Guidance",
+    "license_text": null,
+    "use_description": "For more information, see the ESDIS Data Use Guidance: https://www.earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance",
+    "access_description": "WORLD"
+   },
+   "bbox": [
+    -180,
+    -90,
+    180,
+    90
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       -90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       -180,
+       90
+      ],
+      [
+       -180,
+       -90
+      ]
+     ]
+    ]
+   },
+   "sha256": "361fc926df957c9e1a1cc1aa93727336a5014128dc0283e0a2f6f446166bdf4d"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "aa-l2a-1",
+ "collection": "nasa-nsidc",
+ "geometry": null,
+ "properties": {
+  "title": "AA_L2A v1",
+  "description": "AMSR/ADEOS-II L2A Global Swath Spatially-Resampled Brightness Temperatures V001. Granule AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.hdf.",
+  "datetime": "2003-01-18T15:04:44.860Z",
+  "hdf4:library_version": "4.2.1",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16",
+   "int8",
+   "uint16",
+   "uint8"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "duplicate_names",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 94,
+  "hdf4:vdata_count": 7,
+  "hdf4:range_count": 94,
+  "sci:doi": "10.5067/ADEOS-II/AMSR/AA_L2A.001",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/use_copyright.html. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+   "use_description": null,
+   "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+  },
+  "cmr:collection_concept_id": "C3213433803-NSIDC_CPRD",
+  "cmr:granule_concept_id": "G3213464954-NSIDC_CPRD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3213464954-NSIDC_CPRD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3213433803-NSIDC_CPRD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/ADEOS-II/AMSR/AA_L2A.001",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 11559212,
+   "file:checksum": "122031aa3329db586ae0f361137ef28c7cd95bdff5223b3d6e4533b2d32d8720953b"
+  },
+  "expected": {
+   "href": "./AMSR_A_L2A_BrightnessTemperatures_V01_200301181504_A.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 241813,
+   "file:checksum": "122052cc2aa7e25110ffffec02f7e4e609e0164e910be4dd65d6dfb538d331479221"
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "sds-chunk-extra-area-comp",
+ "collection": "opendap",
+ "geometry": null,
+ "properties": {
+  "title": "sds-chunk-extra-area-comp",
+  "description": "OPeNDAP BES DMR++ test file SDS_chunk_extra_area_comp.hdf",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.15",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "chunked"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int32"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 2
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/OPENDAP/bes/blob/30bf584f713306c8ef867368d6840c18bafc35a6/modules/dmrpp_module/data/h4_dmrpp/SDS_chunk_extra_area_comp.hdf",
+   "title": "File in the OPeNDAP BES repository"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./SDS_chunk_extra_area_comp.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 7346,
+   "file:checksum": "12207c62bc886290fe9c0ba61296a8a9543e44255fa75be615b0f27c034f862cd709"
+  },
+  "expected": {
+   "href": "./SDS_chunk_extra_area_comp.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 1960,
+   "file:checksum": "1220aa2df7384b67c4da122cc4f3330ceed0a9aa34c81898abc2c0d5383bbb075c69"
+  },
+  "dmrpp": {
+   "href": "./SDS_chunk_extra_area_comp.hdf.dmrpp",
+   "type": "application/xml",
+   "title": "DMR++ description from OPeNDAP",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 916,
+   "file:checksum": "12203fe96fa04bddfd5287cacd1fdd331f06af1154933496818f06343de03bb348ac"
+  }
+ }
+}

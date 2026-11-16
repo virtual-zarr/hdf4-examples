@@ -1,0 +1,80 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "never-written",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "never-written",
+  "description": "Datasets declared but never written, with and without a fill value",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "unwritten"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "fill_value"
+  ],
+  "hdf4:sds_count": 3,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 0
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'never-written'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./never-written.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 3569,
+   "file:checksum": "12200949e433abcdcf2406e35f31436277068eb9238be961ab6caf41f3ad8205790c"
+  },
+  "expected": {
+   "href": "./never-written.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 3069,
+   "file:checksum": "122005330ff74dc79ca9f49d57f8177a6fa588dbbc5c7e7c57f8352ddc6a82901739"
+  }
+ }
+}

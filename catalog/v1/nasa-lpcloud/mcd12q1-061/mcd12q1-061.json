@@ -1,0 +1,136 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mcd12q1-061",
+ "collection": "nasa-lpcloud",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     138.446219,
+     29.806108
+    ],
+    [
+     169.891608,
+     29.806108
+    ],
+    [
+     169.891608,
+     40.118694
+    ],
+    [
+     138.446219,
+     40.118694
+    ],
+    [
+     138.446219,
+     29.806108
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MCD12Q1 v061",
+  "description": "MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V061. Granule MCD12Q1.A2001001.h30v05.061.2022146161624.",
+  "datetime": "2001-01-01T00:00:00.000Z",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 13,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 13,
+  "sci:doi": "10.5067/MODIS/MCD12Q1.061",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": null,
+   "use_description": null,
+   "access_description": null
+  },
+  "cmr:collection_concept_id": "C2484079608-LPCLOUD",
+  "cmr:granule_concept_id": "G2484181273-LPCLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2484181273-LPCLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2484079608-LPCLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/MODIS/MCD12Q1.061",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MCD12Q1.A2001001.h30v05.061.2022146161624.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 145805,
+   "file:checksum": "1220ad892f49580ff8beb5264fe42e44fba8bdf36bc659e5f9856e05a11b1d1b0976"
+  },
+  "expected": {
+   "href": "./MCD12Q1.A2001001.h30v05.061.2022146161624.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 236828,
+   "file:checksum": "12201b6692d14fbedce59ddaf6cad6eea755750ccc14265cf684544969d5b591ab2a"
+  }
+ },
+ "bbox": [
+  138.446219,
+  29.806108,
+  169.891608,
+  40.118694
+ ]
+}

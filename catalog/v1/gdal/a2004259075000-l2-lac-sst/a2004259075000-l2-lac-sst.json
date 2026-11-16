@@ -1,0 +1,79 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "a2004259075000-l2-lac-sst",
+ "collection": "gdal",
+ "geometry": null,
+ "properties": {
+  "title": "a2004259075000-l2-lac-sst",
+  "description": "MODIS Aqua Level 2 sea surface temperature swath, 2004 day 259. From GDAL's sample-data server.",
+  "datetime": "2004-09-15T07:50:00Z",
+  "hdf4:library_version": "4.1.5",
+  "hdf4:data_models": [
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute"
+  ],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://download.osgeo.org/gdal/data/hdf4/A2004259075000.L2_LAC_SST.hdf",
+   "title": "GDAL sample data"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./A2004259075000.L2_LAC_SST.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 2524436,
+   "file:checksum": "1220419b6a27a106ac82e073f32aa4a326d34c1ea3191af83344f78bc359f5d081fc"
+  },
+  "expected": {
+   "href": "./A2004259075000.L2_LAC_SST.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 10791,
+   "file:checksum": "1220a7c7a2d9714497708896654c22b74c477fad149ed0f89fc1ad75eb65d000e38b"
+  }
+ }
+}

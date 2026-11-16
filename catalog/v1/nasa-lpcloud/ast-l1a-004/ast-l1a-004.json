@@ -1,0 +1,146 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "ast-l1a-004",
+ "collection": "nasa-lpcloud",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     169.898516,
+     -78.014626
+    ],
+    [
+     173.686663,
+     -78.014626
+    ],
+    [
+     173.686663,
+     -77.212439
+    ],
+    [
+     169.898516,
+     -77.212439
+    ],
+    [
+     169.898516,
+     -78.014626
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "AST_L1A v004",
+  "description": "ASTER L1A Reconstructed Unprocessed Instrument Data V004. Granule AST_L1A_00403042000203404_20250124090801.",
+  "datetime": "2000-03-04T20:34:04.227000Z",
+  "hdf4:library_version": "4.1.3",
+  "hdf4:data_models": [
+   "eos_swath",
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "contiguous"
+  ],
+  "hdf4:coders": [
+   "none"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "float64",
+   "int32",
+   "uint16",
+   "uint32",
+   "uint8"
+  ],
+  "hdf4:max_rank": 4,
+  "hdf4:features": [
+   "duplicate_names",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 64,
+  "hdf4:vdata_count": 22,
+  "hdf4:range_count": 64,
+  "sci:doi": "10.5067/ASTER/AST_L1A.004",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+   "license_name": "Data Use Policy",
+   "license_text": null,
+   "use_description": "License URL for data use policy",
+   "access_description": null
+  },
+  "cmr:collection_concept_id": "C3306888985-LPCLOUD",
+  "cmr:granule_concept_id": "G3380445400-LPCLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3380445400-LPCLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C3306888985-LPCLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "license",
+   "href": "https://earthdata.nasa.gov/earth-observation-data/data-use-policy",
+   "title": "Data Use Policy"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/ASTER/AST_L1A.004",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./AST_L1A_00403042000203404_20250124090801.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 5974930,
+   "file:checksum": "1220429dff1d5716b39746b67794a276e8079e9ef39fd90813eb8570df0307bd7923"
+  },
+  "expected": {
+   "href": "./AST_L1A_00403042000203404_20250124090801.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 286807,
+   "file:checksum": "1220f038e275dcb2c6bf56e6f1cd6abe27c3054353ede7cfb3800cfcaba1992f017d"
+  }
+ },
+ "bbox": [
+  169.898516,
+  -78.014626,
+  173.686663,
+  -77.212439
+ ]
+}

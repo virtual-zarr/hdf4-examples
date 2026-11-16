@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/expected/v1.json",
+  "title": "HDF4 answer key (hdf4-expected/1)",
+  "description": "What the HDF4 C library reports for one file. Written by tools/describe.py.",
+  "type": "object",
+  "required": ["format", "file", "oracle", "global_attributes", "sds", "vdata", "vgroups", "eos", "descriptors"],
+  "additionalProperties": false,
+  "definitions": {
+    "attribute": {
+      "type": "object",
+      "required": ["type", "length", "value"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {"type": "string", "description": "HDF4 number type name, e.g. int16, float32, char8."},
+        "length": {"type": "integer", "minimum": 0, "description": "Number of elements stored."},
+        "value": {"description": "A scalar when length is 1, a list otherwise; char8 values are strings, or {\"bytes\": [...]} when not UTF-8; non-finite floats are {\"float\": \"nan\"}."}
+      }
+    },
+    "attributes": {"type": "object", "additionalProperties": {"$ref": "#/definitions/attribute"}},
+    "range": {
+      "type": "object",
+      "required": ["offset", "length"],
+      "properties": {
+        "chunk": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+        "offset": {"type": "integer", "minimum": 0},
+        "length": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "format": {"const": "hdf4-expected/1"},
+    "file": {
+      "type": "object",
+      "required": ["name", "size", "sha256", "written_by"],
+      "properties": {
+        "name": {"type": "string"},
+        "size": {"type": "integer"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "written_by": {"type": "object", "required": ["version", "text"]}
+      }
+    },
+    "oracle": {"type": "object", "required": ["library", "tool"], "description": "The HDF4 C library and binding that produced this answer key."},
+    "global_attributes": {"$ref": "#/definitions/attributes"},
+    "sds": {
+      "type": "array",
+      "description": "Scientific datasets in SD-interface index order.",
+      "items": {
+        "type": "object",
+        "required": ["index", "ref", "name", "number_type", "numpy_dtype", "stored_byte_order", "shape", "dimensions", "is_coordinate", "fill_value_attribute", "attributes", "values_sha256", "storage"],
+        "additionalProperties": false,
+        "properties": {
+          "index": {"type": "integer", "description": "Identifies the dataset; names can repeat."},
+          "ref": {"type": "integer"},
+          "name": {"type": "string"},
+          "number_type": {"type": "string"},
+          "numpy_dtype": {"type": "string", "description": "Element type without byte order."},
+          "stored_byte_order": {"enum": ["big", "little", "none"]},
+          "shape": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+          "dimensions": {"type": "array", "items": {"type": "object", "required": ["name", "unlimited"], "additionalProperties": false, "properties": {"name": {"type": "string"}, "unlimited": {"type": "boolean"}}}},
+          "is_coordinate": {"type": "boolean"},
+          "fill_value_attribute": {"description": "The _FillValue attribute, or null when unset. Unwritten elements then read as the library default, which the values show."},
+          "attributes": {"$ref": "#/definitions/attributes"},
+          "values_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "description": "SHA-256 of the whole decoded array, unwritten elements filled, in C order, little-endian, no padding. char8 arrays hash their bytes."},
+          "values": {"description": "The decoded array, present when it has 64 elements or fewer."},
+          "storage": {
+            "type": "object",
+            "required": ["layout", "coder", "ranges", "stored_bytes", "decoded_bytes"],
+            "additionalProperties": false,
+            "properties": {
+              "layout": {"enum": ["unchunked", "chunked"]},
+              "coder": {"type": "string"},
+              "chunk_shape": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+              "chunk_grid": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+              "ranges": {"type": "array", "items": {"allOf": [{"$ref": "#/definitions/range"}, {"required": ["chunk"]}]}, "description": "Byte ranges of the stored (still encoded) bytes, in order. A chunk split across the file has several entries with the same chunk index. Back-to-back ranges are merged. A chunk with no entry is unwritten."},
+              "stored_bytes": {"type": "integer"},
+              "decoded_bytes": {"type": "integer"}
+            }
+          }
+        }
+      }
+    },
+    "vdata": {
+      "type": "array",
+      "description": "Vdata tables other than the library's own bookkeeping tables.",
+      "items": {
+        "type": "object",
+        "required": ["ref", "name", "class", "records", "record_bytes", "interlace", "fields", "records_json_sha256", "ranges"],
+        "additionalProperties": false,
+        "properties": {
+          "ref": {"type": "integer"}, "name": {"type": "string"}, "class": {"type": "string"},
+          "records": {"type": "integer"}, "record_bytes": {"type": "integer"}, "interlace": {"enum": ["full", "none"]},
+          "fields": {"type": "array", "items": {"type": "object", "required": ["name", "type", "order"], "additionalProperties": false, "properties": {"name": {"type": "string"}, "type": {"type": "string"}, "order": {"type": "integer"}}}},
+          "records_json_sha256": {"type": "string", "description": "SHA-256 of the records as compact JSON with sorted keys, exactly as in rows."},
+          "rows": {"type": "array"},
+          "ranges": {"type": "array", "items": {"$ref": "#/definitions/range"}}
+        }
+      }
+    },
+    "internal_vdata_classes": {"type": "object", "additionalProperties": {"type": "integer"}},
+    "vgroups": {"type": "array", "items": {"type": "object", "required": ["ref", "name", "class", "members"]}},
+    "eos": {"type": ["object", "null"], "description": "HDF-EOS2 structure parsed from the StructMetadata text by this tool, not by a library."},
+    "descriptors": {"type": "object", "required": ["derived_by", "tags", "special_elements"], "description": "Counts read from the file's descriptor list by this tool, not by a library."}
+  }
+}

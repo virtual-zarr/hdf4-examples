@@ -1,0 +1,138 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mcd19a2-061",
+ "collection": "nasa-lpcloud",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     10.5996129612972,
+     19.9159339927733
+    ],
+    [
+     23.1051739635034,
+     19.9159339927733
+    ],
+    [
+     23.1051739635034,
+     30.0080231274941
+    ],
+    [
+     10.5996129612972,
+     30.0080231274941
+    ],
+    [
+     10.5996129612972,
+     19.9159339927733
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MCD19A2 v061",
+  "description": "MODIS/Terra+Aqua Land Aerosol Optical Depth Daily L2G Global 1km SIN Grid V061. Granule MCD19A2.A2000055.h19v06.061.2022153215147.",
+  "datetime": "2000-02-24T10:15:00.000Z",
+  "hdf4:library_version": "4.2.13",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "float32",
+   "int16",
+   "uint16"
+  ],
+  "hdf4:max_rank": 3,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 13,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 13,
+  "sci:doi": "10.5067/MODIS/MCD19A2.061",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": null,
+   "use_description": null,
+   "access_description": null
+  },
+  "cmr:collection_concept_id": "C2324689816-LPCLOUD",
+  "cmr:granule_concept_id": "G2331736454-LPCLOUD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G2331736454-LPCLOUD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2324689816-LPCLOUD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/MODIS/MCD19A2.061",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MCD19A2.A2000055.h19v06.061.2022153215147.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 100702,
+   "file:checksum": "122083294e09010935e81b207cc73b145fd17678ce526ed8953fd62e0dc1c42239fa"
+  },
+  "expected": {
+   "href": "./MCD19A2.A2000055.h19v06.061.2022153215147.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 229662,
+   "file:checksum": "122031a139c936d4d6b76ef22baa512d81bfeb9ae5c85197d5aeba74ad4f3ccfb3cd"
+  }
+ },
+ "bbox": [
+  10.5996129612972,
+  19.9159339927733,
+  23.1051739635034,
+  30.0080231274941
+ ]
+}

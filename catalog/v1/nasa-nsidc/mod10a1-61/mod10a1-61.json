@@ -1,0 +1,138 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json",
+  "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+ ],
+ "id": "mod10a1-61",
+ "collection": "nasa-nsidc",
+ "geometry": {
+  "type": "Polygon",
+  "coordinates": [
+   [
+    [
+     121.409671246333,
+     -20.0355981480789
+    ],
+    [
+     138.343110407867,
+     -20.0355981480789
+    ],
+    [
+     138.343110407867,
+     -9.93746671411948
+    ],
+    [
+     121.409671246333,
+     -9.93746671411948
+    ],
+    [
+     121.409671246333,
+     -20.0355981480789
+    ]
+   ]
+  ]
+ },
+ "properties": {
+  "title": "MOD10A1 v61",
+  "description": "MODIS/Terra Snow Cover Daily L3 Global 500m SIN Grid V061. Granule MOD10A1.A2000055.h30v10.061.2020037172755.hdf.",
+  "datetime": "2000-02-24T00:00:00.000Z",
+  "hdf4:library_version": "4.2.11",
+  "hdf4:data_models": [
+   "eos_grid",
+   "sd"
+  ],
+  "hdf4:layouts": [
+   "linked_scattered"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16",
+   "int8",
+   "uint8"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [
+   "array_attribute",
+   "fill_value",
+   "odl_metadata"
+  ],
+  "hdf4:sds_count": 7,
+  "hdf4:vdata_count": 0,
+  "hdf4:range_count": 14,
+  "sci:doi": "10.5067/MODIS/MOD10A1.061",
+  "cmr:terms": {
+   "source": "UseConstraints and AccessConstraints of the collection record in NASA CMR",
+   "license_url": null,
+   "license_name": null,
+   "license_text": "These data are freely, openly, and fully available to use without restrictions, provided that you cite the data according to the recommended citation at https://nsidc.org/about/data-use-and-copyright. For more information on the NASA EOSDIS Data Use Policy, see https://earthdata.nasa.gov/earth-observation-data/data-use-policy.",
+   "use_description": null,
+   "access_description": "These data are freely, openly, and fully accessible, provided that you are logged into your NASA Earthdata profile (https://urs.earthdata.nasa.gov/)."
+  },
+  "cmr:collection_concept_id": "C2565093311-NSIDC_CPRD",
+  "cmr:granule_concept_id": "G3026922754-NSIDC_CPRD"
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/G3026922754-NSIDC_CPRD",
+   "title": "Granule record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://cmr.earthdata.nasa.gov/search/concepts/C2565093311-NSIDC_CPRD",
+   "title": "Collection record in NASA CMR"
+  },
+  {
+   "rel": "via",
+   "href": "https://doi.org/10.5067/MODIS/MOD10A1.061",
+   "title": "Dataset DOI"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./MOD10A1.A2000055.h30v10.061.2020037172755.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 127400,
+   "file:checksum": "12206fd8b748781fb4a572af734b7ee2f8c0ad1ad2ef65fb9daf31e72bb435f2102f"
+  },
+  "expected": {
+   "href": "./MOD10A1.A2000055.h30v10.061.2020037172755.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 224179,
+   "file:checksum": "12208df8af22bd160d044ccd3a227cf2b36a7b849d62ed7f04ecba8a0a9cc5fb730d"
+  }
+ },
+ "bbox": [
+  121.409671246333,
+  -20.0355981480789,
+  138.343110407867,
+  -9.93746671411948
+ ]
+}

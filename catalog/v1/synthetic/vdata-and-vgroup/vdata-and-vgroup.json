@@ -1,0 +1,78 @@
+{
+ "type": "Feature",
+ "stac_version": "1.1.0",
+ "stac_extensions": [
+  "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+  "https://raw.githubusercontent.com/virtual-zarr/hdf4-examples/main/schemas/hdf4-stac-extension/v0.1.0/schema.json"
+ ],
+ "id": "vdata-and-vgroup",
+ "collection": "synthetic",
+ "geometry": null,
+ "properties": {
+  "title": "vdata-and-vgroup",
+  "description": "A dataset, then a Vdata table and an empty Vgroup created after it",
+  "datetime": "2026-11-16T00:00:00Z",
+  "hdf4:library_version": "4.2.14",
+  "hdf4:data_models": [
+   "sd",
+   "vdata"
+  ],
+  "hdf4:layouts": [
+   "compressed"
+  ],
+  "hdf4:coders": [
+   "deflate"
+  ],
+  "hdf4:number_types": [
+   "int16"
+  ],
+  "hdf4:max_rank": 2,
+  "hdf4:features": [],
+  "hdf4:sds_count": 1,
+  "hdf4:vdata_count": 1,
+  "hdf4:range_count": 1
+ },
+ "links": [
+  {
+   "rel": "root",
+   "href": "../../catalog.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "parent",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "collection",
+   "href": "../collection.json",
+   "type": "application/json"
+  },
+  {
+   "rel": "via",
+   "href": "https://github.com/virtual-zarr/hdf4-examples/blob/main/tools/gen_synthetic.py",
+   "title": "Generator case 'vdata-and-vgroup'"
+  }
+ ],
+ "assets": {
+  "data": {
+   "href": "./vdata-and-vgroup.hdf",
+   "type": "application/x-hdf",
+   "roles": [
+    "data"
+   ],
+   "file:size": 3052,
+   "file:checksum": "1220ff5e513004ddf578898135f5b800c2f460b488478e494b2548cee27361b50725"
+  },
+  "expected": {
+   "href": "./vdata-and-vgroup.expected.json",
+   "type": "application/json",
+   "title": "What the HDF4 C library reports for this file",
+   "roles": [
+    "metadata"
+   ],
+   "file:size": 2337,
+   "file:checksum": "1220c4dd77a4d2b477523fc1ad3e14e70be91ee599a972f18db0910a08acece418c4"
+  }
+ }
+}

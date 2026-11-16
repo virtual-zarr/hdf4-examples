@@ -1,0 +1,107 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "deflate-float32.hdf",
+  "size": 2956,
+  "sha256": "61f14df86708ad0b1e7f4327c0f5ef1c9eef81d14843e00eb3c858ef0c75f941",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "v",
+   "number_type": "float32",
+   "numpy_dtype": "f4",
+   "stored_byte_order": "big",
+   "shape": [
+    3,
+    4
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "cbbc972f73e94bf05b392ee55542d77326f4bf99097400d53a4ec0dc9d4b278f",
+   "storage": {
+    "coder": "deflate",
+    "layout": "unchunked",
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2518,
+      "length": 44
+     }
+    ],
+    "stored_bytes": 44,
+    "decoded_bytes": 48
+   },
+   "values": [
+    [
+     0.5,
+     1.5,
+     2.5,
+     3.5
+    ],
+    [
+     4.5,
+     5.5,
+     6.5,
+     7.5
+    ],
+    [
+     8.5,
+     9.5,
+     10.5,
+     11.5
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "COMPRESSED": 1,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 3,
+   "VS": 3
+  },
+  "special_elements": {
+   "SD": {
+    "compressed": 1
+   }
+  }
+ }
+}

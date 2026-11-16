@@ -1,0 +1,112 @@
+{
+ "format": "hdf4-expected/1",
+ "file": {
+  "name": "chunked-deflate-single.hdf",
+  "size": 3144,
+  "sha256": "260f45dde54202a8b5b5b80f70942a59dc2bba654bdf45cd769234017d872e0b",
+  "written_by": {
+   "version": "4.2.14",
+   "text": "HDF Version 4.2 Release 14, June 26, 2018"
+  }
+ },
+ "oracle": {
+  "library": "4.2.14",
+  "tool": "pyhdf 0.11.7"
+ },
+ "global_attributes": {},
+ "sds": [
+  {
+   "index": 0,
+   "ref": 2,
+   "name": "v",
+   "number_type": "int16",
+   "numpy_dtype": "i2",
+   "stored_byte_order": "big",
+   "shape": [
+    2,
+    3
+   ],
+   "dimensions": [
+    {
+     "name": "fakeDim0",
+     "unlimited": false
+    },
+    {
+     "name": "fakeDim1",
+     "unlimited": false
+    }
+   ],
+   "is_coordinate": false,
+   "fill_value_attribute": null,
+   "attributes": {},
+   "values_sha256": "d19c56fe954b4adbb040580d9ae4e98a692b51f8e2cab91d7ddecb903cec9204",
+   "storage": {
+    "coder": "deflate",
+    "layout": "chunked",
+    "chunk_shape": [
+     2,
+     3
+    ],
+    "chunk_grid": [
+     1,
+     1
+    ],
+    "ranges": [
+     {
+      "chunk": [
+       0,
+       0
+      ],
+      "offset": 2607,
+      "length": 20
+     }
+    ],
+    "stored_bytes": 20,
+    "decoded_bytes": 12
+   },
+   "values": [
+    [
+     0,
+     1,
+     2
+    ],
+    [
+     3,
+     4,
+     5
+    ]
+   ]
+  }
+ ],
+ "vdata": [],
+ "internal_vdata_classes": {
+  "_HDF_CHK_TBL_0": 1,
+  "DimVal0.1": 2,
+  "SDSVar": 1
+ },
+ "vgroups": [],
+ "eos": null,
+ "descriptors": {
+  "derived_by": "tools/ddscan.py from the file's descriptor list",
+  "tags": {
+   "CHUNK": 1,
+   "COMPRESSED": 1,
+   "NDG": 1,
+   "NT": 1,
+   "SD": 1,
+   "SDD": 1,
+   "VERSION": 1,
+   "VG": 4,
+   "VH": 4,
+   "VS": 4
+  },
+  "special_elements": {
+   "CHUNK": {
+    "compressed": 1
+   },
+   "SD": {
+    "chunked": 1
+   }
+  }
+ }
+}
